@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lycos 小站</title>
+  <subtitle>造轮子何尝不是一件很辛苦，也很荣耀的事情！~</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.liuyuchuan.com/"/>
+  <updated>2017-08-06T15:58:24.367Z</updated>
+  <id>http://www.liuyuchuan.com/</id>
+  
+  <author>
+    <name>Lycos</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更新日志</title>
+    <link href="http://www.liuyuchuan.com/2017/08/05/test/"/>
+    <id>http://www.liuyuchuan.com/2017/08/05/test/</id>
+    <published>2017-08-05T04:48:32.000Z</published>
+    <updated>2017-08-06T15:58:24.367Z</updated>
+    
+    <content type="html"><![CDATA[<p>aaaaaaaaaaaaa</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">code</span><span class="selector-class">.has-numbering</span> &#123;</div><div class="line">  <span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">word-wrap</span>: normal;</div><div class="line">  <span class="attribute">word-break</span>: keep-all;</div><div class="line">  <span class="attribute">white-space</span>: pre;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.pre-numbering</span> &#123;</div><div class="line">  <span class="attribute">position</span>: absolute;</div><div class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">width</span>: <span class="number">20px</span>;</div><div class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</div><div class="line">  <span class="attribute">padding</span>: .<span class="number">5em</span> <span class="number">0.2em</span> .<span class="number">5em</span> <span class="number">0</span>;</div><div class="line">  <span class="attribute">border-right</span>: <span class="number">1px</span> solid <span class="number">#C3CCD0</span>;</div><div class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">3px</span>;</div><div class="line">  <span class="attribute">background-color</span>: <span class="number">#EEE</span>;</div><div class="line">  <span class="attribute">text-align</span>: right;</div><div class="line">  <span class="attribute">font-size</span>: <span class="number">1.0em</span>;</div><div class="line">  <span class="attribute">color</span>: <span class="number">#AAA</span>;</div><div class="line">  <span class="attribute">list-style</span>: none;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      更新配置当前博客的日志记录
+    
+    </summary>
+    
+      <category term="测试部分" scheme="http://www.liuyuchuan.com/categories/%E6%B5%8B%E8%AF%95%E9%83%A8%E5%88%86/"/>
+    
+    
+      <category term="log" scheme="http://www.liuyuchuan.com/tags/log/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>更新日志</title>
+    <link href="http://www.liuyuchuan.com/2017/08/04/log/"/>
+    <id>http://www.liuyuchuan.com/2017/08/04/log/</id>
+    <published>2017-08-04T01:57:49.314Z</published>
+    <updated>2017-08-06T15:58:36.477Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="2017年08月07日"><a href="#2017年08月07日" class="headerlink" title="2017年08月07日"></a>2017年08月07日</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">更新文件列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">add</td>
+<td style="text-align:left"><strong>../themes/yilia/layout/_partial/totop.ejs</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">add</td>
+<td style="text-align:left"><strong>../themes/yilia/source/totop.js</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">mod</td>
+<td style="text-align:left"><strong>../themes/yilia/layout/_partial/after-footer.ejs</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">add</td>
+<td style="text-align:left"><strong>../source/assets/images/totop.png</strong></td>
+</tr>
+</tbody>
+</table>
+<p>1、新增“返回顶部”功能<br><a id="more"></a></p>
+<h3 id="2017年08月04日"><a href="#2017年08月04日" class="headerlink" title="2017年08月04日"></a>2017年08月04日</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">更新文件列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">mod</td>
+<td style="text-align:left"><strong>../themes/yilia/layout/_partial/script.ejs</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">mod</td>
+<td style="text-align:left"><strong>../themes/yilia/source/main.b3331d.css</strong></td>
+</tr>
+</tbody>
+</table>
+<p>1、当首次进入博客时分页处显示Prev，当进入末页时显示Next，优化为汉字；<br>2、优化火狐浏览器浏览文章时，畅言评论处的快捷回复被覆盖功能；</p>
+<h3 id="2017年08月03日"><a href="#2017年08月03日" class="headerlink" title="2017年08月03日"></a>2017年08月03日</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">更新文件列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">mod</td>
+<td style="text-align:left"><strong>../themes/yilia/layout/_partial/tools.ejs</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">mod</td>
+<td style="text-align:left"><strong>../themes/yilia/layout/_partial/left-col.ejs</strong></td>
+</tr>
+</tbody>
+</table>
+<p>1、优化手机网页端（WAP）点击“关于我”，直接跳转网页；<br>2、优化“关于我”由原来写死链接修改为可以配置项；<br>3、新增文章“置顶”功能，此处只是新增了置顶标签。</p>
+<h3 id="2017年08月02日"><a href="#2017年08月02日" class="headerlink" title="2017年08月02日"></a>2017年08月02日</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">更新文件列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">plan</td>
+<td style="text-align:left"><strong>计划相册功能</strong></td>
+</tr>
+</tbody>
+</table>
+<p>1、计划，新增相册功能</p>
+<h3 id="2017年07月24日"><a href="#2017年07月24日" class="headerlink" title="2017年07月24日"></a>2017年07月24日</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">更新文件列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">opt</td>
+<td style="text-align:left"><strong>七牛图片大小处理</strong></td>
+</tr>
+</tbody>
+</table>
+<p>1、优化博文中插入图片的尺寸，通过阅读API，<em>?imageMogr/thumbnail/WxH/quality/Q</em> ，具体问题请参考<a href="https://developer.qiniu.com/dora/manual/1270/the-advanced-treatment-of-images-imagemogr2" target="_blank" rel="external">七牛高级图片处理</a></p>
+<h3 id="2017年07月18日"><a href="#2017年07月18日" class="headerlink" title="2017年07月18日"></a>2017年07月18日</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">更新文件列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">new</td>
+<td style="text-align:left"><strong>新增网易云音乐外链</strong></td>
+</tr>
+</tbody>
+</table>
+<p>1、新增音乐外链，当前博客使用 <a href="http://music.163.com/#/outchain/2/32619064/m/use" target="_blank" rel="external">网易云</a>；<br>2、其他音乐外链推荐：<a href="http://www.xiami.com/widget/isingle?spm=0.0.0.0.CDiarB" target="_blank" rel="external">虾米</a> ；</p>
+<h3 id="2017年07月10日"><a href="#2017年07月10日" class="headerlink" title="2017年07月10日"></a>2017年07月10日</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">更新文件列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">new</td>
+<td style="text-align:left"><strong>博客开通</strong></td>
+</tr>
+</tbody>
+</table>
+<p>1、我的生日，Congratulations，开通了博客。</p>
+<h3 id="2017年06月03日"><a href="#2017年06月03日" class="headerlink" title="2017年06月03日"></a>2017年06月03日</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">更新文件列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">add</td>
+<td style="text-align:left"><strong>新增评论、分享、分页模块</strong></td>
+</tr>
+</tbody>
+</table>
+<p>1、新增网易评论模块；<br>2、新增分享模块；<br>3、支付宝 &amp; 微信转账模块；<br>4、分页模块以及分页处理；</p>
+<h3 id="2017年06月29日"><a href="#2017年06月29日" class="headerlink" title="2017年06月29日"></a>2017年06月29日</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">更新文件列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">add</td>
+<td style="text-align:left"><strong>新增“关于我”链接</strong></td>
+</tr>
+</tbody>
+</table>
+<p>1、新增“关于我”链接；<br>2、新增“友链”，其中写了两个‘个人简介’部分；</p>
+<h3 id="2017年06月28日"><a href="#2017年06月28日" class="headerlink" title="2017年06月28日"></a>2017年06月28日</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">更新文件列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">add</td>
+<td style="text-align:left"><strong>新增简介文章</strong></td>
+</tr>
+</tbody>
+</table>
+<p>1、新增简介文章；</p>
+<h3 id="2017年06月15日"><a href="#2017年06月15日" class="headerlink" title="2017年06月15日"></a>2017年06月15日</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">更新文件列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">new</td>
+<td style="text-align:left"><strong>底部统计功能</strong></td>
+</tr>
+</tbody>
+</table>
+<p>1、新增底部统计功能，当前博客使用 <a href="http://busuanzi.ibruce.info/" target="_blank" rel="external">不蒜子</a>；<br>2、其他第三方推荐：<a href="http://mob.com/" target="_blank" rel="external">Mob 官网</a>；</p>
+<h3 id="2017年05月27日"><a href="#2017年05月27日" class="headerlink" title="2017年05月27日"></a>2017年05月27日</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">更新文件列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">add</td>
+<td style="text-align:left"><strong>配置域名，确认主题，公益404</strong></td>
+</tr>
+</tbody>
+</table>
+<p>1、配置域名，由原来的 <strong><em> liuyuchuan.github.io </em></strong>映射到 <strong><em> liuyuchuan.com </em></strong>，新增<strong>cname</strong>文件；<br>2、github &amp; hexo 开始写博客；<br>2、寻找theme，最后确定主题为 <a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">yilia</a> 的主题，相关问题以及解决方案，请在官网查找；<br>3、新增公益404.html文件，此处使用<a href="http://www.qq.com/404/" target="_blank" rel="external">腾讯公益404</a>，优化页面配置项；</p>
+<h3 id="2016年05月23日"><a href="#2016年05月23日" class="headerlink" title="2016年05月23日"></a>2016年05月23日</h3><table>
+<thead>
+<tr>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">更新文件列表</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">add</td>
+<td style="text-align:left"><strong>Begin</strong></td>
+</tr>
+</tbody>
+</table>
+<p>1、打算写博客，学习github &amp; jetty 开始写博客；<br>2、配置github博客域名为 <strong><em> <a href="https://liuyuchuan.github.io" target="_blank" rel="external">liuyuchuan.github.io</a> </em></strong>；<br>3、在<a href="https://www.aliyun.com/" target="_blank" rel="external">阿里云</a>购买域名<strong><em> <a href="http://www.liuyuchuan.com">www.liuyuchuan.com</a> </em></strong>；<br>4、第一篇博客日志 helloword 展示；</p>
+]]></content>
+    
+    <summary type="html">
+    
+      更新配置当前博客的日志记录
+    
+    </summary>
+    
+      <category term="更新记录" scheme="http://www.liuyuchuan.com/categories/%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="优化记录" scheme="http://www.liuyuchuan.com/tags/%E4%BC%98%E5%8C%96%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android 7.1.2 WIFI多出了X号消除方法</title>
+    <link href="http://www.liuyuchuan.com/2017/08/01/nexus6p_sign/"/>
+    <id>http://www.liuyuchuan.com/2017/08/01/nexus6p_sign/</id>
+    <published>2017-08-01T01:57:43.515Z</published>
+    <updated>2017-08-06T15:58:28.188Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近将手机操作系统升级到了 Android 7.1.2，连接网络的时WIFI出现了小叉号，移动流量也是出现这种情况。</p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170801/%E6%89%8B%E6%9C%BA%E8%81%94%E7%BD%91%E5%87%BA%E7%8E%B0%E5%B0%8F%E5%8F%89%E5%8F%B7.png?imageMogr/thumbnail/400x300/quality/250" alt=""></p>
+<p>无论是什么原因引起的，是不是始终看着不爽。那我们就来手动干掉这个小叉号。</p>
+<a id="more"></a>
+<blockquote>
+<p>首先将手机连接电脑，安装电脑所需要的手机驱动以及打开手机的调试模式</p>
+</blockquote>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170801/%E5%AE%89%E8%A3%85%E9%A9%B1%E5%8A%A8%E8%AE%BE%E5%A4%87.png" alt=""></p>
+<p>像上图我这样子，只是安装好了 ADB Interface，如果这个也安装不好，那就不好整了。 如果安装不好，你可以按照下面的网址下载并手动安装，如果已经安装，点击后它还会给于提示。</p>
+<ul>
+<li>下载地址（包含驱动、adb &amp; fastboot包）：<br><a href="http://adbshell.com/downloads" target="_blank" rel="external">adbshell DownLoad</a></li>
+</ul>
+<p>如果打不开，你也可以在这里下载，百度网盘： <a href="https://pan.baidu.com/s/1mhZrcSS" target="_blank" rel="external">https://pan.baidu.com/s/1mhZrcSS</a> 密码: xbg7</p>
+<ul>
+<li><p>如果已经安装，则有已安装提示<br><img src="http://osauqjpy8.bkt.clouddn.com/github/20170801/%E5%A6%82%E6%9E%9C%E5%B7%B2%E7%BB%8F%E5%AE%89%E8%A3%85.png?imageMogr/thumbnail/400x300/quality/350" alt=""></p>
+</li>
+<li><p>拷贝文件<br>将已经下载的文件 <strong>adb.exe</strong>、<strong>AdbWinApi.dll</strong>、<strong>AdbWinUsbApi.dll</strong> 拷贝到当前电脑的 C:\Windows\system\ 和 C:\Windows\system32\ 文件包下面去</p>
+</li>
+<li><p>执行命令<br>然后使用快捷方式 <strong>win + R</strong> 打开命令窗口，依次输入以下命令：</p>
+</li>
+</ul>
+<blockquote>
+<p>其次，手动操作命令</p>
+</blockquote>
+<p>[#] 关闭网络验证<br><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">adb <span class="keyword">shell</span><span class="bash"> <span class="string">"settings put global captive_portal_detection_enabled 0"</span></span></div></pre></td></tr></table></figure></p>
+<p>或者</p>
+<p>[#] 更改网络验证服务器</p>
+<ul>
+<li>用v2ex模式</li>
+</ul>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">adb <span class="keyword">shell</span><span class="bash"> <span class="string">"settings put global captive_portal_https_url https://captive.v2ex.co/generate_204"</span></span></div></pre></td></tr></table></figure>
+<ul>
+<li>google.cn模式</li>
+</ul>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">adb <span class="keyword">shell</span><span class="bash"> <span class="string">"settings put global captive_portal_server https://www.google.cn/generate_204"</span></span></div></pre></td></tr></table></figure>
+<p>自己操作图解：</p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170801/%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%AA%A4%E5%B1%95%E7%A4%BA.png" alt=""></p>
+<p>现在看看自己手机的网络小叉号是不是消失了呢？</p>
+<h2 id="有问题请及时在下面回复或者联系本文作者"><a href="#有问题请及时在下面回复或者联系本文作者" class="headerlink" title="有问题请及时在下面回复或者联系本文作者"></a>有问题请及时在下面回复或者联系本文作者</h2>]]></content>
+    
+    <summary type="html">
+    
+      Android 7.1.2 WIFI多出了X号消除方法
+    
+    </summary>
+    
+      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="Android" scheme="http://www.liuyuchuan.com/tags/Android/"/>
+    
+      <category term="WIFI" scheme="http://www.liuyuchuan.com/tags/WIFI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git SSH密钥对生成以及多个SSH存在情况配置</title>
+    <link href="http://www.liuyuchuan.com/2017/07/25/git_ssh/"/>
+    <id>http://www.liuyuchuan.com/2017/07/25/git_ssh/</id>
+    <published>2017-07-25T02:08:43.525Z</published>
+    <updated>2017-08-06T15:58:57.763Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="一、使用Git-Bash-生成一个新的SSH密钥"><a href="#一、使用Git-Bash-生成一个新的SSH密钥" class="headerlink" title="一、使用Git Bash 生成一个新的SSH密钥"></a>一、使用Git Bash 生成一个新的SSH密钥</h3><p><strong><em>1</em></strong>、 打开 <strong><em>Git Bash</em></strong>.</p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/open_git_bash.png" alt=""></p>
+<a id="more"></a>
+<p><strong><em>2</em></strong>、 邮箱设置<br>粘贴下面的文字，替换成为你自己的邮箱。</p>
+<p>Github SSH<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> ssh-keygen -t rsa -b 4096 -C <span class="string">"your_email@example.com"</span></span></div></pre></td></tr></table></figure></p>
+<p>Git SSH<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> ssh-keygen -t rsa -b -C <span class="string">"your_email@example.com"</span></span></div></pre></td></tr></table></figure></p>
+<p>这将使用所提供的电子邮件作为标签创建一个新的SSH密钥。 下面展示创建中：<br><figure class="highlight lasso"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Generating <span class="keyword">public</span>/<span class="keyword">private</span> rsa key <span class="built_in">pair</span>.</div></pre></td></tr></table></figure></p>
+<p>等会你将看到下面步骤所示</p>
+<p><strong><em>3</em></strong>、文件存放位置以及文件名<br>当你被提示“输入一个文件保存的关键，“按回车。 这种接受默认文件位置。<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter <span class="keyword">a</span> <span class="built_in">file</span> <span class="keyword">in</span> which <span class="built_in">to</span> save <span class="keyword">the</span> key (/c/Users/you/.ssh/id_rsa):</div></pre></td></tr></table></figure></p>
+<p>如果想已经存在，则需要新建一个另外的名字的文件即可，这也会出现多个SSH存在的情况，请参考 三</p>
+<p><strong><em>4</em></strong>、密码以及确认密码<br>在提示符下，键入一个安全的密码。更多信息，见“<a href="https://help.github.com/articles/working-with-ssh-key-passphrases" target="_blank" rel="external">使用SSH密钥的口令</a>”。<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter passphrase (<span class="built_in">empty</span> <span class="keyword">for</span> <span class="keyword">no</span> passphrase):</div></pre></td></tr></table></figure></p>
+<p>看到上面输入一个密码，当然，你输入的密码是看不到任何效果的，确定密码后回车<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter same passphrase <span class="string">again:</span></div></pre></td></tr></table></figure></p>
+<p>上面是确认密码</p>
+<p><strong><em>5</em></strong>、<br>进入你的本地磁盘地址（由于默认，你可以按照下面的地址找到公钥、私钥）<br><figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="regexp">/c/</span>Users<span class="regexp">/你的登录账户名/</span>.ssh<span class="regexp">/id_rsa</span></div></pre></td></tr></table></figure></p>
+<h3 id="二、实际操作展示"><a href="#二、实际操作展示" class="headerlink" title="二、实际操作展示"></a>二、实际操作展示</h3><p>概述：<br>下面是我实际操作的截图，分享下：<br><img src="http://osauqjpy8.bkt.clouddn.com/github/git_bash_use.png" alt=""></p>
+<p>如果上述步骤不明确，可以查看我这里的图片，这里给于详细解释：</p>
+<blockquote>
+<p>红色 1 处，查询当前默认位置是否存在公钥、私钥，<br>红色 2 ，3 ，4 处，就是上面的第一部分所操作。</p>
+</blockquote>
+<h3 id="三、关于多个SSH密钥对存在的情况"><a href="#三、关于多个SSH密钥对存在的情况" class="headerlink" title="三、关于多个SSH密钥对存在的情况"></a>三、关于多个SSH密钥对存在的情况</h3><blockquote>
+<p>场景：例如，我使用了Github的时候使用自己的邮箱，在自己公司使用公司邮箱，<br>那么这种情况就是一种很常见的情况，那么遇到这种情况我们要如何处理呢？别<br>着急，我们这里有方法</p>
+</blockquote>
+<p>首先：Windows 进入密钥默认的路径下面，然后新建一个没有后缀名的 <strong><em>config</em></strong> 文件</p>
+<p>其次：在文件内部输入以下代码<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">Host github.com</div><div class="line">    HostName        github.com</div><div class="line">   <span class="built_in"> User </span>           your_email_1@example.com</div><div class="line">    IdentityFile    /c/Users/you/.ssh/id_rsa</div><div class="line">     </div><div class="line">Host 服务域名或者IP</div><div class="line">    HostName        服务域名或者IP</div><div class="line">   <span class="built_in"> User </span>           your_email_2@example.com</div><div class="line">    IdentityFile    /c/Users/you/.ssh/id_rsa_别名</div></pre></td></tr></table></figure></p>
+<p>配置完成后，删除kown_host即可，在使用过程中，会自动根据配置文件来访问</p>
+<p><strong><em>注意</em></strong>：<br>1、如果有github，那么github的一定要使用 <strong>github.com</strong><br>2、每次连接的时候会有一个提示框弹出，这个时候直接输入 <strong>yes</strong> 就可以了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      使用Git Bash 生成一个新的SSH密钥
+    
+    </summary>
+    
+      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="Git" scheme="http://www.liuyuchuan.com/tags/Git/"/>
+    
+      <category term="SSH" scheme="http://www.liuyuchuan.com/tags/SSH/"/>
+    
+      <category term="公钥" scheme="http://www.liuyuchuan.com/tags/%E5%85%AC%E9%92%A5/"/>
+    
+      <category term="私钥" scheme="http://www.liuyuchuan.com/tags/%E7%A7%81%E9%92%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git相关学习</title>
+    <link href="http://www.liuyuchuan.com/2017/07/24/git_tortoisegit_egit/"/>
+    <id>http://www.liuyuchuan.com/2017/07/24/git_tortoisegit_egit/</id>
+    <published>2017-07-24T08:20:28.000Z</published>
+    <updated>2017-08-06T15:58:53.429Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>导读部分<br>最近一直在学习Git的使用，下面做一下笔记记录。</p>
+</blockquote>
+<h4 id="一、-Git-安装"><a href="#一、-Git-安装" class="headerlink" title="一、 Git 安装"></a>一、 Git 安装</h4><p>Git官方下载地址：<br><a href="https://git-scm.com/downloads" target="_blank" rel="external">https://git-scm.com/downloads</a><br>或者<br><a href="https://git-for-windows.github.io/" target="_blank" rel="external">https://git-for-windows.github.io/</a></p>
+<p>Git 界面工具 Git　UI下载安装地址：<br><a href="https://git-scm.com/downloads/guis" target="_blank" rel="external">https://git-scm.com/downloads/guis</a></p>
+<p><strong>注意</strong>：上述Git UI 不推荐，因为我这里很少使用<br><a id="more"></a></p>
+<h4 id="二、-TortoiseGit-安装"><a href="#二、-TortoiseGit-安装" class="headerlink" title="二、 TortoiseGit 安装"></a>二、 TortoiseGit 安装</h4><p>TortoiseGit 磁盘界面工具下载安装地址：<br><a href="https://tortoisegit.org/download/" target="_blank" rel="external">https://tortoisegit.org/download/</a></p>
+<p>当前页面中有语言包，可以根据需要下载语言包</p>
+<h4 id="三、-开发环境Eclipse-的GIT插件EGit下载和安装"><a href="#三、-开发环境Eclipse-的GIT插件EGit下载和安装" class="headerlink" title="三、 开发环境Eclipse 的GIT插件EGit下载和安装"></a>三、 开发环境Eclipse 的GIT插件EGit下载和安装</h4><p>EGit官方网址：<br><a href="http://www.eclipse.org/egit/" target="_blank" rel="external">http://www.eclipse.org/egit/</a></p>
+<p>EGit官方下载地址：<br><a href="http://www.eclipse.org/egit/download/" target="_blank" rel="external">http://www.eclipse.org/egit/download/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      Git的一些使用记录
+    
+    </summary>
+    
+      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="Git" scheme="http://www.liuyuchuan.com/tags/Git/"/>
+    
+      <category term="TortoiseGit" scheme="http://www.liuyuchuan.com/tags/TortoiseGit/"/>
+    
+      <category term="EGit" scheme="http://www.liuyuchuan.com/tags/EGit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>未来，闪闪发光</title>
+    <link href="http://www.liuyuchuan.com/2017/07/17/future_glitters/"/>
+    <id>http://www.liuyuchuan.com/2017/07/17/future_glitters/</id>
+    <published>2017-07-17T09:03:06.656Z</published>
+    <updated>2017-08-06T15:59:01.591Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p><strong><em>导读</em></strong><br>我们，未来，闪闪发光    </p>
+</blockquote>
+<p>外面世界，好奇这世界。唯独美食与美景才是此生所需要追求。</p>
+<h4 id="美景"><a href="#美景" class="headerlink" title="美景"></a>美景</h4><p>阳光正好，青山碧水，听着树上的鸟鸣声，望着远方青山，心情瞬间美美的。<br><img src="http://osauqjpy8.bkt.clouddn.com/github/20170714_115458.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
+<a id="more"></a>
+<p>其实，田园生活也是一种向往，看着这些无忧无虑的鸡鸭，真是羡煞了众人。</p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170714_115441.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
+<p><br></p>
+<h4 id="美食"><a href="#美食" class="headerlink" title="美食"></a>美食</h4><p>来到这里，吃到不少美食</p>
+<p><strong><em>火宫殿</em></strong>：长沙臭豆腐</p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_164014.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
+<p><strong><em>火宫殿</em></strong>：糖油粑粑</p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_164018.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
+<p><strong><em>火宫殿</em></strong>：葱油粑粑</p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_164020.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
+<p><strong><em>火宫殿</em></strong>：脑髓卷</p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_164023.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
+<p>额外还有 三角豆腐，等。</p>
+<p><br><br>烧烤哪里都有，但是这种貌似还是第一次见到。</p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170715_231326.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170715_224512.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170715_224840.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170715_225455.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
+<p><br></p>
+<h4 id="建筑"><a href="#建筑" class="headerlink" title="建筑"></a>建筑</h4><p>建筑，想去溜达溜达一下大学，寺院。</p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_113537.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_105400.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_083702.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
+<p><br></p>
+]]></content>
+    
+    <summary type="html">
+    
+      旅行这些事
+    
+    </summary>
+    
+      <category term="生活琐事" scheme="http://www.liuyuchuan.com/categories/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+    
+    
+      <category term="travel" scheme="http://www.liuyuchuan.com/tags/travel/"/>
+    
+      <category term="food" scheme="http://www.liuyuchuan.com/tags/food/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>输入框限制字数的</title>
+    <link href="http://www.liuyuchuan.com/2017/07/12/JQuery_/"/>
+    <id>http://www.liuyuchuan.com/2017/07/12/JQuery_/</id>
+    <published>2017-07-12T10:42:11.687Z</published>
+    <updated>2017-07-12T10:42:11.939Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">aaa</span></div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight ebnf&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Maven 的长枪配置 pom.xml</title>
+    <link href="http://www.liuyuchuan.com/2017/07/08/maven_pom/"/>
+    <id>http://www.liuyuchuan.com/2017/07/08/maven_pom/</id>
+    <published>2017-07-08T02:50:31.245Z</published>
+    <updated>2017-08-06T15:58:32.263Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p><strong> – 导读</strong></p>
+<p>最近一直在使用 <strong><em>pom.xml</em></strong> ，但是不知道这里面的一些配置如何使用，便有了从官方翻译一下这个文件的冲动，也便有了这篇文章的雏形，就当做是记录一下最近的状态，提升一下自己。</p>
+<p>这篇翻译的源文来至这里：<strong><em><a href="http://maven.apache.org/pom.html" target="_blank" rel="external">http://maven.apache.org/pom.html</a></em></strong> ，下面便开始翻译之路，有不明白之处或者翻译错误之处，请提出指正，共同进步，多谢！~</p>
+</blockquote>
+<h2 id="POM-目录引用"><a href="#POM-目录引用" class="headerlink" title="POM 目录引用"></a>POM 目录引用</h2><p><a href="http://maven.apache.org/xsd/maven-4.0.0.xsd" target="_blank" rel="external">POM 4.0.0 XSD</a> 文件和 <a href="http://maven.apache.org/ref/current/maven-model/maven.html" target="_blank" rel="external">描述符参考文档</a></p>
+<h2 id="介绍说明"><a href="#介绍说明" class="headerlink" title="介绍说明"></a>介绍说明</h2><h3 id="POM-是什么？"><a href="#POM-是什么？" class="headerlink" title="POM 是什么？"></a>POM 是什么？</h3><p>POM定位于“ 项目对象模型 ”，在Maven的项目中，它使用XML语言来描述，并被用pom.xml来命名来实现。在Maven的人面前，说一个项目是在哲学的意义上讲，超出了单纯的文件集合包含代码。项目包含配置文件，以及所涉及的开发人员和他们所扮演的角色，缺陷跟踪系统，组织和许可证，项目所在地的URL，项目的依赖，以及所有其他的小片段，这些代码都可以发挥代码的作用。这是一个一站式商店的所有项目有关的东西。实际上，在Maven的世界里，一个项目不包含任何代码，仅仅一个 <strong><em>pom.xml</em></strong> 。</p>
+<a id="more"></a>
+<h3 id="快速浏览"><a href="#快速浏览" class="headerlink" title="快速浏览"></a>快速浏览</h3><p>下面是直接在POM项目元素下的元素列表。注意 modelVersion 包含4.0.0。这是目前唯一支持Maven 2 &amp; 3 POM版。</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">project</span> <span class="attr">xmlns</span>=<span class="string">"http://maven.apache.org/POM/4.0.0"</span></span></div><div class="line">  <span class="attr">xmlns:xsi</span>=<span class="string">"http://www.w3.org/2001/XMLSchema-instance"</span></div><div class="line">  <span class="attr">xsi:schemaLocation</span>=<span class="string">"http://maven.apache.org/POM/4.0.0</span></div><div class="line">                      http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;</div><div class="line">  <span class="tag">&lt;<span class="name">modelVersion</span>&gt;</span>4.0.0<span class="tag">&lt;/<span class="name">modelVersion</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="comment">&lt;!-- 基础信息 --&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>...<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>...<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">version</span>&gt;</span>...<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">packaging</span>&gt;</span>...<span class="tag">&lt;/<span class="name">packaging</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">dependencies</span>&gt;</span>...<span class="tag">&lt;/<span class="name">dependencies</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">parent</span>&gt;</span>...<span class="tag">&lt;/<span class="name">parent</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">dependencyManagement</span>&gt;</span>...<span class="tag">&lt;/<span class="name">dependencyManagement</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">modules</span>&gt;</span>...<span class="tag">&lt;/<span class="name">modules</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">properties</span>&gt;</span>...<span class="tag">&lt;/<span class="name">properties</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="comment">&lt;!-- 构建配置 --&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">build</span>&gt;</span>...<span class="tag">&lt;/<span class="name">build</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">reporting</span>&gt;</span>...<span class="tag">&lt;/<span class="name">reporting</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="comment">&lt;!-- 更多项目信息 --&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">name</span>&gt;</span>...<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">description</span>&gt;</span>...<span class="tag">&lt;/<span class="name">description</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">url</span>&gt;</span>...<span class="tag">&lt;/<span class="name">url</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">inceptionYear</span>&gt;</span>...<span class="tag">&lt;/<span class="name">inceptionYear</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">licenses</span>&gt;</span>...<span class="tag">&lt;/<span class="name">licenses</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">organization</span>&gt;</span>...<span class="tag">&lt;/<span class="name">organization</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">developers</span>&gt;</span>...<span class="tag">&lt;/<span class="name">developers</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">contributors</span>&gt;</span>...<span class="tag">&lt;/<span class="name">contributors</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="comment">&lt;!-- 环境设置 --&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">issueManagement</span>&gt;</span>...<span class="tag">&lt;/<span class="name">issueManagement</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">ciManagement</span>&gt;</span>...<span class="tag">&lt;/<span class="name">ciManagement</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">mailingLists</span>&gt;</span>...<span class="tag">&lt;/<span class="name">mailingLists</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">scm</span>&gt;</span>...<span class="tag">&lt;/<span class="name">scm</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">prerequisites</span>&gt;</span>...<span class="tag">&lt;/<span class="name">prerequisites</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">repositories</span>&gt;</span>...<span class="tag">&lt;/<span class="name">repositories</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">pluginRepositories</span>&gt;</span>...<span class="tag">&lt;/<span class="name">pluginRepositories</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">distributionManagement</span>&gt;</span>...<span class="tag">&lt;/<span class="name">distributionManagement</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">profiles</span>&gt;</span>...<span class="tag">&lt;/<span class="name">profiles</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="基础信息"><a href="#基础信息" class="headerlink" title="基础信息"></a>基础信息</h2><p>POM包含关于项目的所有必要信息，以及构建过程中要使用的插件的配置。实际上，它是“谁”、“什么”和“在哪里”的声明性表示，而构建生命周期是“何时”和“如何”。这并不是说POM不能影响整个生命周期的流动。例如，通过配置 <strong><em>maven-antrun-plugin</em></strong> 可以嵌入的Ant任务里面的POM。然而，这终究是一种基础声明。如果作为一个 <strong><em>build.xml</em></strong> 告诉Ant当它运行（程序）时正做什么，POM的配置（声明）。如果一些外部力量导致生命周期跳过Ant插件执行，它不会停止执行他们的魔术的插件。这不像一个build.xml文件，任务几乎都是队列执行。</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">project</span> <span class="attr">xmlns</span>=<span class="string">"http://maven.apache.org/POM/4.0.0"</span></span></div><div class="line">  <span class="attr">xmlns:xsi</span>=<span class="string">"http://www.w3.org/2001/XMLSchema-instance"</span></div><div class="line">  <span class="attr">xsi:schemaLocation</span>=<span class="string">"http://maven.apache.org/POM/4.0.0</span></div><div class="line">                      http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;</div><div class="line">  <span class="tag">&lt;<span class="name">modelVersion</span>&gt;</span>4.0.0<span class="tag">&lt;/<span class="name">modelVersion</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.codehaus.mojo<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>my-project<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="Maven-协调坐标"><a href="#Maven-协调坐标" class="headerlink" title="Maven 协调坐标"></a>Maven 协调坐标</h3><p>上面定义的POM是Maven 2和3允许的最低版本。 <strong>groupId : artifactId : version</strong> 版本所需的所有领域（显然，如果他们继承了父类更多的明确定义，groupId 和 version 不需要明确定义）。三个字段很像一个地址和一个时间戳。这标志着在仓库里的一个特定的地方，像一个Maven项目的坐标系统。</p>
+<ul>
+<li><p><strong>groupId</strong>： 项目组织的唯一标识。例如, org.apache.maven 存在于 Maven 下面的核心分组编号。分组的 ID 不需要符号标记, 例如, junit项目。注意, 该项目包含打点 GroupID 表示没有对应的封装结构。然而，这是一个很好的实践。在一个操作系统，存储在仓库内，该 group 的行为很像java的封装结构。 这些点由OS特定的目录分隔符（如UNIX中的 “/” ）替换，它从基础存储库变成相对目录结构。在例子中, 这个 <strong><em>org.codehaus.mojo</em></strong> 存在于目录 <strong><em>$M2_REPO/org/codehaus/mojo</em></strong>.</p>
+</li>
+<li><p><strong>artifactId</strong>： 项目名称的唯一标识. 即使 groupId 很重要, 组内的人很少会在讨论中提到的GroupID（他们往往都是ID，如 <a href="http://mojo.codehaus.org/" target="_blank" rel="external">Codehaus Mojo</a>项目组织标识：<strong><em>org.codehaus.mojo</em></strong>）。它随着 groupId 一起创建一个密钥，使得这个月项目与其他项目有区分(至少，应该是这样:) )。在仓库中，与 groupId 一起, artifactId 充分定义了生存区域. 在上面描述的项目下面，<strong><em>my-project</em></strong> 放在 <strong><em>$M2_REPO/org/codehaus/mojo/my-project</em></strong>。</p>
+</li>
+<li><p><strong>version</strong>：这是命名最伤脑筋的部分。<strong><em>groupId:artifactId</em></strong> 表示一个项目却无法具体描绘我们所谈论的项目。 我们希望 <strong><em>junit:junit</em></strong> 今天版本 (version 4), 或者四年前的版本 (version 2)? 总之：代码的变化，这些变化应该被记录版本，而且应该保持线上可用版本。它也在工件的存储库中使用，以分离彼此的版本。<strong><em>my-project</em></strong> version 1.0 文件保存在目录结构中 <strong><em>$M2_REPO/org/codehaus/mojo/my-project/1.0</em></strong>。</p>
+<p> 我们希望他们，在软件生命周期内，上面三个元素在一个项目中定义了一个特殊版本让Maven知道我们在处理。</p>
+</li>
+<li><p><strong>packaging</strong>： 现在我们有了地址结构 <strong><em>groupId : artifactId : version</em></strong>, 还有一个标准标签可以给我们一个真正完整的地址。 这是项目的 artifact 类型。在我们的 POM 例子中，<strong><em>org.codehaus.mojo: my-project: 1.0</em></strong> 上面定义的将被打包为 <strong><em>jar</em></strong> 包。我们可以将打包 <strong><em>war</em></strong> 包用来声明不用的包：</p>
+</li>
+</ul>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">project</span> <span class="attr">xmlns</span>=<span class="string">"http://maven.apache.org/POM/4.0.0"</span></span></div><div class="line">  <span class="attr">xmlns:xsi</span>=<span class="string">"http://www.w3.org/2001/XMLSchema-instance"</span></div><div class="line">  <span class="attr">xsi:schemaLocation</span>=<span class="string">"http://maven.apache.org/POM/4.0.0</span></div><div class="line">                      http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;</div><div class="line">  ...</div><div class="line">  <span class="tag">&lt;<span class="name">packaging</span>&gt;</span>war<span class="tag">&lt;/<span class="name">packaging</span>&gt;</span></div><div class="line">  ...</div><div class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></div></pre></td></tr></table></figure>
+<p> 当 packaging 没有被声明时, Maven 假定 artifact 为默认: <strong><em>jar</em></strong>。有效的类型是丛角色提示（更多相关的角色说明请参照阅读）<strong><em>org.apache.maven.lifecycle.mapping.LifecycleMapping</em></strong>。 当前的核心值是: pom, jar, maven-plugin, ejb, war, ear, rar, par。 这些定义了针对特定包结构的每个相应的构建生命周期阶段执行的缺省目标列表。</p>
+<p>有时候你会看到 Maven 协调打印项目 <strong><em>groupId : artifactId : packaging : version</em></strong>。</p>
+<ul>
+<li><strong>classifier</strong>： 有时您可以在坐标上找到第五个元素，这就是<strong><em>classifier</em></strong>。我们将参观分类器后，但现在只要知道这些项目显示为 <strong><em>groupId : artifactId : packaging : classifier : version</em></strong>.</li>
+</ul>
+<h3 id="POM-关系"><a href="#POM-关系" class="headerlink" title="POM 关系"></a>POM 关系</h3><p>Maven的一个强大的方面是其项目的关系处理；包括依赖（和过渡依赖），继承和聚合（多模块项目）。依赖管理有一个长期的传统，它是一个复杂的混乱，除了最微不足道的项目。“jarmageddon”迅速随之而来的依存树变得大而复杂。接下来，一个系统的依赖版本不等同于开发的版本，或者由错误版本给出，或者类似命名JAR之间的冲突版本。Maven的解决了两个问题通过一个共同的本地存储库的链接项目的正确、版本和所有。</p>
+<h4 id="依赖性"><a href="#依赖性" class="headerlink" title="依赖性"></a>依赖性</h4><p>POM的基石是它的依赖列表。大多数项目取决于他人建立和运行正确，如果所有的专家为你做的是为你管理这个列表，你已经获得了很多。Maven下载为你编译和其他目标需要的依赖关系链接。作为额外的奖励，Maven带来依赖的依赖（依靠），让你的列表仅集中在依赖你的项目需要。</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">project</span> <span class="attr">xmlns</span>=<span class="string">"http://maven.apache.org/POM/4.0.0"</span></span></div><div class="line">  <span class="attr">xmlns:xsi</span>=<span class="string">"http://www.w3.org/2001/XMLSchema-instance"</span></div><div class="line">  <span class="attr">xsi:schemaLocation</span>=<span class="string">"http://maven.apache.org/POM/4.0.0</span></div><div class="line">                      https://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;</div><div class="line">  ...</div><div class="line">  <span class="tag">&lt;<span class="name">dependencies</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>junit<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>junit<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">version</span>&gt;</span>4.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">type</span>&gt;</span>jar<span class="tag">&lt;/<span class="name">type</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">scope</span>&gt;</span>test<span class="tag">&lt;/<span class="name">scope</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">optional</span>&gt;</span>true<span class="tag">&lt;/<span class="name">optional</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></div><div class="line">    ...</div><div class="line">  <span class="tag">&lt;/<span class="name">dependencies</span>&gt;</span></div><div class="line">  ...</div><div class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></div></pre></td></tr></table></figure>
+<h4 id="依赖版本需求说明"><a href="#依赖版本需求说明" class="headerlink" title="依赖版本需求说明"></a>依赖版本需求说明</h4><ul>
+<li>1.0: “Soft” requirement on 1.0 (just a recommendation, if it matches all other ranges for the dependency)</li>
+<li>[1.0]: “Hard” requirement on 1.0<br>(,1.0]: x &lt;= 1.0</li>
+<li>[1.2,1.3]: 1.2 &lt;= x &lt;= 1.3 </li>
+<li>[1.0,2.0): 1.0 &lt;= x &lt; 2.0</li>
+<li>[1.5,): x &gt;= 1.5</li>
+<li>(,1.0],[1.2,): x &lt;= 1.0 or x &gt;= 1.2; multiple sets are comma-separated</li>
+<li>(,1.1),(1.1,): this excludes 1.1 (for example if it is known not to work in combination with this library)</li>
+</ul>
+<h6 id="不包含"><a href="#不包含" class="headerlink" title="不包含"></a>不包含</h6><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">project</span> <span class="attr">xmlns</span>=<span class="string">"http://maven.apache.org/POM/4.0.0"</span></span></div><div class="line">  <span class="attr">xmlns:xsi</span>=<span class="string">"http://www.w3.org/2001/XMLSchema-instance"</span></div><div class="line">  <span class="attr">xsi:schemaLocation</span>=<span class="string">"http://maven.apache.org/POM/4.0.0</span></div><div class="line">                      https://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;</div><div class="line">  ...</div><div class="line">  <span class="tag">&lt;<span class="name">dependencies</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.apache.maven<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-embedder<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">exclusions</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">exclusion</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.apache.maven<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-core<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">exclusion</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">exclusions</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></div><div class="line">    ...</div><div class="line">  <span class="tag">&lt;/<span class="name">dependencies</span>&gt;</span></div><div class="line">  ...</div><div class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">project</span> <span class="attr">xmlns</span>=<span class="string">"http://maven.apache.org/POM/4.0.0"</span></span></div><div class="line">  <span class="attr">xmlns:xsi</span>=<span class="string">"http://www.w3.org/2001/XMLSchema-instance"</span></div><div class="line">  <span class="attr">xsi:schemaLocation</span>=<span class="string">"http://maven.apache.org/POM/4.0.0</span></div><div class="line">                      https://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;</div><div class="line">  ...</div><div class="line">  <span class="tag">&lt;<span class="name">dependencies</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.apache.maven<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-embedder<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">version</span>&gt;</span>3.1.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">exclusions</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">exclusion</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>*<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>*<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">exclusion</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">exclusions</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></div><div class="line">    ...</div><div class="line">  <span class="tag">&lt;/<span class="name">dependencies</span>&gt;</span></div><div class="line">  ...</div><div class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></div></pre></td></tr></table></figure>
+<h4 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h4><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">project</span> <span class="attr">xmlns</span>=<span class="string">"http://maven.apache.org/POM/4.0.0"</span></span></div><div class="line">  <span class="attr">xmlns:xsi</span>=<span class="string">"http://www.w3.org/2001/XMLSchema-instance"</span></div><div class="line">  <span class="attr">xsi:schemaLocation</span>=<span class="string">"http://maven.apache.org/POM/4.0.0</span></div><div class="line">                      https://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;</div><div class="line">  <span class="tag">&lt;<span class="name">modelVersion</span>&gt;</span>4.0.0<span class="tag">&lt;/<span class="name">modelVersion</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.codehaus.mojo<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>my-parent<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">packaging</span>&gt;</span>pom<span class="tag">&lt;/<span class="name">packaging</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>groupId</li>
+<li>version</li>
+<li>description</li>
+<li>url</li>
+<li>inceptionYear</li>
+<li>organization</li>
+<li>licenses</li>
+<li>developers</li>
+<li>contributors</li>
+<li>mailingLists</li>
+<li>scm</li>
+<li>issueManagement</li>
+<li>ciManagement</li>
+<li>properties</li>
+<li>dependencyManagement</li>
+<li>dependencies</li>
+<li>repositories</li>
+<li>pluginRepositories</li>
+<li>build<ul>
+<li>plugin executions with matching ids</li>
+<li>plugin configuration</li>
+<li>etc.</li>
+</ul>
+</li>
+<li>reporting</li>
+<li>profiles</li>
+</ul>
+<p>不继承的元素:</p>
+<ul>
+<li>artifactId</li>
+<li>name</li>
+<li>prerequisites</li>
+</ul>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">project</span> <span class="attr">xmlns</span>=<span class="string">"http://maven.apache.org/POM/4.0.0"</span></span></div><div class="line">  <span class="attr">xmlns:xsi</span>=<span class="string">"http://www.w3.org/2001/XMLSchema-instance"</span></div><div class="line">  <span class="attr">xsi:schemaLocation</span>=<span class="string">"http://maven.apache.org/POM/4.0.0</span></div><div class="line">                      https://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;</div><div class="line">  <span class="tag">&lt;<span class="name">modelVersion</span>&gt;</span>4.0.0<span class="tag">&lt;/<span class="name">modelVersion</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="tag">&lt;<span class="name">parent</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.codehaus.mojo<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>my-parent<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">relativePath</span>&gt;</span>../my-parent<span class="tag">&lt;/<span class="name">relativePath</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">parent</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>my-project<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></div></pre></td></tr></table></figure>
+<h4 id="超级POM"><a href="#超级POM" class="headerlink" title="超级POM"></a>超级POM</h4><figure class="highlight dust"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div></pre></td><td class="code"><pre><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">project</span>&gt;</span></span></div><div class="line">  <span class="tag">&lt;<span class="name">modelVersion</span>&gt;</span>4.0.0<span class="tag">&lt;/<span class="name">modelVersion</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="tag">&lt;<span class="name">repositories</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">repository</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">id</span>&gt;</span>central<span class="tag">&lt;/<span class="name">id</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">name</span>&gt;</span>Central Repository<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">url</span>&gt;</span>http://repo.maven.apache.org/maven2<span class="tag">&lt;/<span class="name">url</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">layout</span>&gt;</span>default<span class="tag">&lt;/<span class="name">layout</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">snapshots</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">enabled</span>&gt;</span>false<span class="tag">&lt;/<span class="name">enabled</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">snapshots</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">repository</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">repositories</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="tag">&lt;<span class="name">pluginRepositories</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">pluginRepository</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">id</span>&gt;</span>central<span class="tag">&lt;/<span class="name">id</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">name</span>&gt;</span>Central Repository<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">url</span>&gt;</span>http://repo.maven.apache.org/maven2<span class="tag">&lt;/<span class="name">url</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">layout</span>&gt;</span>default<span class="tag">&lt;/<span class="name">layout</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">snapshots</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">enabled</span>&gt;</span>false<span class="tag">&lt;/<span class="name">enabled</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">snapshots</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">releases</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">updatePolicy</span>&gt;</span>never<span class="tag">&lt;/<span class="name">updatePolicy</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">releases</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">pluginRepository</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">pluginRepositories</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="tag">&lt;<span class="name">build</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">directory</span>&gt;</span>$<span class="template-variable">&#123;project.basedir&#125;</span><span class="xml">/target<span class="tag">&lt;/<span class="name">directory</span>&gt;</span></span></div><div class="line">    <span class="tag">&lt;<span class="name">outputDirectory</span>&gt;</span>$<span class="template-variable">&#123;project.build.directory&#125;</span><span class="xml">/classes<span class="tag">&lt;/<span class="name">outputDirectory</span>&gt;</span></span></div><div class="line">    <span class="tag">&lt;<span class="name">finalName</span>&gt;</span>$<span class="template-variable">&#123;project.artifactId&#125;</span><span class="xml">-$</span><span class="template-variable">&#123;project.version&#125;</span><span class="xml"><span class="tag">&lt;/<span class="name">finalName</span>&gt;</span></span></div><div class="line">    <span class="tag">&lt;<span class="name">testOutputDirectory</span>&gt;</span>$<span class="template-variable">&#123;project.build.directory&#125;</span><span class="xml">/test-classes<span class="tag">&lt;/<span class="name">testOutputDirectory</span>&gt;</span></span></div><div class="line">    <span class="tag">&lt;<span class="name">sourceDirectory</span>&gt;</span>$<span class="template-variable">&#123;project.basedir&#125;</span><span class="xml">/src/main/java<span class="tag">&lt;/<span class="name">sourceDirectory</span>&gt;</span></span></div><div class="line">    <span class="tag">&lt;<span class="name">scriptSourceDirectory</span>&gt;</span>src/main/scripts<span class="tag">&lt;/<span class="name">scriptSourceDirectory</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">testSourceDirectory</span>&gt;</span>$<span class="template-variable">&#123;project.basedir&#125;</span><span class="xml">/src/test/java<span class="tag">&lt;/<span class="name">testSourceDirectory</span>&gt;</span></span></div><div class="line">    <span class="tag">&lt;<span class="name">resources</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">resource</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">directory</span>&gt;</span>$<span class="template-variable">&#123;project.basedir&#125;</span><span class="xml">/src/main/resources<span class="tag">&lt;/<span class="name">directory</span>&gt;</span></span></div><div class="line">      <span class="tag">&lt;/<span class="name">resource</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">resources</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">testResources</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">testResource</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">directory</span>&gt;</span>$<span class="template-variable">&#123;project.basedir&#125;</span><span class="xml">/src/test/resources<span class="tag">&lt;/<span class="name">directory</span>&gt;</span></span></div><div class="line">      <span class="tag">&lt;/<span class="name">testResource</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">testResources</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">pluginManagement</span>&gt;</span></div><div class="line">      <span class="comment">&lt;!-- <span class="doctag">NOTE:</span> These plugins will be removed from future versions of the super POM --&gt;</span></div><div class="line">      <span class="comment">&lt;!-- They are kept for the moment as they are very unlikely to conflict with lifecycle mappings (MNG-4453) --&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">plugins</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-antrun-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.3<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-assembly-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.2-beta-5<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-dependency-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.1<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-release-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">plugins</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">pluginManagement</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">build</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="tag">&lt;<span class="name">reporting</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">outputDirectory</span>&gt;</span>$<span class="template-variable">&#123;project.build.directory&#125;</span><span class="xml">/site<span class="tag">&lt;/<span class="name">outputDirectory</span>&gt;</span></span></div><div class="line">  <span class="tag">&lt;/<span class="name">reporting</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="tag">&lt;<span class="name">profiles</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!-- <span class="doctag">NOTE:</span> The release profile will be removed from future versions of the super POM --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">profile</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">id</span>&gt;</span>release-profile<span class="tag">&lt;/<span class="name">id</span>&gt;</span></div><div class="line"> </div><div class="line">      <span class="tag">&lt;<span class="name">activation</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">property</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">name</span>&gt;</span>performRelease<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">value</span>&gt;</span>true<span class="tag">&lt;/<span class="name">value</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">property</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">activation</span>&gt;</span></div><div class="line"> </div><div class="line">      <span class="tag">&lt;<span class="name">build</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">plugins</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">inherited</span>&gt;</span>true<span class="tag">&lt;/<span class="name">inherited</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-source-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">executions</span>&gt;</span></div><div class="line">              <span class="tag">&lt;<span class="name">execution</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">id</span>&gt;</span>attach-sources<span class="tag">&lt;/<span class="name">id</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">goals</span>&gt;</span></div><div class="line">                  <span class="tag">&lt;<span class="name">goal</span>&gt;</span>jar<span class="tag">&lt;/<span class="name">goal</span>&gt;</span></div><div class="line">                <span class="tag">&lt;/<span class="name">goals</span>&gt;</span></div><div class="line">              <span class="tag">&lt;/<span class="name">execution</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">executions</span>&gt;</span></div><div class="line">          <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">inherited</span>&gt;</span>true<span class="tag">&lt;/<span class="name">inherited</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-javadoc-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">executions</span>&gt;</span></div><div class="line">              <span class="tag">&lt;<span class="name">execution</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">id</span>&gt;</span>attach-javadocs<span class="tag">&lt;/<span class="name">id</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">goals</span>&gt;</span></div><div class="line">                  <span class="tag">&lt;<span class="name">goal</span>&gt;</span>jar<span class="tag">&lt;/<span class="name">goal</span>&gt;</span></div><div class="line">                <span class="tag">&lt;/<span class="name">goals</span>&gt;</span></div><div class="line">              <span class="tag">&lt;/<span class="name">execution</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">executions</span>&gt;</span></div><div class="line">          <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">inherited</span>&gt;</span>true<span class="tag">&lt;/<span class="name">inherited</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-deploy-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">configuration</span>&gt;</span></div><div class="line">              <span class="tag">&lt;<span class="name">updateReleaseInfo</span>&gt;</span>true<span class="tag">&lt;/<span class="name">updateReleaseInfo</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">configuration</span>&gt;</span></div><div class="line">          <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">plugins</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">build</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">profile</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">profiles</span>&gt;</span></div><div class="line"> </div><div class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></div></pre></td></tr></table></figure>
+<h4 id="依赖管理"><a href="#依赖管理" class="headerlink" title="依赖管理"></a>依赖管理</h4><h2 id="聚合（或者多模块）"><a href="#聚合（或者多模块）" class="headerlink" title="聚合（或者多模块）"></a>聚合（或者多模块）</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">project</span> <span class="attr">xmlns</span>=<span class="string">"http://maven.apache.org/POM/4.0.0"</span></span></div><div class="line">  <span class="attr">xmlns:xsi</span>=<span class="string">"http://www.w3.org/2001/XMLSchema-instance"</span></div><div class="line">  <span class="attr">xsi:schemaLocation</span>=<span class="string">"http://maven.apache.org/POM/4.0.0</span></div><div class="line">                      https://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;</div><div class="line">  <span class="tag">&lt;<span class="name">modelVersion</span>&gt;</span>4.0.0<span class="tag">&lt;/<span class="name">modelVersion</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.codehaus.mojo<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>my-parent<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">packaging</span>&gt;</span>pom<span class="tag">&lt;/<span class="name">packaging</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="tag">&lt;<span class="name">modules</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">module</span>&gt;</span>my-project<span class="tag">&lt;/<span class="name">module</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">module</span>&gt;</span>another-project<span class="tag">&lt;/<span class="name">module</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">modules</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;project&gt;</div><div class="line">  ...</div><div class="line">  &lt;properties&gt;</div><div class="line">    &lt;maven<span class="selector-class">.compiler</span><span class="selector-class">.source</span>&gt;<span class="number">1.7</span>&lt;maven<span class="selector-class">.compiler</span><span class="selector-class">.source</span>&gt;</div><div class="line">    &lt;maven<span class="selector-class">.compiler</span><span class="selector-class">.target</span>&gt;<span class="number">1.7</span>&lt;maven<span class="selector-class">.compiler</span><span class="selector-class">.target</span>&gt;</div><div class="line">    &lt;project<span class="selector-class">.build</span><span class="selector-class">.sourceEncoding</span>&gt;UTF-<span class="number">8</span>&lt;/project<span class="selector-class">.build</span><span class="selector-class">.sourceEncoding</span>&gt;</div><div class="line">    &lt;project<span class="selector-class">.reporting</span><span class="selector-class">.outputEncoding</span>&gt;UTF-<span class="number">8</span>&lt;/project<span class="selector-class">.reporting</span><span class="selector-class">.outputEncoding</span>&gt;</div><div class="line">  &lt;/properties&gt;</div><div class="line">  ...</div><div class="line">&lt;/project&gt;</div></pre></td></tr></table></figure>
+<h2 id="构建设置"><a href="#构建设置" class="headerlink" title="构建设置"></a>构建设置</h2><h4 id="构建"><a href="#构建" class="headerlink" title="构建"></a>构建</h4><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">project</span> <span class="attr">xmlns</span>=<span class="string">"http://maven.apache.org/POM/4.0.0"</span></span></div><div class="line">  <span class="attr">xmlns:xsi</span>=<span class="string">"http://www.w3.org/2001/XMLSchema-instance"</span></div><div class="line">  <span class="attr">xsi:schemaLocation</span>=<span class="string">"http://maven.apache.org/POM/4.0.0</span></div><div class="line">                      https://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;</div><div class="line">  ...</div><div class="line">  <span class="comment">&lt;!-- "Project Build" contains more elements than just the BaseBuild set --&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">build</span>&gt;</span>...<span class="tag">&lt;/<span class="name">build</span>&gt;</span></div><div class="line"> </div><div class="line">  <span class="tag">&lt;<span class="name">profiles</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">profile</span>&gt;</span></div><div class="line">      <span class="comment">&lt;!-- "Profile Build" contains a subset of "Project Build"s elements --&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">build</span>&gt;</span>...<span class="tag">&lt;/<span class="name">build</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">profile</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">profiles</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></div></pre></td></tr></table></figure>
+<h4 id="基础构建设置"><a href="#基础构建设置" class="headerlink" title="基础构建设置"></a>基础构建设置</h4><figure class="highlight dust"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">build</span>&gt;</span></span></div><div class="line">  <span class="tag">&lt;<span class="name">defaultGoal</span>&gt;</span>install<span class="tag">&lt;/<span class="name">defaultGoal</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">directory</span>&gt;</span>$<span class="template-variable">&#123;basedir&#125;</span><span class="xml">/target<span class="tag">&lt;/<span class="name">directory</span>&gt;</span></span></div><div class="line">  <span class="tag">&lt;<span class="name">finalName</span>&gt;</span>$<span class="template-variable">&#123;artifactId&#125;</span><span class="xml">-$</span><span class="template-variable">&#123;version&#125;</span><span class="xml"><span class="tag">&lt;/<span class="name">finalName</span>&gt;</span></span></div><div class="line">  <span class="tag">&lt;<span class="name">filters</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">filter</span>&gt;</span>filters/filter1.properties<span class="tag">&lt;/<span class="name">filter</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">filters</span>&gt;</span></div><div class="line">  ...</div><div class="line"><span class="tag">&lt;/<span class="name">build</span>&gt;</span></div></pre></td></tr></table></figure>
+<h6 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h6><figure class="highlight dust"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">project</span> <span class="attr">xmlns</span>=<span class="string">"http://maven.apache.org/POM/4.0.0"</span></span></span></div><div class="line">  <span class="attr">xmlns:xsi</span>=<span class="string">"http://www.w3.org/2001/XMLSchema-instance"</span></div><div class="line">  <span class="attr">xsi:schemaLocation</span>=<span class="string">"http://maven.apache.org/POM/4.0.0</span></div><div class="line">                      https://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;</div><div class="line">  <span class="tag">&lt;<span class="name">build</span>&gt;</span></div><div class="line">    ...</div><div class="line">    <span class="tag">&lt;<span class="name">resources</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">resource</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">targetPath</span>&gt;</span>META-INF/plexus<span class="tag">&lt;/<span class="name">targetPath</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">filtering</span>&gt;</span>false<span class="tag">&lt;/<span class="name">filtering</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">directory</span>&gt;</span>$<span class="template-variable">&#123;basedir&#125;</span><span class="xml">/src/main/plexus<span class="tag">&lt;/<span class="name">directory</span>&gt;</span></span></div><div class="line">        <span class="tag">&lt;<span class="name">includes</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">include</span>&gt;</span>configuration.xml<span class="tag">&lt;/<span class="name">include</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">includes</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">excludes</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">exclude</span>&gt;</span>**/*.properties<span class="tag">&lt;/<span class="name">exclude</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">excludes</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">resource</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">resources</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">testResources</span>&gt;</span></div><div class="line">      ...</div><div class="line">    <span class="tag">&lt;/<span class="name">testResources</span>&gt;</span></div><div class="line">    ...</div><div class="line">  <span class="tag">&lt;/<span class="name">build</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>resources</strong>: is a list of resource elements that each describe what and where to include files associated with this project.</li>
+<li><strong>targetPath</strong>: Specifies the directory structure to place the set of resources from a build. Target path defaults to the base directory. A commonly specified target path for resources that will be packaged in a JAR is META-INF.</li>
+<li><strong>filtering</strong>: is true or false, denoting if filtering is to be enabled for this resource. Note, that filter *.properties files do not have to be defined for filtering to occur - resources can also use properties that are by default defined in the POM (such as ${project.version}), passed into the command line using the “-D” flag (for example, “-Dname=value”) or are explicitly defined by the properties element. Filter files were covered above.</li>
+<li><strong>directory</strong>: This element’s value defines where the resources are to be found. The default directory for a build is ${basedir}/src/main/resources.</li>
+<li><strong>includes</strong>: A set of files patterns which specify the files to include as resources under that specified directory, using * as a wildcard.</li>
+<li><strong>excludes</strong>: The same structure as includes, but specifies which files to ignore. In conflicts between include and exclude, exclude wins.</li>
+<li><strong>testResources</strong>: The testResources element block contains testResource elements. Their definitions are similar to resource elements, but are naturally used during test phases. The one difference is that the default (Super POM defined) test resource directory for a project is ${basedir}/src/test/resources. Test resources are not deployed.</li>
+</ul>
+<h6 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h6><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">project</span> <span class="attr">xmlns</span>=<span class="string">"http://maven.apache.org/POM/4.0.0"</span></span></div><div class="line">  <span class="attr">xmlns:xsi</span>=<span class="string">"http://www.w3.org/2001/XMLSchema-instance"</span></div><div class="line">  <span class="attr">xsi:schemaLocation</span>=<span class="string">"http://maven.apache.org/POM/4.0.0</span></div><div class="line">                      https://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;</div><div class="line">  <span class="tag">&lt;<span class="name">build</span>&gt;</span></div><div class="line">    ...</div><div class="line">    <span class="tag">&lt;<span class="name">plugins</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">plugin</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.apache.maven.plugins<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-jar-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.6<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">extensions</span>&gt;</span>false<span class="tag">&lt;/<span class="name">extensions</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">inherited</span>&gt;</span>true<span class="tag">&lt;/<span class="name">inherited</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">configuration</span>&gt;</span></div><div class="line">          <span class="tag">&lt;<span class="name">classifier</span>&gt;</span>test<span class="tag">&lt;/<span class="name">classifier</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">configuration</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">dependencies</span>&gt;</span>...<span class="tag">&lt;/<span class="name">dependencies</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">executions</span>&gt;</span>...<span class="tag">&lt;/<span class="name">executions</span>&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">plugins</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">build</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">project</span>&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><p>The Maven POM is big. However, its size is also a testament to its versatility. The ability to abstract all of the aspects of a project into a single artifact is powerful, to say the least. Gone are the days of dozens of disparate build scripts and scattered documentation concerning each individual project. Along with Maven’s other stars that make up the Maven galaxy - a well defined build lifecycle, easy to write and maintain plugins, centralized repositories, system-wide and user-based configurations, as well as the increasing number of tools to make developers’ jobs easier to maintain complex projects - the POM is the large, but bright, center.</p>
+<p>Maven POM很大。然而，它的大小也证明了它的多功能性。至少可以说，将项目的所有方面抽象成单个工件的能力是强大的。几十个不同的构建脚本和分散的文档涉及各个项目的日子已经一去不复返了。随着Maven的其他恒星组成的星系的一个定义良好的Maven构建生命周期，易于编写和维护插件，集中库，全系统和基于用户的配置，以及越来越多的工具使开发人员的工作更容易维护的复杂项目的POM是大而明亮，中心。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt; – 导读&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;最近一直在使用 &lt;strong&gt;&lt;em&gt;pom.xml&lt;/em&gt;&lt;/strong&gt; ，但是不知道这里面的一些配置如何使用，便有了从官方翻译一下这个文件的冲动，也便有了这篇文章的雏形，就当做是记录一下最近的状态，提升一下自己。&lt;/p&gt;
+&lt;p&gt;这篇翻译的源文来至这里：&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;http://maven.apache.org/pom.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://maven.apache.org/pom.html&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; ，下面便开始翻译之路，有不明白之处或者翻译错误之处，请提出指正，共同进步，多谢！~&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;POM-目录引用&quot;&gt;&lt;a href=&quot;#POM-目录引用&quot; class=&quot;headerlink&quot; title=&quot;POM 目录引用&quot;&gt;&lt;/a&gt;POM 目录引用&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://maven.apache.org/xsd/maven-4.0.0.xsd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;POM 4.0.0 XSD&lt;/a&gt; 文件和 &lt;a href=&quot;http://maven.apache.org/ref/current/maven-model/maven.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;描述符参考文档&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;介绍说明&quot;&gt;&lt;a href=&quot;#介绍说明&quot; class=&quot;headerlink&quot; title=&quot;介绍说明&quot;&gt;&lt;/a&gt;介绍说明&lt;/h2&gt;&lt;h3 id=&quot;POM-是什么？&quot;&gt;&lt;a href=&quot;#POM-是什么？&quot; class=&quot;headerlink&quot; title=&quot;POM 是什么？&quot;&gt;&lt;/a&gt;POM 是什么？&lt;/h3&gt;&lt;p&gt;POM定位于“ 项目对象模型 ”，在Maven的项目中，它使用XML语言来描述，并被用pom.xml来命名来实现。在Maven的人面前，说一个项目是在哲学的意义上讲，超出了单纯的文件集合包含代码。项目包含配置文件，以及所涉及的开发人员和他们所扮演的角色，缺陷跟踪系统，组织和许可证，项目所在地的URL，项目的依赖，以及所有其他的小片段，这些代码都可以发挥代码的作用。这是一个一站式商店的所有项目有关的东西。实际上，在Maven的世界里，一个项目不包含任何代码，仅仅一个 &lt;strong&gt;&lt;em&gt;pom.xml&lt;/em&gt;&lt;/strong&gt; 。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="mavne" scheme="http://www.liuyuchuan.com/tags/mavne/"/>
+    
+      <category term="pom" scheme="http://www.liuyuchuan.com/tags/pom/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bootstrap Modal 的使用</title>
+    <link href="http://www.liuyuchuan.com/2017/07/06/bootstrap-modal/"/>
+    <id>http://www.liuyuchuan.com/2017/07/06/bootstrap-modal/</id>
+    <published>2017-07-05T16:00:00.000Z</published>
+    <updated>2017-08-06T15:59:16.280Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Bootstrap-模态框（Modal）插件"><a href="#Bootstrap-模态框（Modal）插件" class="headerlink" title="Bootstrap 模态框（Modal）插件"></a>Bootstrap 模态框（Modal）插件</h3><p>模态框（Modal）是覆盖在父窗体上的子窗体。通常，目的是显示来自一个单独的源的内容，可以在不离开父窗体的情况下有一些互动。子窗体可提供信息、交互等。</p>
+<blockquote>
+<p>如果您想要单独引用该插件的功能，那么您需要引用 <strong>modal.js</strong>。或者，正如 Bootstrap 插件概览 一章中所提到，您可以引用 <em>bootstrap.js</em> 或压缩版的 <em>bootstrap.min.js</em>。</p>
+</blockquote>
+<h3 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h3><p>您可以切换模态框（Modal）插件的隐藏内容：</p>
+<ul>
+<li><p>通过 data 属性：在控制器元素（比如按钮或者链接）上设置属性 <strong>data-toggle=”modal”</strong>，同时设置 <strong>data-target=”#identifier”</strong> 或 <strong>href=”#identifier”</strong> 来指定要切换的特定的模态框（带有 id=”identifier”）。</p>
+</li>
+<li><p>通过 JavaScript：使用这种技术，您可以通过简单的一行 JavaScript 来调用带有 <strong>id=”identifier”</strong> 的模态框：</p>
+</li>
+</ul>
+<figure class="highlight gams"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">$</span>(<span class="string">'#identifier'</span>).modal(<span class="keyword">options</span>)</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h5 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h5><p>一个静态的模态窗口实例，如下面的实例所示：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">h2</span>&gt;</span>创建模态框（Modal）<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- 按钮触发模态框 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">"btn btn-primary btn-lg"</span> <span class="attr">data-toggle</span>=<span class="string">"modal"</span> <span class="attr">data-target</span>=<span class="string">"#myModal"</span>&gt;</span>开始演示模态框<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- 模态框（Modal） --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal fade"</span> <span class="attr">id</span>=<span class="string">"myModal"</span> <span class="attr">tabindex</span>=<span class="string">"-1"</span> <span class="attr">role</span>=<span class="string">"dialog"</span> <span class="attr">aria-labelledby</span>=<span class="string">"myModalLabel"</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-dialog"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-content"</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-header"</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"close"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span>&amp;times;<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">h4</span> <span class="attr">class</span>=<span class="string">"modal-title"</span> <span class="attr">id</span>=<span class="string">"myModalLabel"</span>&gt;</span>模态框（Modal）标题<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-body"</span>&gt;</span>在这里添加一些文本<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-footer"</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-default"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span>&gt;</span>关闭<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-primary"</span>&gt;</span>提交更改<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="comment">&lt;!-- /.modal-content --&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="comment">&lt;!-- /.modal --&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><a href="http://www.runoob.com/try/try.php?filename=bootstrap3-plugin-modal" target="_blank" rel="external">进入演示&gt;&gt;</a></p>
+<p>结果如下所示：</p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/modalplugin_demo.jpg" alt=""></p>
+<p>代码讲解：</p>
+<p>定义和用法</p>
+<ul>
+<li><p>使用模态窗口，您需要有某种触发器。您可以使用按钮或链接。这里我们使用的是按钮。</p>
+</li>
+<li><p>如果您仔细查看上面的代码，您会发现在 &lt;button&gt; 标签中，data-target=”#myModal” 是您想要在页面上加载的模态框的目标。您可以在页面上创建多个模态框，然后为每个模态框创建不同的触发器。现在，很明显，您不能在同一时间加载多个模块，但您可以在页面上创建多个在不同时间进行加载。</p>
+</li>
+<li><p>在模态框中需要注意两点：</p>
+<ol>
+<li>第一是 .modal，用来把 &lt;div&gt; 的内容识别为模态框。</li>
+<li>第二是 .fade class。当模态框被切换时，它会引起内容淡入淡出。</li>
+</ol>
+</li>
+<li><p>aria-labelledby=”myModalLabel”，该属性引用模态框的标题。</p>
+</li>
+<li><p>属性 aria-hidden=”true” 用于保持模态窗口不可见，直到触发器被触发为止（比如点击在相关的按钮上）。</p>
+</li>
+<li><p>&lt;div class=”modal-header”&gt;，modal-header 是为模态窗口的头部定义样式的类。</p>
+</li>
+<li><p>class=”close”，close 是一个 CSS class，用于为模态窗口的关闭按钮设置样式。</p>
+</li>
+<li><p>data-dismiss=”modal”，是一个自定义的 HTML5 data 属性。在这里它被用于关闭模态窗口。</p>
+</li>
+<li><p>class=”modal-body”，是 Bootstrap CSS 的一个 CSS class，用于为模态窗口的主体设置样式。</p>
+</li>
+<li><p>class=”modal-footer”，是 Bootstrap CSS 的一个 CSS class，用于为模态窗口的底部设置样式。</p>
+</li>
+<li><p>data-toggle=”modal”，HTML5 自定义的 data 属性 data-toggle 用于打开模态窗口。</p>
+</li>
+</ul>
+<h3 id="选项"><a href="#选项" class="headerlink" title="选项"></a>选项</h3><p>有一些选项可以用来定制模态窗口（Modal Window）的外观和感观，它们是通过 data 属性或 JavaScript 来传递的。下表列出了这些选项：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">选项名称</th>
+<th style="text-align:left">类型/默认值</th>
+<th style="text-align:left">Data 属性名称</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">backdrop</td>
+<td style="text-align:left">boolean 或 string ‘static’<br>默认值：true</td>
+<td style="text-align:left">data-backdrop</td>
+<td style="text-align:left">指定一个静态的背景，当用户点击模态框外部时不会关闭模态框。</td>
+</tr>
+<tr>
+<td style="text-align:left">keyboard</td>
+<td style="text-align:left">boolean <br>默认值：true</td>
+<td style="text-align:left">data-keyboard</td>
+<td style="text-align:left">当按下 escape 键时关闭模态框，设置为 false 时则按键无效。</td>
+</tr>
+<tr>
+<td style="text-align:left">show</td>
+<td style="text-align:left">boolean <br>默认值：true</td>
+<td style="text-align:left">data-show</td>
+<td style="text-align:left">当初始化时显示模态框。</td>
+</tr>
+<tr>
+<td style="text-align:left">remote</td>
+<td style="text-align:left">path <br>默认值：false</td>
+<td style="text-align:left">data-remote</td>
+<td style="text-align:left">使用 jQuery .load 方法，为模态框的主体注入内容。如果添加了一个带有有效 URL 的 href，则会加载其中的内容。</td>
+</tr>
+</tbody>
+</table>
+<p>remote： 如下面的实例所示：</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;a <span class="attribute">data-toggle</span>=<span class="string">"modal"</span> <span class="attribute">href</span>=<span class="string">"remote.html"</span> <span class="attribute">data-target</span>=<span class="string">"#modal"</span>&gt;请点击我&lt;/a&gt;</div></pre></td></tr></table></figure>
+<h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>下面是一些可与 modal() 一起使用的有用的方法。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">方法</th>
+<th style="text-align:left">操作</th>
+<th style="text-align:left">描述</th>
+<th>实例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Options</td>
+<td style="text-align:left">.modal(options)</td>
+<td style="text-align:left">把内容作为模态框激活。接受一个可选的选项对象。</td>
+<td>参考下面</td>
+</tr>
+<tr>
+<td style="text-align:left">Toggle</td>
+<td style="text-align:left">.modal(‘toggle’)</td>
+<td style="text-align:left">手动切换模态框。</td>
+<td>参考下面</td>
+</tr>
+<tr>
+<td style="text-align:left">Show</td>
+<td style="text-align:left">.modal(‘show’)</td>
+<td style="text-align:left">手动打开模态框。</td>
+<td>参考下面</td>
+</tr>
+<tr>
+<td style="text-align:left">Hide</td>
+<td style="text-align:left">.modal(‘hide’)</td>
+<td style="text-align:left">手动隐藏模态框。</td>
+<td>参考下面</td>
+</tr>
+</tbody>
+</table>
+<h5 id="详细实例"><a href="#详细实例" class="headerlink" title="详细实例"></a>详细实例</h5><p>Options ：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash">(<span class="string">'#identifier'</span>).modal(&#123; keyboard: <span class="literal">false</span>&#125;)</span></div></pre></td></tr></table></figure></p>
+<p>Toggle ：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash">(<span class="string">'#identifier'</span>).modal(<span class="string">'toggle'</span>)</span></div></pre></td></tr></table></figure></p>
+<p>Show ：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash">(<span class="string">'#identifier'</span>).modal(<span class="string">'show'</span>)</span></div></pre></td></tr></table></figure></p>
+<p>Hide ：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash">(<span class="string">'#identifier'</span>).modal(<span class="string">'hide'</span>)</span></div></pre></td></tr></table></figure></p>
+<h5 id="实例-1"><a href="#实例-1" class="headerlink" title="实例"></a>实例</h5><p>下面的实例演示了方法的用法：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- 模态框（Modal） --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal fade"</span> <span class="attr">id</span>=<span class="string">"myModal"</span> <span class="attr">tabindex</span>=<span class="string">"-1"</span> <span class="attr">role</span>=<span class="string">"dialog"</span> <span class="attr">aria-labelledby</span>=<span class="string">"myModalLabel"</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-dialog"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-content"</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-header"</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"close"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span>×<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">h4</span> <span class="attr">class</span>=<span class="string">"modal-title"</span> <span class="attr">id</span>=<span class="string">"myModalLabel"</span>&gt;</span>模态框（Modal）标题<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-body"</span>&gt;</span>按下 ESC 按钮退出。<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-footer"</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-default"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span>&gt;</span>关闭<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-primary"</span>&gt;</span>提交更改<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="comment">&lt;!-- /.modal-content --&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="comment">&lt;!-- /.modal-dialog --&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /.modal --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></div><div class="line">$(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    $(<span class="string">'#myModal'</span>).modal(&#123;</div><div class="line">        <span class="attr">keyboard</span>: <span class="literal">true</span></div><div class="line">    &#125;)</div><div class="line">&#125;);</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><a href="http://www.runoob.com/try/try.php?filename=bootstrap3-plugin-modal-method" target="_blank" rel="external">进入演示&gt;&gt;</a></p>
+<p>结果如下所示：</p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/modalpluginmethod_demo.jpg" alt=""></p>
+<p>只需要点击 ESC 键，模态窗口即会退出。</p>
+<h3 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h3><blockquote>
+<label style="color: red"> 注意 ： 我也是在这里踩了坑，当时想监听右上角关闭的事件，写了但是没有效果，最后在这里发现了以下的 <em>hide.bs.modal</em> 这个方法来触发，所以才打算来记录，整理一下这个笔记。 </label>
+
+</blockquote>
+<p>下表列出了模态框中要用到事件。这些事件可在函数中当钩子使用。</p>
+<table>
+<thead>
+<tr>
+<th>事件</th>
+<th>描述</th>
+<th>实例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>show.bs.modal</td>
+<td>在调用 show 方法后触发。</td>
+<td>$(‘#identifier’).on(‘show.bs.modal’, function () { // 执行一些动作…})</td>
+</tr>
+<tr>
+<td>shown.bs.modal</td>
+<td>当模态框对用户可见时触发（将等待 CSS 过渡效果完成）。</td>
+<td>$(‘#identifier’).on(‘shown.bs.modal’, function () { // 执行一些动作… })</td>
+</tr>
+<tr>
+<td>hide.bs.modal</td>
+<td>当调用 hide 实例方法时触发。</td>
+<td>$(‘#identifier’).on(‘hide.bs.modal’, function () { // 执行一些动作… })</td>
+</tr>
+<tr>
+<td>hidden.bs.modal</td>
+<td>当模态框完全对用户隐藏时触发。</td>
+<td>$(‘#identifier’).on(‘hidden.bs.modal’, function () { // 执行一些动作… })</td>
+</tr>
+</tbody>
+</table>
+<h5 id="实例-2"><a href="#实例-2" class="headerlink" title="实例"></a>实例</h5><p>下面的实例演示了事件的用法：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- 模态框（Modal） --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">h2</span>&gt;</span>模态框（Modal）插件事件<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- 按钮触发模态框 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">"btn btn-primary btn-lg"</span> <span class="attr">data-toggle</span>=<span class="string">"modal"</span> <span class="attr">data-target</span>=<span class="string">"#myModal"</span>&gt;</span>开始演示模态框<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- 模态框（Modal） --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal fade"</span> <span class="attr">id</span>=<span class="string">"myModal"</span> <span class="attr">tabindex</span>=<span class="string">"-1"</span> <span class="attr">role</span>=<span class="string">"dialog"</span> <span class="attr">aria-labelledby</span>=<span class="string">"myModalLabel"</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-dialog"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-content"</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-header"</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"close"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span>×<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">h4</span> <span class="attr">class</span>=<span class="string">"modal-title"</span> <span class="attr">id</span>=<span class="string">"myModalLabel"</span>&gt;</span>模态框（Modal）标题<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-body"</span>&gt;</span>点击关闭按钮检查事件功能。<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-footer"</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-default"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span>&gt;</span>关闭<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-primary"</span>&gt;</span>提交更改<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="comment">&lt;!-- /.modal-content --&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="comment">&lt;!-- /.modal-dialog --&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /.modal --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></div><div class="line">$(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    $(<span class="string">'#myModal'</span>).modal(<span class="string">'hide'</span>)</div><div class="line">&#125;);</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></div><div class="line">$(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    $(<span class="string">'#myModal'</span>).on(<span class="string">'hide.bs.modal'</span>,</div><div class="line">    <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">        alert(<span class="string">'嘿，我听说您喜欢模态框...'</span>);</div><div class="line">    &#125;)</div><div class="line">&#125;);</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><a href="http://www.runoob.com/try/try.php?filename=bootstrap3-plugin-modal-event" target="_blank" rel="external">进入演示&gt;&gt;</a></p>
+<p>结果如下所示：</p>
+<p><img src="http://osauqjpy8.bkt.clouddn.com/github/modalpluginevents_demo.jpg" alt=""></p>
+<p>参考文档：<a href="http://www.runoob.com/bootstrap/bootstrap-modal-plugin.html" target="_blank" rel="external">Bootstrap 模态框（Modal）插件</a></p>
+<p> —— Create By Lycos </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Bootstrap-模态框（Modal）插件&quot;&gt;&lt;a href=&quot;#Bootstrap-模态框（Modal）插件&quot; class=&quot;headerlink&quot; title=&quot;Bootstrap 模态框（Modal）插件&quot;&gt;&lt;/a&gt;Bootstrap 模态框（Modal）插件&lt;/h3&gt;&lt;p&gt;模态框（Modal）是覆盖在父窗体上的子窗体。通常，目的是显示来自一个单独的源的内容，可以在不离开父窗体的情况下有一些互动。子窗体可提供信息、交互等。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果您想要单独引用该插件的功能，那么您需要引用 &lt;strong&gt;modal.js&lt;/strong&gt;。或者，正如 Bootstrap 插件概览 一章中所提到，您可以引用 &lt;em&gt;bootstrap.js&lt;/em&gt; 或压缩版的 &lt;em&gt;bootstrap.min.js&lt;/em&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;用法&quot;&gt;&lt;a href=&quot;#用法&quot; class=&quot;headerlink&quot; title=&quot;用法&quot;&gt;&lt;/a&gt;用法&lt;/h3&gt;&lt;p&gt;您可以切换模态框（Modal）插件的隐藏内容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;通过 data 属性：在控制器元素（比如按钮或者链接）上设置属性 &lt;strong&gt;data-toggle=”modal”&lt;/strong&gt;，同时设置 &lt;strong&gt;data-target=”#identifier”&lt;/strong&gt; 或 &lt;strong&gt;href=”#identifier”&lt;/strong&gt; 来指定要切换的特定的模态框（带有 id=”identifier”）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;通过 JavaScript：使用这种技术，您可以通过简单的一行 JavaScript 来调用带有 &lt;strong&gt;id=”identifier”&lt;/strong&gt; 的模态框：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight gams&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;$&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;#identifier&#39;&lt;/span&gt;).modal(&lt;span class=&quot;keyword&quot;&gt;options&lt;/span&gt;)&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="bootstrap" scheme="http://www.liuyuchuan.com/tags/bootstrap/"/>
+    
+      <category term="modal" scheme="http://www.liuyuchuan.com/tags/modal/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>健康与运动</title>
+    <link href="http://www.liuyuchuan.com/2017/07/05/%E5%81%A5%E5%BA%B7%E4%B8%8E%E8%BF%90%E5%8A%A8/"/>
+    <id>http://www.liuyuchuan.com/2017/07/05/健康与运动/</id>
+    <published>2017-07-05T08:35:23.996Z</published>
+    <updated>2017-08-06T15:58:12.299Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="那些年，走过的路"><a href="#那些年，走过的路" class="headerlink" title="那些年，走过的路"></a>那些年，走过的路</h4><p>##2017年</p>
+<blockquote>
+<p>2月份</p>
+</blockquote>
+<pre><code>1、02月12日 25KM 牛木外线
+</code></pre><blockquote>
+<p>3月份</p>
+</blockquote>
+<pre><code>暂无数据。
+</code></pre><blockquote>
+<p>4月份</p>
+</blockquote>
+<pre><code>1、04月09日 16KM 火凤线
+</code></pre><a id="more"></a>
+<blockquote>
+<p>5月份</p>
+</blockquote>
+<pre><code>1、05月06日 20KM 渔帽线（第一机耕路）
+</code></pre><blockquote>
+<p>6月份</p>
+</blockquote>
+<pre><code>1.06月11日 11.4KM 龙洞总站到大源森源居农庄（腐败游水线）
+</code></pre><blockquote>
+<p>7月份</p>
+</blockquote>
+<pre><code>1、07月01日 2KM 火炉山（后山开炉 - 腐败线）
+</code></pre><h6 id="—-—同步更新博客园"><a href="#—-—同步更新博客园" class="headerlink" title="— —同步更新博客园"></a>— —同步更新<a href="http://www.cnblogs.com/yuchuan/p/hill.html" target="_blank" rel="external">博客园</a></h6>]]></content>
+    
+    <summary type="html">
+    
+      那些年，登山徒步远足记录，立贴
+    
+    </summary>
+    
+      <category term="生活随笔" scheme="http://www.liuyuchuan.com/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="sport" scheme="http://www.liuyuchuan.com/tags/sport/"/>
+    
+      <category term="healthy" scheme="http://www.liuyuchuan.com/tags/healthy/"/>
+    
+      <category term="hill" scheme="http://www.liuyuchuan.com/tags/hill/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ajax 方法以及参数的参考</title>
+    <link href="http://www.liuyuchuan.com/2017/07/05/jquery_ajax/"/>
+    <id>http://www.liuyuchuan.com/2017/07/05/jquery_ajax/</id>
+    <published>2017-07-05T03:30:38.672Z</published>
+    <updated>2017-08-06T15:58:45.084Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="jQuery-ajax-ajax-方法"><a href="#jQuery-ajax-ajax-方法" class="headerlink" title="jQuery ajax - ajax() 方法"></a>jQuery ajax - ajax() 方法</h2><h3 id="定义和用法"><a href="#定义和用法" class="headerlink" title="定义和用法"></a>定义和用法</h3><p>ajax()方法通过HTTP请求加载远程数据。<br>该方法是jQuery底层AJAX实现。简单易用的高层实现见 <em>$.get</em> , <em>$.post</em> 等。 <em>$.ajax()</em> 返回其创建的 <em>XMLHttpRequest</em> 对象。大多数情况下你无需直接操作该函数，除非你需要操作不常用的选项，以获得更多的灵活性。最简单的情况下，<em>$.ajax()</em> 可以不带任何参数直接使用。<br><span style="color: red; ">注意</span>：所有的选项都可以通过 <em>$.ajaxSetup()</em> 函数来全局设置。</p>
+<h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h1><pre><code>jQuery.ajax([settings])
+</code></pre><table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">settings</td>
+<td style="text-align:left">可选。用于配置 Ajax 请求的键值对集合。<br>可以通过 <em>$.ajaxSetup()</em> 设置任何选项的默认值。</td>
+</tr>
+</tbody>
+</table>
+<a id="more"></a>
+<h1 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h1><h5 id="options"><a href="#options" class="headerlink" title="options"></a>options</h5><p>类型：Object<br>说明：可选。AJAX 请求设置。所有选项都是可选的。</p>
+<h5 id="async"><a href="#async" class="headerlink" title="async"></a>async</h5><p>类型：Boolean<br>说明：默认值: true。默认设置下，所有请求均为异步请求。如果需要发送同步请求，请将此选项设置为 false。注意，同步请求将锁住浏览器，用户其它操作必须等待请求完成才可以执行。</p>
+<h5 id="beforeSend-XHR"><a href="#beforeSend-XHR" class="headerlink" title="beforeSend(XHR)"></a>beforeSend(XHR)</h5><p>类型：Function<br>说明：发送请求前可修改 XMLHttpRequest 对象的函数，如添加自定义 HTTP 头。XMLHttpRequest 对象是唯一的参数。这是一个 Ajax 事件。如果返回 false 可以取消本次 ajax 请求。</p>
+<h5 id="cache"><a href="#cache" class="headerlink" title="cache"></a>cache</h5><p>类型：Boolean<br>说明：默认值: true，dataType 为 script 和 jsonp 时默认为 false。设置为 false 将不缓存此页面。jQuery 1.2 新功能。</p>
+<h5 id="complete-XHR-TS"><a href="#complete-XHR-TS" class="headerlink" title="complete(XHR, TS)"></a>complete(XHR, TS)</h5><p>类型：Function<br>说明：请求完成后回调函数 (请求成功或失败之后均调用)。参数： XMLHttpRequest 对象和一个描述请求类型的字符串。这是一个 Ajax 事件。</p>
+<h5 id="contentType"><a href="#contentType" class="headerlink" title="contentType"></a>contentType</h5><p>类型：String<br>说明：默认值: “application/x-www-form-urlencoded”。发送信息至服务器时内容编码类型。默认值适合大多数情况。如果你明确地传递了一个 content-type 给 $.ajax() 那么它必定会发送给服务器（即使没有数据要发送）。</p>
+<h5 id="context"><a href="#context" class="headerlink" title="context"></a>context</h5><p>类型：Object<br>说明：这个对象用于设置 Ajax 相关回调函数的上下文。也就是说，让回调函数内 this 指向这个对象（如果不设定这个参数，那么 this 就指向调用本次 AJAX 请求时传递的 options 参数）。比如指定一个 DOM 元素作为 context 参数，这样就设置了 success 回调函数的上下文为这个 DOM 元素。就像这样：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$.ajax(&#123; </div><div class="line">  <span class="attr">url</span>: <span class="string">"test.html"</span>, </div><div class="line">  <span class="attr">context</span>: <span class="built_in">document</span>.body, </div><div class="line">  <span class="attr">success</span>: <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">truetrue$(<span class="keyword">this</span>).addClass(<span class="string">"done"</span>);</div><div class="line">  &#125;&#125;);</div></pre></td></tr></table></figure></p>
+<h5 id="data"><a href="#data" class="headerlink" title="data"></a>data</h5><p>类型：String<br>说明：发送到服务器的数据。将自动转换为请求字符串格式。GET 请求中将附加在 URL 后。查看 processData 选项说明以禁止此自动转换。必须为 Key/Value 格式。如果为数组，jQuery 将自动为不同值对应同一个名称。如 {foo:[“bar1”, “bar2”]} 转换为 ‘&amp;foo=bar1&amp;foo=bar2’。</p>
+<h5 id="dataFilter"><a href="#dataFilter" class="headerlink" title="dataFilter"></a>dataFilter</h5><p>类型：Function<br>说明：给 Ajax 返回的原始数据的进行预处理的函数。提供 data 和 type 两个参数：data 是 Ajax 返回的原始数据，type 是调用 jQuery.ajax 时提供的 dataType 参数。函数返回的值将由 jQuery 进一步处理。</p>
+<h5 id="dataType"><a href="#dataType" class="headerlink" title="dataType"></a>dataType</h5><p>类型：String<br>说明：预期服务器返回的数据类型。如果不指定，jQuery 将自动根据 HTTP 包 MIME 信息来智能判断，比如 XML MIME 类型就被识别为 XML。在 1.4 中，JSON 就会生成一个 JavaScript 对象，而 script 则会执行这个脚本。随后服务器端返回的数据会根据这个值解析后，传递给回调函数。可用值:</p>
+<ul>
+<li>“xml”: 返回 XML 文档，可用 jQuery 处理。</li>
+<li>“html”: 返回纯文本 HTML 信息；包含的 script 标签会在插入 dom 时执行。</li>
+<li>“script”: 返回纯文本 JavaScript 代码。不会自动缓存结果。除非设置了 “cache” 参数。注意：在远程请求时(不在同一个域下)，所有 POST 请求都将转为 GET 请求。（因为将使用 DOM 的 script标签来加载）</li>
+<li>“json”: 返回 JSON 数据 。</li>
+<li>“jsonp”: JSONP 格式。使用 JSONP 形式调用函数时，如 “myurl?callback=?” jQuery 将自动替换 ? 为正确的函数名，以执行回调函数。</li>
+<li>“text”: 返回纯文本字符串</li>
+</ul>
+<h5 id="error"><a href="#error" class="headerlink" title="error"></a>error</h5><p>类型：Function<br>说明：默认值: 自动判断 (xml 或 html)。请求失败时调用此函数。<br>有以下三个参数：XMLHttpRequest 对象、错误信息、（可选）捕获的异常对象。<br>如果发生了错误，错误信息（第二个参数）除了得到 null 之外，还可能是 “timeout”, “error”, “notmodified” 和 “parsererror”。<br>这是一个 Ajax 事件。</p>
+<h5 id="global"><a href="#global" class="headerlink" title="global"></a>global</h5><p>类型：Boolean<br>说明：是否触发全局 AJAX 事件。默认值: true。设置为 false 将不会触发全局 AJAX 事件，如 ajaxStart 或 ajaxStop 可用于控制不同的 Ajax 事件。</p>
+<h5 id="ifModified"><a href="#ifModified" class="headerlink" title="ifModified"></a>ifModified</h5><p>类型：Boolean<br>说明：仅在服务器数据改变时获取新数据。默认值: false。使用 HTTP 包 Last-Modified 头信息判断。在 jQuery 1.4 中，它也会检查服务器指定的 ‘etag’ 来确定数据没有被修改过。</p>
+<h5 id="jsonp"><a href="#jsonp" class="headerlink" title="jsonp"></a>jsonp</h5><p>类型：String<br>说明：在一个 jsonp 请求中重写回调函数的名字。这个值用来替代在 “callback=?” 这种 GET 或 POST 请求中 URL 参数里的 “callback” 部分，比如 {jsonp:’onJsonPLoad’} 会导致将 “onJsonPLoad=?” 传给服务器。</p>
+<h5 id="jsonpCallback"><a href="#jsonpCallback" class="headerlink" title="jsonpCallback"></a>jsonpCallback</h5><p>类型：String<br>说明：为 jsonp 请求指定一个回调函数名。这个值将用来取代 jQuery 自动生成的随机函数名。这主要用来让 jQuery 生成度独特的函数名，这样管理请求更容易，也能方便地提供回调函数和错误处理。你也可以在想让浏览器缓存 GET 请求的时候，指定这个回调函数名。</p>
+<h5 id="password"><a href="#password" class="headerlink" title="password"></a>password</h5><p>类型：String<br>说明：用于响应 HTTP 访问认证请求的密码</p>
+<h5 id="processData"><a href="#processData" class="headerlink" title="processData"></a>processData</h5><p>类型：Boolean<br>说明：默认值: true。默认情况下，通过data选项传递进来的数据，如果是一个对象(技术上讲只要不是字符串)，都会处理转化成一个查询字符串，以配合默认内容类型 “application/x-www-form-urlencoded”。如果要发送 DOM 树信息或其它不希望转换的信息，请设置为 false。</p>
+<h5 id="scriptCharset"><a href="#scriptCharset" class="headerlink" title="scriptCharset"></a>scriptCharset</h5><p>类型：String<br>说明：只有当请求时 dataType 为 “jsonp” 或 “script”，并且 type 是 “GET” 才会用于强制修改 charset。通常只在本地和远程的内容编码不同时使用。</p>
+<h5 id="success"><a href="#success" class="headerlink" title="success"></a>success</h5><p>类型：Function<br>说明：请求成功后的回调函数。<br>参数：由服务器返回，并根据 dataType 参数进行处理后的数据；描述状态的字符串。<br>这是一个 Ajax 事件。</p>
+<h5 id="traditional"><a href="#traditional" class="headerlink" title="traditional"></a>traditional</h5><p>类型：Boolean<br>说明：如果你想要用传统的方式来序列化数据，那么就设置为 true。请参考工具分类下面的 jQuery.param 方法。</p>
+<h5 id="timeout"><a href="#timeout" class="headerlink" title="timeout"></a>timeout</h5><p>类型：Number<br>说明：设置请求超时时间（毫秒）。此设置将覆盖全局设置。</p>
+<h5 id="type"><a href="#type" class="headerlink" title="type"></a>type</h5><p>类型：String<br>说明：默认值: “GET”)。请求方式 (“POST” 或 “GET”)， 默认为 “GET”。注意：其它 HTTP 请求方法，如 PUT 和 DELETE 也可以使用，但仅部分浏览器支持。</p>
+<h5 id="url"><a href="#url" class="headerlink" title="url"></a>url</h5><p>类型：String<br>说明：默认值: 当前页地址。发送请求的地址。</p>
+<h5 id="username"><a href="#username" class="headerlink" title="username"></a>username</h5><p>类型：String<br>说明：用于响应 HTTP 访问认证请求的用户名。</p>
+<h5 id="xhr"><a href="#xhr" class="headerlink" title="xhr"></a>xhr</h5><p>类型：Function<br>说明：需要返回一个 XMLHttpRequest 对象。默认在 IE 下是 ActiveXObject 而其他情况下是 XMLHttpRequest 。用于重写或者提供一个增强的 XMLHttpRequest 对象。这个参数在 jQuery 1.3 以前不可用。</p>
+<hr>
+<p>如果要处理 $.ajax() 得到的数据，则需要使用回调函数：beforeSend、error、dataFilter、success、complete。</p>
+<h5 id="beforeSend"><a href="#beforeSend" class="headerlink" title="beforeSend"></a>beforeSend</h5><p>在发送请求之前调用，并且传入一个 XMLHttpRequest 作为参数。</p>
+<h5 id="error-1"><a href="#error-1" class="headerlink" title="error"></a>error</h5><p>在请求出错时调用。传入 XMLHttpRequest 对象，描述错误类型的字符串以及一个异常对象（如果有的话）</p>
+<h5 id="dataFilter-1"><a href="#dataFilter-1" class="headerlink" title="dataFilter"></a>dataFilter</h5><p>在请求成功之后调用。传入返回的数据以及 “dataType” 参数的值。并且必须返回新的数据（可能是处理过的）传递给 success 回调函数。</p>
+<h5 id="success-1"><a href="#success-1" class="headerlink" title="success"></a>success</h5><p>当请求之后调用。传入返回后的数据，以及包含成功代码的字符串。</p>
+<h5 id="complete"><a href="#complete" class="headerlink" title="complete"></a>complete</h5><p>当请求完成之后调用这个函数，无论成功或失败。传入 XMLHttpRequest 对象，以及一个包含成功或错误代码的字符串。</p>
+<hr>
+<h5 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h5><p>$.ajax() 函数依赖服务器提供的信息来处理返回的数据。如果服务器报告说返回的数据是 XML，那么返回的结果就可以用普通的 XML 方法或者 jQuery 的选择器来遍历。如果见得到其他类型，比如 HTML，则数据就以文本形式来对待。</p>
+<p>通过 dataType 选项还可以指定其他不同数据处理方式。除了单纯的 XML，还可以指定 html、json、jsonp、script 或者 text。</p>
+<p>其中，text 和 xml 类型返回的数据不会经过处理。数据仅仅简单的将 XMLHttpRequest 的 responseText 或 responseHTML 属性传递给 success 回调函数。</p>
+<p><label style="color: red">注意</label>：我们必须确保网页服务器报告的 MIME 类型与我们选择的 dataType 所匹配。比如说，XML的话，服务器端就必须声明 text/xml 或者 application/xml 来获得一致的结果。</p>
+<p>如果指定为 html 类型，任何内嵌的 JavaScript 都会在 HTML 作为一个字符串返回之前执行。类似地，指定 script 类型的话，也会先执行服务器端生成 JavaScript，然后再把脚本作为一个文本数据返回。</p>
+<p>如果指定为 json 类型，则会把获取到的数据作为一个 JavaScript 对象来解析，并且把构建好的对象作为结</p>
+<p>如果返回。为了实现这个目的，它首先尝试使用 JSON.parse()。如果浏览器不支持，则使用一个函数来构建。</p>
+<p>JSON 数据是一种能很方便通过 JavaScript 解析的结构化数据。如果获取的数据文件存放在远程服务器上（域名不同，也就是跨域获取数据），则需要使用 jsonp 类型。使用这种类型的话，会创建一个查询字符串参数 callback=? ，这个参数会加在请求的 URL 后面。服务器端应当在 JSON 数据前加上回调函数名，以便完成一个有效的 JSONP 请求。如果要指定回调函数的参数名来取代默认的 callback，可以通过设置 $.ajax() 的 jsonp 参数。</p>
+<p><label style="color: red">注意</label>：JSONP 是 JSON 格式的扩展。它要求一些服务器端的代码来检测并处理查询字符串参数。<br>如果指定了 script 或者 jsonp 类型，那么当从服务器接收到数据时，实际上是用了 <script> 标签而不是 XMLHttpRequest 对象。这种情况下，$.ajax() 不再返回一个 XMLHttpRequest 对象，并且也不会传递事件处理函数，比如 beforeSend。</p>
+<hr>
+<h5 id="发送数据到服务器"><a href="#发送数据到服务器" class="headerlink" title="发送数据到服务器"></a>发送数据到服务器</h5><p>默认情况下，Ajax 请求使用 GET 方法。如果要使用 POST 方法，可以设定 type 参数值。这个选项也会影响 data 选项中的内容如何发送到服务器。</p>
+<p>data 选项既可以包含一个查询字符串，比如 key1=value1&amp;key2=value2 ，也可以是一个映射，比如 {key1: ‘value1’, key2: ‘value2’} 。如果使用了后者的形式，则数据再发送器会被转换成查询字符串。这个处理过程也可以通过设置 processData 选项为 false 来回避。如果我们希望发送一个 XML 对象给服务器时，这种处理可能并不合适。并且在这种情况下，我们也应当改变 contentType 选项的值，用其他合适的 MIME 类型来取代默认的 application/x-www-form-urlencoded 。</p>
+<hr>
+<h5 id="高级选项"><a href="#高级选项" class="headerlink" title="高级选项"></a>高级选项</h5><p>global 选项用于阻止响应注册的回调函数，比如 .ajaxSend，或者 ajaxError，以及类似的方法。这在有些时候很有用，比如发送的请求非常频繁且简短的时候，就可以在 ajaxSend 里禁用这个。</p>
+<p>如果服务器需要 HTTP 认证，可以使用用户名和密码可以通过 username 和 password 选项来设置。</p>
+<p>Ajax 请求是限时的，所以错误警告被捕获并处理后，可以用来提升用户体验。请求超时这个参数通常就保留其默认值，要不就通过 jQuery.ajaxSetup 来全局设定，很少为特定的请求重新设置 timeout 选项。</p>
+<p>默认情况下，请求总会被发出去，但浏览器有可能从它的缓存中调取数据。要禁止使用缓存的结果，可以设置 cache 参数为 false。如果希望判断数据自从上次请求后没有更改过就报告出错的话，可以设置 ifModified 为 true。</p>
+<p>scriptCharset 允许给 <script> 标签的请求设定一个特定的字符集，用于 script 或者 jsonp 类似的数据。当脚本和页面字符集不同时，这特别好用。</p>
+<p>Ajax 的第一个字母是 asynchronous 的开头字母，这意味着所有的操作都是并行的，完成的顺序没有前后关系。$.ajax() 的 async 参数总是设置成true，这标志着在请求开始后，其他代码依然能够执行。强烈不建议把这个选项设置成 false，这意味着所有的请求都不再是异步的了，这也会导致浏览器被锁死。</p>
+<p>$.ajax 函数返回它创建的 XMLHttpRequest 对象。通常 jQuery 只在内部处理并创建这个对象，但用户也可以通过 xhr 选项来传递一个自己创建的 xhr 对象。返回的对象通常已经被丢弃了，但依然提供一个底层接口来观察和操控请求。比如说，调用对象上的 .abort() 可以在请求完成前挂起请求。</p>
+<hr>
+<p>参考文献：<a href="http://www.w3school.com.cn/jquery/ajax_ajax.asp">w3school</a></p>
+<p>编辑日期： 2017-07-05</p>
+</script></p>]]></content>
+    
+    <summary type="html">
+    
+      JQuery的一些方法整理
+    
+    </summary>
+    
+      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="jquery" scheme="http://www.liuyuchuan.com/tags/jquery/"/>
+    
+      <category term="ajax" scheme="http://www.liuyuchuan.com/tags/ajax/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>诗与远方</title>
+    <link href="http://www.liuyuchuan.com/2017/07/04/%E8%AF%97%E4%B8%8E%E8%BF%9C%E6%96%B9/"/>
+    <id>http://www.liuyuchuan.com/2017/07/04/诗与远方/</id>
+    <published>2017-07-03T16:47:53.000Z</published>
+    <updated>2017-08-06T15:58:05.843Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>导读</p>
+</blockquote>
+<p>“生命不只是苟且，还有诗和远方。” —— 高晓松</p>
+<h3 id="诗"><a href="#诗" class="headerlink" title="诗"></a>诗</h3><p>不知道怎么想起来了这句话，然后就想写点什么东西，让自己在这忙碌的世界里面有一丝丝的安慰。</p>
+<p><em>曾经梦想，要给自己作一首诗，用来描绘属于自己的那一首；<br>曾经梦想，要给每一个人写一首诗，赋予一个时代意义的符号；<br>曾经梦想，要给每一个生灵幻想一首诗，用来表达对这个世界的敬畏之情。</em></p>
+<p>诗，是一种情怀。</p>
+<a id="more"></a>
+<h3 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h3><p>生活像是一摸红，耀眼，但只属于自己的耀眼，跟旁人无关。</p>
+<p>有些时候，不经意的把种子撒在花盆，经历雨水的洗礼，发芽，生叶，开花，结果，凋落。它这一生，我都在默默的看着。</p>
+<p>有些时候，路边捡到一只流浪猫，经过不知道多少个夜晚，它学会了猫砂盆拉屎，不在随意撒尿，偶尔还会吃掉你那争艳的花儿与绿叶。</p>
+<p>有些时候，结束了单身汪的生活，所谓无缝结合也便是一种一个人忍让另一个人的所谓包容。</p>
+<p>生活，是一种经历。</p>
+<h3 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h3><p>工种的不同，告诉我们，每一个人的责任不同。无论是哪一种或者哪一类的工作，都有烦心事。当我们遇到烦心的事情的时候，在心里默默数着：<br>  <em>123，开始干</em><br>有事情，就应该有一种符合当前情况的最佳解决方案，所以，无须担心，无需纠结，果断的处理一下。</p>
+<p>工作，是一种抉择。</p>
+<h3 id="遭遇"><a href="#遭遇" class="headerlink" title="遭遇"></a>遭遇</h3><p>这不一定是一个贬义词，它偶尔像 “<em>塞翁失马，焉知非福</em>” ，偶尔像 “<em>亡羊补牢，为时不晚</em>”。遭遇，略带一些伤感，冷静后我们发现，它让我们知道下一步的计划应该如何走。</p>
+<p>遭遇，是一个方向灯。</p>
+<h3 id="远方"><a href="#远方" class="headerlink" title="远方"></a>远方</h3><p>站在山的这一头，却希冀山的另一头。这是一种向往，一种激励我们前进的催化剂。</p>
+<p>没有了远方的理想，怎么才有前进的动力，当动力与压力接踵而至，催化剂生效了。没有一个人是随随便便就可以成功，只因为他们有远方，只不过，他们在去远方的道路上认真些罢了。</p>
+<p>远方，是一种向往。</p>
+<h3 id="真谛"><a href="#真谛" class="headerlink" title="真谛"></a>真谛</h3><p>后来，我才发现，“生命不只是苟且，还有诗和远方”这一句话的真正的意义。</p>
+<p>Create by <strong><em>Lycos</em></strong> in 2017-07-04<br>Update by <strong><em>Lycos</em></strong> in 2017-07-06</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;导读&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;“生命不只是苟且，还有诗和远方。” —— 高晓松&lt;/p&gt;
+&lt;h3 id=&quot;诗&quot;&gt;&lt;a href=&quot;#诗&quot; class=&quot;headerlink&quot; title=&quot;诗&quot;&gt;&lt;/a&gt;诗&lt;/h3&gt;&lt;p&gt;不知道怎么想起来了这句话，然后就想写点什么东西，让自己在这忙碌的世界里面有一丝丝的安慰。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;曾经梦想，要给自己作一首诗，用来描绘属于自己的那一首；&lt;br&gt;曾经梦想，要给每一个人写一首诗，赋予一个时代意义的符号；&lt;br&gt;曾经梦想，要给每一个生灵幻想一首诗，用来表达对这个世界的敬畏之情。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;诗，是一种情怀。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="生活随笔" scheme="http://www.liuyuchuan.com/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="poetry" scheme="http://www.liuyuchuan.com/tags/poetry/"/>
+    
+      <category term="word" scheme="http://www.liuyuchuan.com/tags/word/"/>
+    
+      <category term="writing" scheme="http://www.liuyuchuan.com/tags/writing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>埋点整理</title>
+    <link href="http://www.liuyuchuan.com/2017/07/03/burying_point/"/>
+    <id>http://www.liuyuchuan.com/2017/07/03/burying_point/</id>
+    <published>2017-07-03T03:17:26.591Z</published>
+    <updated>2017-08-06T15:59:12.914Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎大家 <br></p>
+<h3 id="一、-自我介绍"><a href="#一、-自我介绍" class="headerlink" title="一、 自我介绍"></a>一、 自我介绍</h3><blockquote>
+<p>埋点</p>
+</blockquote>
+<h3 id="二、-说明文档"><a href="#二、-说明文档" class="headerlink" title="二、 说明文档"></a>二、 说明文档</h3><p>1、 <a href="http://note.youdao.com/share/?id=ba888e25dec8d59f030a0ee25ca1d1a1&amp;type=note#/" target="_blank" rel="external">手工埋点样例 – 有道</a> </p>
+<p>2、 <a href="http://docs.sugo.io/developer/web/get-sdk.html" target="_blank" rel="external">官方 – 文档</a></p>
+<a id="more"></a>
+<h3 id="三、-操作"><a href="#三、-操作" class="headerlink" title="三、 操作"></a>三、 操作</h3><p> 1、 载入</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">...</div><div class="line">    <span class="comment">&lt;!-- start sugoio --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">'text/javascript'</span>&gt;</span><span class="javascript"></span></div><div class="line">        <span class="comment">// var SUGOIO_CUSTOM_LIB_URL = "http://astro.sugo.io/_bc/sugo-sdk-js/libs/sugoio-latest.min.js";</span></div><div class="line"></div><div class="line">        (<span class="function"><span class="keyword">function</span>(<span class="params">e,a</span>)</span>&#123;<span class="keyword">if</span>(!a.__SV)&#123;<span class="keyword">var</span> b=<span class="built_in">window</span>;<span class="keyword">try</span>&#123;<span class="keyword">var</span> c,n,k,l=b.location,g=l.hash;c=<span class="function"><span class="keyword">function</span>(<span class="params">a,b</span>)</span>&#123;<span class="keyword">return</span>(n=a.match(<span class="keyword">new</span> <span class="built_in">RegExp</span>(b+<span class="string">"=([^&amp;]*)"</span>)))?n[<span class="number">1</span>]:<span class="literal">null</span>&#125;;g&amp;&amp;c(g,<span class="string">"state"</span>)&amp;&amp;(k=<span class="built_in">JSON</span>.parse(<span class="built_in">decodeURIComponent</span>(c(g,<span class="string">"state"</span>))),<span class="string">"mpeditor"</span>===k.action&amp;&amp;(b.sessionStorage.setItem(<span class="string">"_mpcehash"</span>,g),history.replaceState(k.desiredHash||<span class="string">""</span>,e.title,l.pathname+l.search)))&#125;<span class="keyword">catch</span>(p)&#123;&#125;<span class="keyword">var</span> m,h;<span class="built_in">window</span>.sugoio=a;a._i=[];a.init=<span class="function"><span class="keyword">function</span>(<span class="params">b,c,f</span>)</span>&#123;<span class="function"><span class="keyword">function</span> <span class="title">e</span>(<span class="params">b,a</span>)</span>&#123;<span class="keyword">var</span> c=a.split(<span class="string">"."</span>);<span class="number">2</span>==c.length&amp;&amp;(b=b[c[<span class="number">0</span>]],a=c[<span class="number">1</span>]);b[a]=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;b.push([a].concat(<span class="built_in">Array</span>.prototype.slice.call(<span class="built_in">arguments</span>,</div><div class="line">        <span class="number">0</span>)))&#125;&#125;<span class="keyword">var</span> d=a;<span class="string">"undefined"</span>!==<span class="keyword">typeof</span> f?d=a[f]=[]:f=<span class="string">"sugoio"</span>;d.people=d.people||[];d.toString=<span class="function"><span class="keyword">function</span>(<span class="params">b</span>)</span>&#123;<span class="keyword">var</span> a=<span class="string">"sugoio"</span>;<span class="string">"sugoio"</span>!==f&amp;&amp;(a+=<span class="string">"."</span>+f);b||(a+=<span class="string">" (stub)"</span>);<span class="keyword">return</span> a&#125;;d.people.toString=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="keyword">return</span> d.toString(<span class="number">1</span>)+<span class="string">".people (stub)"</span>&#125;;m=<span class="string">"disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user"</span>.split(<span class="string">" "</span>);</div><div class="line">        <span class="keyword">for</span>(h=<span class="number">0</span>;h&lt;m.length;h++)e(d,m[h]);a._i.push([b,c,f])&#125;;a.__SV=<span class="number">1.2</span>;b=e.createElement(<span class="string">"script"</span>);b.type=<span class="string">"text/javascript"</span>;b.async=!<span class="number">0</span>;<span class="string">"undefined"</span>!==<span class="keyword">typeof</span> SUGOIO_CUSTOM_LIB_URL?b.src=SUGOIO_CUSTOM_LIB_URL:b.src=<span class="string">"file:"</span>===e.location.protocol&amp;&amp;<span class="string">"//astro.sugo.io/_bc/sugo-sdk-js/libs/sugoio-latest.min.js"</span>.match(<span class="regexp">/^\/\//</span>)?<span class="string">"https://astro.sugo.io/_bc/sugo-sdk-js/libs/sugoio-latest.min.js"</span>:<span class="string">"//astro.sugo.io/_bc/sugo-sdk-js/libs/sugoio-latest.min.js"</span>;c=e.getElementsByTagName(<span class="string">"script"</span>)[<span class="number">0</span>];c.parentNode.insertBefore(b,</div><div class="line">        c)&#125;&#125;)(<span class="built_in">document</span>,<span class="built_in">window</span>.sugoio||[]);</div><div class="line"></div><div class="line">        sugoio.init(<span class="string">'YOUR_TOKEN'</span>, &#123;<span class="string">'project_id'</span>: <span class="string">'YOUR_PROJECT_ID'</span>&#125;);</div><div class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!-- end sugoio --&gt;</span></div><div class="line">...</div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div></pre></td></tr></table></figure>
+<p> 2、 初始化</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">sugoio</span><span class="selector-class">.init</span>(<span class="string">'YOUR_TOKEN'</span>, &#123; <span class="comment">// 项目TOKEN</span></div><div class="line">    <span class="attribute">project_id</span>: <span class="string">'YOUR_PROJECT_ID'</span>, <span class="comment">// 项目ID</span></div><div class="line">    <span class="attribute">api_host</span>: <span class="string">''</span>, <span class="comment">// sugoio-latest.min.js文件以及数据上报的地址</span></div><div class="line">    <span class="attribute">app_host</span>: <span class="string">''</span>, <span class="comment">// 可视化配置时服务端地址</span></div><div class="line">    <span class="attribute">decide_host</span>: <span class="string">''</span>, <span class="comment">// 加载已埋点配置地址</span></div><div class="line">    <span class="attribute">loaded</span>: function(lib) &#123; &#125;, <span class="comment">// **sugoio** **sdk** 加载完成回调函数=</span></div><div class="line">    <span class="attribute">DEBUG</span>: false <span class="comment">// 是否启用debug</span></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<p> 3、 埋点</p>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sugoio : 全局变量函数</div></pre></td></tr></table></figure>
+<h3 id="四、-常用属性"><a href="#四、-常用属性" class="headerlink" title="四、 常用属性"></a>四、 常用属性</h3><figure class="highlight 1c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">['page_name', '页面名称'],                     <span class="comment">//页面名称或屏幕名称</span></div><div class="line">['path_name', '页面路径'],                     <span class="comment">//页面路径</span></div><div class="line">['event_id', '事件ID'],                        <span class="comment">//事件ID</span></div><div class="line">['event_name', '事件名称'],                    <span class="comment">//事件名称</span></div><div class="line">['event_type', '事件类型'],                    <span class="comment">//事件类型click、focus、submit、change</span></div><div class="line">['event_label', '事件源文本'],                  <span class="comment">//事件源文本</span></div><div class="line">['sugo_lib', 'sdk类型'],                       <span class="comment">//sdk类型 web、ios、android</span></div><div class="line">['token', '应用ID'],                           <span class="comment">//应用ID</span></div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>(<span class="keyword">typeof</span>(sugoio)!= <span class="string">'undefined'</span>)&#123;</div><div class="line">    <span class="built_in">console</span>.log($(<span class="keyword">this</span>).text());</div><div class="line">    sugoio.track(<span class="string">"考试类别"</span>, &#123;</div><div class="line">        <span class="string">'page_name'</span>: <span class="string">'考试类别'</span>,</div><div class="line">        <span class="string">'event_type'</span>: <span class="string">'click'</span>,</div><div class="line">        <span class="string">'event_name'</span>: $(<span class="keyword">this</span>).text()</div><div class="line">    &#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      代码埋点开发整理
+    
+    </summary>
+    
+      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="埋点" scheme="http://www.liuyuchuan.com/tags/%E5%9F%8B%E7%82%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我创建博客所经历的一波三折</title>
+    <link href="http://www.liuyuchuan.com/2017/06/29/create_blog_steps/"/>
+    <id>http://www.liuyuchuan.com/2017/06/29/create_blog_steps/</id>
+    <published>2017-06-29T07:49:12.302Z</published>
+    <updated>2017-08-06T15:59:09.620Z</updated>
+    
+    <content type="html"><![CDATA[<p>一、Git</p>
+<p>二、Node.js</p>
+<p>三、hexo</p>
+<p>四、Ruby</p>
+<a id="more"></a>
+<pre><code>图片托管：七牛图床
+
+谷歌浏览器插件
+</code></pre><p><a href="https://chrome.google.com/webstore/detail/qiniu-upload-files/emmfkgdgapbjphdolealbojmcmnphdcc" target="_blank" rel="external">https://chrome.google.com/webstore/detail/qiniu-upload-files/emmfkgdgapbjphdolealbojmcmnphdcc</a></p>
+<p>1、问题地址<br><a href="http://cnodejs.org/topic/5095de3cc922cde41e1e7ce7" target="_blank" rel="external">http://cnodejs.org/topic/5095de3cc922cde41e1e7ce7</a></p>
+<p><a href="https://stackoverflow.com/questions/5404830/node-js-ejs-including-a-partial" target="_blank" rel="external">https://stackoverflow.com/questions/5404830/node-js-ejs-including-a-partial</a></p>
+<p>2、图片大小问题<br><a href="http://blog.csdn.net/netdxy/article/details/51518494?locationNum=1" target="_blank" rel="external">http://blog.csdn.net/netdxy/article/details/51518494?locationNum=1</a></p>
+<p>看完API后设定一下就可以了，例如：<br>imageMogr/thumbnail/300x/quality/150  </p>
+<p>意思就是 缩放300，质量150</p>
+]]></content>
+    
+    <summary type="html">
+    
+      创建博客的经历
+    
+    </summary>
+    
+      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="blog" scheme="http://www.liuyuchuan.com/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>董诗婷的个人简历</title>
+    <link href="http://www.liuyuchuan.com/2017/06/29/dst/"/>
+    <id>http://www.liuyuchuan.com/2017/06/29/dst/</id>
+    <published>2017-06-29T05:39:40.024Z</published>
+    <updated>2017-08-06T15:59:05.640Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>基本信息
+</code></pre><table>
+<thead>
+<tr>
+<th style="text-align:left">姓名</th>
+<th style="text-align:center">董诗婷</th>
+<th style="text-align:left">性别</th>
+<th style="text-align:center">女</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">出生年月</td>
+<td style="text-align:center">1994.09</td>
+<td style="text-align:left">籍贯</td>
+<td style="text-align:center">广东化州</td>
+</tr>
+<tr>
+<td style="text-align:left">学历</td>
+<td style="text-align:center">大专</td>
+<td style="text-align:left">专业</td>
+<td style="text-align:center">广告设计与制作</td>
+</tr>
+<tr>
+<td style="text-align:left">毕业院校</td>
+<td style="text-align:center">暨南大学</td>
+<td style="text-align:left"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:left">E-mail</td>
+<td style="text-align:center"><a href="mailto:yulingfan924@163.com" target="_blank" rel="external">yulingfan924@163.com </a></td>
+<td style="text-align:left">电话</td>
+<td style="text-align:center"><a href="tencent://message/?uin=764631492&site=Call Me&menu=yes" target="_blank" rel="external">764631492</a></td>
+</tr>
+</tbody>
+</table>
+<a id="more"></a>
+<pre><code>教育经历
+</code></pre><table>
+<thead>
+<tr>
+<th style="text-align:left">时间</th>
+<th style="text-align:left">学校</th>
+<th style="text-align:left">专业名称</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2009.09-2012.06</td>
+<td style="text-align:left">广东省茂名市南粤科技学校</td>
+<td style="text-align:left">广告设计与制作</td>
+</tr>
+<tr>
+<td style="text-align:left">2016.02-至今</td>
+<td style="text-align:left">暨南大学</td>
+<td style="text-align:left">市场营销</td>
+</tr>
+</tbody>
+</table>
+<pre><code>工作经验
+</code></pre><table>
+<thead>
+<tr>
+<th style="text-align:center">工作时间</th>
+<th style="text-align:left">工作单位</th>
+<th style="text-align:left">职位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">2015.12 - 至今</td>
+<td style="text-align:left">广州澳贝美乳制品有限公司</td>
+<td style="text-align:left">京东运营</td>
+</tr>
+<tr>
+<td style="text-align:center">工作内容</td>
+<td style="text-align:left">1、筹备京东各项开店事宜，规划店铺整体方向；<br> 2、对店铺日常流量数据进行跟踪监控与分析；<br> 3、利用资源推广店铺及产品（如微信公众号）<br> 4、协合线下销售部同事推广</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">2013.11 - 2015.12</td>
+<td style="text-align:left">广东蕴通贸易有限公司</td>
+<td style="text-align:left">亚马逊运营</td>
+</tr>
+<tr>
+<td style="text-align:center">工作内容</td>
+<td style="text-align:left">1、定期规划产品上传发布，维护和优化产品页面；<br> 2、对接亚马逊小二获取活动资源，充分利用各种活动资源，提报活动，提高销售额；<br> 3、及时追踪订单信息，回复邮件，处理投诉；</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">2012.06 - 2013.10</td>
+<td style="text-align:left">杭州美第意户外用品有限公司</td>
+<td style="text-align:left">天猫运营助理</td>
+</tr>
+<tr>
+<td style="text-align:center">工作内容</td>
+<td style="text-align:left">1、协助运营主管分析天猫旗舰店每日流量概况，针对宝贝情况进行SEO优化；<br>2、针对优化效果进行跟踪评估，及时提出营销改进措施；<br> 3、不定期策划店铺会员活动，提升会员黏度；<br> 4、协运营完成各类活动报名，准备资料、数据；</td>
+</tr>
+</tbody>
+</table>
+<pre><code>自我评价
+</code></pre><blockquote>
+<p>本人责任心强，善于思考，有很好的团队合作意识，非常强的抗压能力，更喜欢冒险和挑战。我有较强的自主学习能力，从客服到运营助理到独立运营一个平台，我一直在不断学习进取。脚踏实地地从客服做起让我在遇到问题时更擅长换位思考，以达到更好的营销效果。熟悉淘宝和天猫后台操作、数据分析，SEO优化；独立运营过亚马逊平台，从中获益良多。现在更希望遇到一个好团队，能发挥我的所长，能让我学习到更多，更能让我迎接更多的挑战！</p>
+</blockquote>
+<pre><code>求职意向
+</code></pre><blockquote>
+<p>电商运营</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      董诗婷的个人简历
+    
+    </summary>
+    
+      <category term="关于他人" scheme="http://www.liuyuchuan.com/categories/%E5%85%B3%E4%BA%8E%E4%BB%96%E4%BA%BA/"/>
+    
+    
+      <category term="about" scheme="http://www.liuyuchuan.com/tags/about/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>公益事业部分</title>
+    <link href="http://www.liuyuchuan.com/2017/06/27/volunteer/"/>
+    <id>http://www.liuyuchuan.com/2017/06/27/volunteer/</id>
+    <published>2017-06-27T05:40:08.000Z</published>
+    <updated>2017-08-06T15:58:20.548Z</updated>
+    
+    <content type="html"><![CDATA[<p>公益：义工，志愿者，在这里记录流水，可以喂养流浪狗，流浪猫！~</p>
+<h2 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h2><p>this is the borad</p>
+<h2 id="About"><a href="#About" class="headerlink" title="About"></a>About</h2><p>hello</p>
+<a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;公益：义工，志愿者，在这里记录流水，可以喂养流浪狗，流浪猫！~&lt;/p&gt;
+&lt;h2 id=&quot;hello&quot;&gt;&lt;a href=&quot;#hello&quot; class=&quot;headerlink&quot; title=&quot;hello&quot;&gt;&lt;/a&gt;hello&lt;/h2&gt;&lt;p&gt;this is the borad&lt;/p&gt;
+&lt;h2 id=&quot;About&quot;&gt;&lt;a href=&quot;#About&quot; class=&quot;headerlink&quot; title=&quot;About&quot;&gt;&lt;/a&gt;About&lt;/h2&gt;&lt;p&gt;hello&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="公益随笔" scheme="http://www.liuyuchuan.com/categories/%E5%85%AC%E7%9B%8A%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="volunteer" scheme="http://www.liuyuchuan.com/tags/volunteer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://www.liuyuchuan.com/2017/06/27/hello-world/"/>
+    <id>http://www.liuyuchuan.com/2017/06/27/hello-world/</id>
+    <published>2017-06-27T04:19:58.039Z</published>
+    <updated>2017-07-05T08:02:03.762Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
