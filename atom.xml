@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.liuyuchuan.com/"/>
-  <updated>2017-08-25T07:30:12.093Z</updated>
+  <updated>2017-08-25T07:34:31.597Z</updated>
   <id>http://www.liuyuchuan.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.liuyuchuan.com/2017/08/24/freemarker-if_elseif_else/"/>
     <id>http://www.liuyuchuan.com/2017/08/24/freemarker-if_elseif_else/</id>
     <published>2017-08-24T01:47:33.000Z</published>
-    <updated>2017-08-25T07:30:12.093Z</updated>
+    <updated>2017-08-25T07:34:31.597Z</updated>
     
     <content type="html"><![CDATA[<h4 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h4><ul>
 <li>摘要</li>
@@ -30,9 +30,9 @@
 <figure class="highlight clean"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;#<span class="keyword">if</span> 条件<span class="number">1</span>&gt;</div><div class="line">  ...</div><div class="line">&lt;#elseif 条件<span class="number">2</span>&gt;</div><div class="line">  ...</div><div class="line">&lt;#elseif 条件<span class="number">3</span>&gt;</div><div class="line">  ...</div><div class="line">  ...</div><div class="line">&lt;#else&gt;</div><div class="line">  ...</div><div class="line">&lt;/#<span class="keyword">if</span>&gt;</div></pre></td></tr></table></figure>
 <p>备注：</p>
 <ul>
-<li><em>条件</em>, <em>条件2</em>, …等。： 表达式的计算结果为布尔值。</li>
+<li><em>条件</em>, <em>条件2</em>, …等。： 表达式的计算结果为布尔值。<br><strong>elseif-s</strong> 和 <strong>else</strong> 是条件选项。</li>
 </ul>
-<p><strong>elseif-s</strong> 和 <strong>else</strong> 是条件选项。</p>
+<a id="more"></a>
 <p>驼峰命名法： <strong>elseIf</strong></p>
 <h4 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h4><!-- miaosu -->
 <p>你可以使用 <strong>if</strong>, <strong>elseif</strong> 和 <strong>else</strong> 有条件地跳过一段模板指令。选项表达式计算结果必须是不二类型, 否则，一个错误将中止处理模板。标签 <strong>elseif-s</strong> and <strong>else-s</strong> 必须在 <strong>if</strong> 之后 (意味着 <strong>if</strong> 标签开始，<strong>#if</strong> 标签结束)。标签 if 可以有任意数量的 <strong>elseif-s</strong> (也可以没有)，最后也要使用 <strong>if</strong> 标签结束。例如:</p>

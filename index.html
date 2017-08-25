@@ -291,36 +291,11 @@
 <figure class="highlight clean"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;#<span class="keyword">if</span> 条件<span class="number">1</span>&gt;</div><div class="line">  ...</div><div class="line">&lt;#elseif 条件<span class="number">2</span>&gt;</div><div class="line">  ...</div><div class="line">&lt;#elseif 条件<span class="number">3</span>&gt;</div><div class="line">  ...</div><div class="line">  ...</div><div class="line">&lt;#else&gt;</div><div class="line">  ...</div><div class="line">&lt;/#<span class="keyword">if</span>&gt;</div></pre></td></tr></table></figure>
 <p>备注：</p>
 <ul>
-<li><em>条件</em>, <em>条件2</em>, …等。： 表达式的计算结果为布尔值。</li>
+<li><em>条件</em>, <em>条件2</em>, …等。： 表达式的计算结果为布尔值。<br><strong>elseif-s</strong> 和 <strong>else</strong> 是条件选项。</li>
 </ul>
-<p><strong>elseif-s</strong> 和 <strong>else</strong> 是条件选项。</p>
-<p>驼峰命名法： <strong>elseIf</strong></p>
-<h4 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h4><!-- miaosu -->
-<p>你可以使用 <strong>if</strong>, <strong>elseif</strong> 和 <strong>else</strong> 有条件地跳过一段模板指令。选项表达式计算结果必须是不二类型, 否则，一个错误将中止处理模板。标签 <strong>elseif-s</strong> and <strong>else-s</strong> 必须在 <strong>if</strong> 之后 (意味着 <strong>if</strong> 标签开始，<strong>#if</strong> 标签结束)。标签 if 可以有任意数量的 <strong>elseif-s</strong> (也可以没有)，最后也要使用 <strong>if</strong> 标签结束。例如:</p>
-<ul>
-<li>if 语句（只有 if 标签开始，if 标签结束）</li>
-</ul>
-<figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
-<ul>
-<li>if else 语句</li>
-</ul>
-<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
-<ul>
-<li>if elseif 语句</li>
-</ul>
-<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 2&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">2</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 3&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">3</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
-<ul>
-<li>if elseif else 语句</li>
-</ul>
-<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 2&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">2</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 3&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">3</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 4&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">4</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span> nor <span class="number">2</span> nor <span class="number">3</span> nor <span class="number">4</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
-<p>更多资料请参考这里：<a href="http://freemarker.org/docs/dgui_template_exp.html" target="_blank" rel="external">Template Author’s Guide/The Template/Expressions</a>。</p>
-<p>你也可以使用嵌套 <strong>if</strong> 语句（这也是可以）：</p>
-<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">if</span> y == 1&gt;</span></div><div class="line">    <span class="keyword">and</span> y <span class="keyword">is</span> <span class="number">1</span> too</div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">    but y <span class="keyword">is</span> <span class="keyword">not</span></div><div class="line">  &lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span></div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">if</span> y &lt; 0&gt;</span></div><div class="line">    <span class="keyword">and</span> y <span class="keyword">is</span> less than <span class="number">0</span></div><div class="line">  &lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
-<blockquote>
-<p>注意：<br>当你想要 <strong><em>if x &gt; 0</em></strong> 或者 <strong><em>x &gt;= 0</em></strong>, 写 <strong><em>&lt;#if x &gt; 0&gt;</em></strong> 或者 <strong><em>&lt;#if x &gt;= 0&gt;</em></strong> 是错误的, 第一个 &gt; 将会关闭 <strong>#if</strong> 标签。如果想要指令工作，就要这样 <strong><em>&lt;#if x gt 0&gt;</em></strong> 或者 <strong><em>&lt;#if gte 0&gt;</em></strong> 。注意，如果计算表达式比较发生在括号中，你就不会有这样的问题, 像 <strong>&lt;#if foo.bar(x &gt; 0)&gt;</strong> 。</p>
-</blockquote>
-<p>翻译参考: <a href="http://freemarker.org/docs/ref_directive_if.html" target="_blank" rel="external">http://freemarker.org/docs/ref_directive_if.html</a><br>参考: <a href="http://freemarker.org/docs/ref_directives.html" target="_blank" rel="external">http://freemarker.org/docs/ref_directives.html</a></p>
-
+        
+          <a class="article-more-a" href="/2017/08/24/freemarker-if_elseif_else/#more">更多 >></a>
+        
       
 
       
@@ -851,10 +826,6 @@ MathJax.Hub.Queue(function() {
           <ul class="article-tag-list" q-show="showTags">
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">埋点</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">bootstrap</a>
               </li>
             
@@ -863,7 +834,7 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">blog</a>
+                <a href="javascript:void(0)" class="js-tag color3">埋点</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -887,6 +858,14 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">TortoiseGit</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">EGit</a>
+              </li>
+            
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">SSH</a>
               </li>
             
@@ -896,14 +875,6 @@ MathJax.Hub.Queue(function() {
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">私钥</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">TortoiseGit</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">EGit</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -964,6 +935,10 @@ MathJax.Hub.Queue(function() {
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">writing</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">blog</a>
               </li>
             
             <div class="clearfix"></div>
