@@ -32,10 +32,10 @@
       background: linear-gradient(200deg,#a0cfe4,#e8c37e);
     }
   </style>
-  
-
-  
-
+  <!--
+-->
+  <!--
+-->
 </head>
 
 <body>
@@ -62,11 +62,11 @@
 		<nav class="header-menu">
 			<ul>
 			
-				<li><a href="/">主页</a></li>
+				<li><a href="/#">主页</a></li>
 	        
-				<li><a href="/categories/技术随笔">工作日志</a></li>
+				<li><a href="/categories/essay">技术随笔</a></li>
 	        
-				<li><a href="/categories/生活随笔">点滴生活</a></li>
+				<li><a href="/categories/life">生活随笔</a></li>
 	        
 				<li><a href="/about">关于我</a></li>
 	        
@@ -82,10 +82,6 @@
 			
     			
 					<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
-    			
-			
-    			
-					<a q-on="click: openSlider(e, 'about')" href="javascript:void(0)">关于我</a>
     			
 			
 		</nav>
@@ -161,11 +157,11 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 25%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/#">主页</a></li>
 		        
-					<li style="width: 25%"><a href="/categories/技术随笔">工作日志</a></li>
+					<li style="width: 25%"><a href="/categories/essay">技术随笔</a></li>
 		        
-					<li style="width: 25%"><a href="/categories/生活随笔">点滴生活</a></li>
+					<li style="width: 25%"><a href="/categories/life">生活随笔</a></li>
 		        
 					<li style="width: 25%"><a href="/about">关于我</a></li>
 		        
@@ -254,11 +250,123 @@
       
 
       
+
+      <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
 
+
+
+
+
+  
+    <article id="post-freemarker-if_elseif_else" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/08/24/freemarker-if_elseif_else/">Freemarker - if, else, elseif 标签使用</a>
+    </h1>
+  
+
+        
+        <a href="/2017/08/24/freemarker-if_elseif_else/" class="archive-article-date">
+  	<time datetime="2017-08-24T01:47:33.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-24</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h4><ul>
+<li>摘要</li>
+<li>描述</li>
+</ul>
+<h4 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h4><!-- zhaiao -->
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;#<span class="keyword">if</span> 条件<span class="number">1</span>&gt;</div><div class="line">  ...</div><div class="line">&lt;#elseif 条件<span class="number">2</span>&gt;</div><div class="line">  ...</div><div class="line">&lt;#elseif 条件<span class="number">3</span>&gt;</div><div class="line">  ...</div><div class="line">  ...</div><div class="line">&lt;#else&gt;</div><div class="line">  ...</div><div class="line">&lt;/#<span class="keyword">if</span>&gt;</div></pre></td></tr></table></figure>
+<p>备注：</p>
+<ul>
+<li><em>条件</em>, <em>条件2</em>, …等。： 表达式的计算结果为布尔值。</li>
+</ul>
+<p><strong>elseif-s</strong> 和 <strong>else</strong> 是条件选项。</p>
+<p>驼峰命名法： <strong>elseIf</strong></p>
+<h4 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h4><!-- miaosu -->
+<p>你可以使用 <strong>if</strong>, <strong>elseif</strong> 和 <strong>else</strong> 有条件地跳过一段模板指令。选项表达式计算结果必须是不二类型, 否则，一个错误将中止处理模板。标签 <strong>elseif-s</strong> and <strong>else-s</strong> 必须在 <strong>if</strong> 之后 (意味着 <strong>if</strong> 标签开始，<strong>#if</strong> 标签结束)。标签 if 可以有任意数量的 <strong>elseif-s</strong> (也可以没有)，最后也要使用 <strong>if</strong> 标签结束。例如:</p>
+<ul>
+<li>if 语句（只有 if 标签开始，if 标签结束）</li>
+</ul>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>if else 语句</li>
+</ul>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>if elseif 语句</li>
+</ul>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 2&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">2</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 3&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">3</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>if elseif else 语句</li>
+</ul>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 2&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">2</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 3&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">3</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 4&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">4</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span> nor <span class="number">2</span> nor <span class="number">3</span> nor <span class="number">4</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>更多资料请参考这里：<a href="http://freemarker.org/docs/dgui_template_exp.html" target="_blank" rel="external">Template Author’s Guide/The Template/Expressions</a>。</p>
+<p>你也可以使用嵌套 <strong>if</strong> 语句（这也是可以）：</p>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">if</span> y == 1&gt;</span></div><div class="line">    <span class="keyword">and</span> y <span class="keyword">is</span> <span class="number">1</span> too</div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">    but y <span class="keyword">is</span> <span class="keyword">not</span></div><div class="line">  &lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span></div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">if</span> y &lt; 0&gt;</span></div><div class="line">    <span class="keyword">and</span> y <span class="keyword">is</span> less than <span class="number">0</span></div><div class="line">  &lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p>注意：<br>当你想要 <strong><em>if x &gt; 0</em></strong> 或者 <strong><em>x &gt;= 0</em></strong>, 写 <strong><em>&lt;#if x &gt; 0&gt;</em></strong> 或者 <strong><em>&lt;#if x &gt;= 0&gt;</em></strong> 是错误的, 第一个 &gt; 将会关闭 <strong>#if</strong> 标签。如果想要指令工作，就要这样 <strong><em>&lt;#if x gt 0&gt;</em></strong> 或者 <strong><em>&lt;#if gte 0&gt;</em></strong> 。注意，如果计算表达式比较发生在括号中，你就不会有这样的问题, 像 <strong>&lt;#if foo.bar(x &gt; 0)&gt;</strong> 。</p>
+</blockquote>
+<p><a href="http://freemarker.org/docs/ref_directive_if.html" target="_blank" rel="external">翻译参考</a></p>
+<p><a href="http://freemarker.org/docs/ref_directives.html" target="_blank" rel="external">参考</a></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Freemarker</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/essay/" class="article-tag-list-link color1">essay</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/08/24/freemarker-if_elseif_else/">查看全文 >></a>
+        </p>
+      
+
+      
+
+      <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
 
 
 
@@ -276,6 +384,10 @@
     </h1>
   
 
+        
+        <a href="/2017/08/04/log/" class="archive-article-date">
+  	<time datetime="2017-08-04T01:57:49.314Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-04</time>
+</a>
         
       </header>
     
@@ -317,11 +429,6 @@
     </div>
     <div class="article-info article-info-index">
       
-        <div class="article-pop-out tagcloud">
-          <i class="icon-tuding"></i>
-          <a class="article-tag-list-link color3">置顶</a>
-        </div>
-      
       
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
@@ -340,7 +447,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/更新记录/" class="article-tag-list-link color5">更新记录</a>
+        			<a href="/categories/essay/" class="article-tag-list-link color1">essay</a>
         		</li>
       		
 		</ul>
@@ -354,11 +461,13 @@
       
 
       
+
+      <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
-
 
 
 
@@ -372,7 +481,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/01/nexus6p_sign/">Android 7.1.2 WIFI多出了X号消除方法</a>
+      <a class="article-title" href="/2017/08/01/nexus6p_sign/">【原创】Android 7.1.2 WIFI多出了X号消除方法</a>
     </h1>
   
 
@@ -419,7 +528,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/技术随笔/" class="article-tag-list-link color5">技术随笔</a>
+        			<a href="/categories/life/" class="article-tag-list-link color5">life</a>
         		</li>
       		
 		</ul>
@@ -433,11 +542,13 @@
       
 
       
+
+      <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
-
 
 
 
@@ -451,7 +562,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/07/25/git_ssh/">Git SSH密钥对生成以及多个SSH存在情况配置</a>
+      <a class="article-title" href="/2017/07/25/git_ssh/">【原创】Git SSH密钥对生成以及多个SSH存在情况配置</a>
     </h1>
   
 
@@ -505,7 +616,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/技术随笔/" class="article-tag-list-link color5">技术随笔</a>
+        			<a href="/categories/essay/" class="article-tag-list-link color1">essay</a>
         		</li>
       		
 		</ul>
@@ -519,11 +630,13 @@
       
 
       
+
+      <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
-
 
 
 
@@ -537,7 +650,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/07/24/git_tortoisegit_egit/">Git相关学习</a>
+      <a class="article-title" href="/2017/07/24/git_tortoisegit_egit/">【原创】Git相关学习</a>
     </h1>
   
 
@@ -591,7 +704,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/技术随笔/" class="article-tag-list-link color5">技术随笔</a>
+        			<a href="/categories/essay/" class="article-tag-list-link color1">essay</a>
         		</li>
       		
 		</ul>
@@ -605,92 +718,13 @@
       
 
       
+
+      <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
-
-
-
-
-
-
-  
-    <article id="post-future_glitters" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/07/17/future_glitters/">未来，闪闪发光</a>
-    </h1>
-  
-
-        
-        <a href="/2017/07/17/future_glitters/" class="archive-article-date">
-  	<time datetime="2017-07-17T09:03:06.656Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-17</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p><strong><em>导读</em></strong><br>我们，未来，闪闪发光    </p>
-</blockquote>
-<p>外面世界，好奇这世界。唯独美食与美景才是此生所需要追求。</p>
-<h4 id="美景"><a href="#美景" class="headerlink" title="美景"></a>美景</h4><p>阳光正好，青山碧水，听着树上的鸟鸣声，望着远方青山，心情瞬间美美的。<br><img src="http://osauqjpy8.bkt.clouddn.com/github/20170714_115458.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-        
-          <a class="article-more-a" href="/2017/07/17/future_glitters/#more">更多 >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">travel</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">food</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/生活琐事/" class="article-tag-list-link color5">生活琐事</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/07/17/future_glitters/">查看全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
 
 
 
@@ -772,19 +806,11 @@ MathJax.Hub.Queue(function() {
 
 
 
-<div id="totop" style="position:fixed;bottom:50px;right:30px;cursor: pointer;">
-    <a href="#top" title="返回顶部"><img src="assets/images/totop.png"/></a>
-</div>
 
-<script src="/js/totop.js"></script>
     
 <div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
   <div class="tools-nav header-menu">
     
-    
-      
-      
-      
     
       
       
@@ -800,15 +826,11 @@ MathJax.Hub.Queue(function() {
     
     
         
-			<li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>	    
+			<li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>	    
         
     
         
-			<li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>	    
-        
-    
-        
-			<li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'about')"><a href="javascript:void(0)" q-class="active:about">关于我</a></li>	    
+			<li style="width: 50%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>	    
         
     
     </ul>
@@ -830,6 +852,10 @@ MathJax.Hub.Queue(function() {
           <ul class="article-tag-list" q-show="showTags">
             
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">埋点</a>
+              </li>
+            
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">bootstrap</a>
               </li>
             
@@ -838,19 +864,11 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">埋点</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">blog</a>
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">travel</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">food</a>
+                <a href="javascript:void(0)" class="js-tag color1">about</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -870,15 +888,19 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">travel</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">food</a>
+              </li>
+            
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">TortoiseGit</a>
               </li>
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">EGit</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">about</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -890,10 +912,6 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">优化记录</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">mavne</a>
               </li>
             
@@ -902,11 +920,19 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">优化记录</a>
+              </li>
+            
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Android</a>
               </li>
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">WIFI</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">log</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -926,10 +952,6 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">log</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">poetry</a>
               </li>
             
@@ -939,6 +961,10 @@ MathJax.Hub.Queue(function() {
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">writing</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Freemarker</a>
               </li>
             
             <div class="clearfix"></div>
@@ -1003,6 +1029,10 @@ MathJax.Hub.Queue(function() {
           
             <li class="search-li">
               <a href="http://www.ruanyifeng.com/home.html" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>ruanyifeng</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://jser.me/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>jser</a>
             </li>
           
             <li class="search-li">

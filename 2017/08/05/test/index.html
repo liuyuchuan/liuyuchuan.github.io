@@ -34,10 +34,10 @@
       background: linear-gradient(200deg,#a0cfe4,#e8c37e);
     }
   </style>
-  
-
-  
-
+  <!--
+-->
+  <!--
+-->
 </head>
 
 <body>
@@ -64,11 +64,11 @@
 		<nav class="header-menu">
 			<ul>
 			
-				<li><a href="/">主页</a></li>
+				<li><a href="/#">主页</a></li>
 	        
-				<li><a href="/categories/技术随笔">工作日志</a></li>
+				<li><a href="/categories/essay">技术随笔</a></li>
 	        
-				<li><a href="/categories/生活随笔">点滴生活</a></li>
+				<li><a href="/categories/life">生活随笔</a></li>
 	        
 				<li><a href="/about">关于我</a></li>
 	        
@@ -84,10 +84,6 @@
 			
     			
 					<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
-    			
-			
-    			
-					<a q-on="click: openSlider(e, 'about')" href="javascript:void(0)">关于我</a>
     			
 			
 		</nav>
@@ -163,11 +159,11 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 25%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/#">主页</a></li>
 		        
-					<li style="width: 25%"><a href="/categories/技术随笔">工作日志</a></li>
+					<li style="width: 25%"><a href="/categories/essay">技术随笔</a></li>
 		        
-					<li style="width: 25%"><a href="/categories/生活随笔">点滴生活</a></li>
+					<li style="width: 25%"><a href="/categories/life">生活随笔</a></li>
 		        
 					<li style="width: 25%"><a href="/about">关于我</a></li>
 		        
@@ -332,6 +328,9 @@
 
 <div class="mask js-mask"></div>
       
+
+      <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+
       <div class="clearfix"></div>
     </div>
   </div>
@@ -340,6 +339,15 @@
   
 <nav id="article-nav">
   
+    <a href="/2017/08/24/freemarker-if_elseif_else/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Freemarker - if, else, elseif 标签使用
+        
+      </div>
+    </a>
+  
   
     <a href="/2017/08/04/log/" id="article-nav-older" class="article-nav-link-wrap">
       <div class="article-nav-title">更新日志</div>
@@ -347,7 +355,6 @@
     </a>
   
 </nav>
-
 
 
 
@@ -439,19 +446,11 @@ MathJax.Hub.Queue(function() {
 
 
 
-<div id="totop" style="position:fixed;bottom:50px;right:30px;cursor: pointer;">
-    <a href="#top" title="返回顶部"><img src="assets/images/totop.png"/></a>
-</div>
 
-<script src="/js/totop.js"></script>
     
 <div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
   <div class="tools-nav header-menu">
     
-    
-      
-      
-      
     
       
       
@@ -467,15 +466,11 @@ MathJax.Hub.Queue(function() {
     
     
         
-			<li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>	    
+			<li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>	    
         
     
         
-			<li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>	    
-        
-    
-        
-			<li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'about')"><a href="javascript:void(0)" q-class="active:about">关于我</a></li>	    
+			<li style="width: 50%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>	    
         
     
     </ul>
@@ -497,6 +492,10 @@ MathJax.Hub.Queue(function() {
           <ul class="article-tag-list" q-show="showTags">
             
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">埋点</a>
+              </li>
+            
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">bootstrap</a>
               </li>
             
@@ -505,19 +504,11 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">埋点</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">blog</a>
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">travel</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">food</a>
+                <a href="javascript:void(0)" class="js-tag color1">about</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -537,15 +528,19 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">travel</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">food</a>
+              </li>
+            
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">TortoiseGit</a>
               </li>
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">EGit</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">about</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -557,10 +552,6 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">优化记录</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">mavne</a>
               </li>
             
@@ -569,11 +560,19 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">优化记录</a>
+              </li>
+            
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Android</a>
               </li>
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">WIFI</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">log</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -593,10 +592,6 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">log</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">poetry</a>
               </li>
             
@@ -606,6 +601,10 @@ MathJax.Hub.Queue(function() {
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">writing</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Freemarker</a>
               </li>
             
             <div class="clearfix"></div>
@@ -670,6 +669,10 @@ MathJax.Hub.Queue(function() {
           
             <li class="search-li">
               <a href="http://www.ruanyifeng.com/home.html" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>ruanyifeng</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://jser.me/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>jser</a>
             </li>
           
             <li class="search-li">

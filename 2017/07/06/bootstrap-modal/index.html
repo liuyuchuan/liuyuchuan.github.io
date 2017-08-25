@@ -6,21 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://www.liuyuchuan.com">
-  <title>Category: 技术随笔 | Lycos 小站</title>
+  <title>Category: essay | Lycos 小站</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Bootstrap 模态框（Modal）插件模态框（Modal）是覆盖在父窗体上的子窗体。通常，目的是显示来自一个单独的源的内容，可以在不离开父窗体的情况下有一些互动。子窗体可提供信息、交互等。  如果您想要单独引用该插件的功能，那么您需要引用 modal.js。或者，正如 Bootstrap 插件概览 一章中所提到，您可以引用 bootstrap.js 或压缩版的 bootstrap.min.j">
 <meta name="keywords" content="bootstrap,modal">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Bootstrap Modal 的使用">
+<meta property="og:title" content="【转载】Bootstrap Modal 的使用">
 <meta property="og:url" content="http://www.liuyuchuan.com/2017/07/06/bootstrap-modal/index.html">
 <meta property="og:site_name" content="Lycos 小站">
 <meta property="og:description" content="Bootstrap 模态框（Modal）插件模态框（Modal）是覆盖在父窗体上的子窗体。通常，目的是显示来自一个单独的源的内容，可以在不离开父窗体的情况下有一些互动。子窗体可提供信息、交互等。  如果您想要单独引用该插件的功能，那么您需要引用 modal.js。或者，正如 Bootstrap 插件概览 一章中所提到，您可以引用 bootstrap.js 或压缩版的 bootstrap.min.j">
 <meta property="og:image" content="http://osauqjpy8.bkt.clouddn.com/github/modalplugin_demo.jpg">
 <meta property="og:image" content="http://osauqjpy8.bkt.clouddn.com/github/modalpluginmethod_demo.jpg">
 <meta property="og:image" content="http://osauqjpy8.bkt.clouddn.com/github/modalpluginevents_demo.jpg">
-<meta property="og:updated_time" content="2017-08-06T15:59:16.280Z">
+<meta property="og:updated_time" content="2017-08-15T01:15:53.848Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Bootstrap Modal 的使用">
+<meta name="twitter:title" content="【转载】Bootstrap Modal 的使用">
 <meta name="twitter:description" content="Bootstrap 模态框（Modal）插件模态框（Modal）是覆盖在父窗体上的子窗体。通常，目的是显示来自一个单独的源的内容，可以在不离开父窗体的情况下有一些互动。子窗体可提供信息、交互等。  如果您想要单独引用该插件的功能，那么您需要引用 modal.js。或者，正如 Bootstrap 插件概览 一章中所提到，您可以引用 bootstrap.js 或压缩版的 bootstrap.min.j">
 <meta name="twitter:image" content="http://osauqjpy8.bkt.clouddn.com/github/modalplugin_demo.jpg">
   
@@ -38,10 +38,10 @@
       background: linear-gradient(200deg,#a0cfe4,#e8c37e);
     }
   </style>
-  
-
-  
-
+  <!--
+-->
+  <!--
+-->
 </head>
 
 <body>
@@ -68,11 +68,11 @@
 		<nav class="header-menu">
 			<ul>
 			
-				<li><a href="/">主页</a></li>
+				<li><a href="/#">主页</a></li>
 	        
-				<li><a href="/categories/技术随笔">工作日志</a></li>
+				<li><a href="/categories/essay">技术随笔</a></li>
 	        
-				<li><a href="/categories/生活随笔">点滴生活</a></li>
+				<li><a href="/categories/life">生活随笔</a></li>
 	        
 				<li><a href="/about">关于我</a></li>
 	        
@@ -88,10 +88,6 @@
 			
     			
 					<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
-    			
-			
-    			
-					<a q-on="click: openSlider(e, 'about')" href="javascript:void(0)">关于我</a>
     			
 			
 		</nav>
@@ -167,11 +163,11 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 25%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/#">主页</a></li>
 		        
-					<li style="width: 25%"><a href="/categories/技术随笔">工作日志</a></li>
+					<li style="width: 25%"><a href="/categories/essay">技术随笔</a></li>
 		        
-					<li style="width: 25%"><a href="/categories/生活随笔">点滴生活</a></li>
+					<li style="width: 25%"><a href="/categories/life">生活随笔</a></li>
 		        
 					<li style="width: 25%"><a href="/about">关于我</a></li>
 		        
@@ -199,7 +195,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Bootstrap Modal 的使用
+      【转载】Bootstrap Modal 的使用
     </h1>
   
 
@@ -449,7 +445,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/技术随笔/" class="article-tag-list-link color5">技术随笔</a>
+        			<a href="/categories/essay/" class="article-tag-list-link color1">essay</a>
         		</li>
       		
 		</ul>
@@ -510,6 +506,9 @@
 
 <div class="mask js-mask"></div>
       
+
+      <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+
       <div class="clearfix"></div>
     </div>
   </div>
@@ -522,7 +521,7 @@
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          Maven 的长枪配置 pom.xml
+          【翻译】Maven 的长枪配置 pom.xml
         
       </div>
     </a>
@@ -534,7 +533,6 @@
     </a>
   
 </nav>
-
 
 
 
@@ -589,7 +587,7 @@ window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="tex
 		isHome: false,
 		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: true,
 		open_in_new: true,
 		root: "/",
@@ -626,19 +624,11 @@ MathJax.Hub.Queue(function() {
 
 
 
-<div id="totop" style="position:fixed;bottom:50px;right:30px;cursor: pointer;">
-    <a href="#top" title="返回顶部"><img src="assets/images/totop.png"/></a>
-</div>
 
-<script src="/js/totop.js"></script>
     
 <div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
   <div class="tools-nav header-menu">
     
-    
-      
-      
-      
     
       
       
@@ -654,15 +644,11 @@ MathJax.Hub.Queue(function() {
     
     
         
-			<li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>	    
+			<li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>	    
         
     
         
-			<li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>	    
-        
-    
-        
-			<li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'about')"><a href="javascript:void(0)" q-class="active:about">关于我</a></li>	    
+			<li style="width: 50%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>	    
         
     
     </ul>
@@ -684,6 +670,10 @@ MathJax.Hub.Queue(function() {
           <ul class="article-tag-list" q-show="showTags">
             
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">埋点</a>
+              </li>
+            
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">bootstrap</a>
               </li>
             
@@ -692,19 +682,11 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">埋点</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">blog</a>
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">travel</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">food</a>
+                <a href="javascript:void(0)" class="js-tag color1">about</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -724,15 +706,19 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">travel</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">food</a>
+              </li>
+            
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">TortoiseGit</a>
               </li>
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">EGit</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">about</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -744,10 +730,6 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">优化记录</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">mavne</a>
               </li>
             
@@ -756,11 +738,19 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">优化记录</a>
+              </li>
+            
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Android</a>
               </li>
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">WIFI</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">log</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -780,10 +770,6 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">log</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">poetry</a>
               </li>
             
@@ -793,6 +779,10 @@ MathJax.Hub.Queue(function() {
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">writing</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Freemarker</a>
               </li>
             
             <div class="clearfix"></div>
@@ -857,6 +847,10 @@ MathJax.Hub.Queue(function() {
           
             <li class="search-li">
               <a href="http://www.ruanyifeng.com/home.html" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>ruanyifeng</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://jser.me/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>jser</a>
             </li>
           
             <li class="search-li">

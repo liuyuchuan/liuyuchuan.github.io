@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.liuyuchuan.com/"/>
-  <updated>2017-08-06T15:58:24.367Z</updated>
+  <updated>2017-08-24T01:49:07.144Z</updated>
   <id>http://www.liuyuchuan.com/</id>
   
   <author>
@@ -14,6 +14,66 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Freemarker - if, else, elseif 标签使用</title>
+    <link href="http://www.liuyuchuan.com/2017/08/24/freemarker-if_elseif_else/"/>
+    <id>http://www.liuyuchuan.com/2017/08/24/freemarker-if_elseif_else/</id>
+    <published>2017-08-24T01:47:33.000Z</published>
+    <updated>2017-08-24T01:49:07.144Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h4><ul>
+<li>摘要</li>
+<li>描述</li>
+</ul>
+<h4 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h4><!-- zhaiao -->
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;#<span class="keyword">if</span> 条件<span class="number">1</span>&gt;</div><div class="line">  ...</div><div class="line">&lt;#elseif 条件<span class="number">2</span>&gt;</div><div class="line">  ...</div><div class="line">&lt;#elseif 条件<span class="number">3</span>&gt;</div><div class="line">  ...</div><div class="line">  ...</div><div class="line">&lt;#else&gt;</div><div class="line">  ...</div><div class="line">&lt;/#<span class="keyword">if</span>&gt;</div></pre></td></tr></table></figure>
+<p>备注：</p>
+<ul>
+<li><em>条件</em>, <em>条件2</em>, …等。： 表达式的计算结果为布尔值。</li>
+</ul>
+<p><strong>elseif-s</strong> 和 <strong>else</strong> 是条件选项。</p>
+<p>驼峰命名法： <strong>elseIf</strong></p>
+<h4 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h4><!-- miaosu -->
+<p>你可以使用 <strong>if</strong>, <strong>elseif</strong> 和 <strong>else</strong> 有条件地跳过一段模板指令。选项表达式计算结果必须是不二类型, 否则，一个错误将中止处理模板。标签 <strong>elseif-s</strong> and <strong>else-s</strong> 必须在 <strong>if</strong> 之后 (意味着 <strong>if</strong> 标签开始，<strong>#if</strong> 标签结束)。标签 if 可以有任意数量的 <strong>elseif-s</strong> (也可以没有)，最后也要使用 <strong>if</strong> 标签结束。例如:</p>
+<ul>
+<li>if 语句（只有 if 标签开始，if 标签结束）</li>
+</ul>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>if else 语句</li>
+</ul>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>if elseif 语句</li>
+</ul>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 2&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">2</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 3&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">3</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>if elseif else 语句</li>
+</ul>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 2&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">2</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 3&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">3</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 4&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">4</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span> nor <span class="number">2</span> nor <span class="number">3</span> nor <span class="number">4</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>更多资料请参考这里：<a href="http://freemarker.org/docs/dgui_template_exp.html" target="_blank" rel="external">Template Author’s Guide/The Template/Expressions</a>。</p>
+<p>你也可以使用嵌套 <strong>if</strong> 语句（这也是可以）：</p>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">if</span> y == 1&gt;</span></div><div class="line">    <span class="keyword">and</span> y <span class="keyword">is</span> <span class="number">1</span> too</div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">    but y <span class="keyword">is</span> <span class="keyword">not</span></div><div class="line">  &lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span></div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">if</span> y &lt; 0&gt;</span></div><div class="line">    <span class="keyword">and</span> y <span class="keyword">is</span> less than <span class="number">0</span></div><div class="line">  &lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p>注意：<br>当你想要 <strong><em>if x &gt; 0</em></strong> 或者 <strong><em>x &gt;= 0</em></strong>, 写 <strong><em>&lt;#if x &gt; 0&gt;</em></strong> 或者 <strong><em>&lt;#if x &gt;= 0&gt;</em></strong> 是错误的, 第一个 &gt; 将会关闭 <strong>#if</strong> 标签。如果想要指令工作，就要这样 <strong><em>&lt;#if x gt 0&gt;</em></strong> 或者 <strong><em>&lt;#if gte 0&gt;</em></strong> 。注意，如果计算表达式比较发生在括号中，你就不会有这样的问题, 像 <strong>&lt;#if foo.bar(x &gt; 0)&gt;</strong> 。</p>
+</blockquote>
+<p><a href="http://freemarker.org/docs/ref_directive_if.html" target="_blank" rel="external">翻译参考</a></p>
+<p><a href="http://freemarker.org/docs/ref_directives.html" target="_blank" rel="external">参考</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      Freemarker中if else elseif 标签使用
+    
+    </summary>
+    
+      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
+    
+    
+      <category term="Freemarker" scheme="http://www.liuyuchuan.com/tags/Freemarker/"/>
+    
+  </entry>
   
   <entry>
     <title>更新日志</title>
@@ -44,7 +104,7 @@
     <link href="http://www.liuyuchuan.com/2017/08/04/log/"/>
     <id>http://www.liuyuchuan.com/2017/08/04/log/</id>
     <published>2017-08-04T01:57:49.314Z</published>
-    <updated>2017-08-06T15:58:36.477Z</updated>
+    <updated>2017-08-15T01:18:04.168Z</updated>
     
     <content type="html"><![CDATA[<h3 id="2017年08月07日"><a href="#2017年08月07日" class="headerlink" title="2017年08月07日"></a>2017年08月07日</h3><table>
 <thead>
@@ -269,7 +329,7 @@
     
     </summary>
     
-      <category term="更新记录" scheme="http://www.liuyuchuan.com/categories/%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95/"/>
+      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
     
     
       <category term="优化记录" scheme="http://www.liuyuchuan.com/tags/%E4%BC%98%E5%8C%96%E8%AE%B0%E5%BD%95/"/>
@@ -277,11 +337,11 @@
   </entry>
   
   <entry>
-    <title>Android 7.1.2 WIFI多出了X号消除方法</title>
+    <title>【原创】Android 7.1.2 WIFI多出了X号消除方法</title>
     <link href="http://www.liuyuchuan.com/2017/08/01/nexus6p_sign/"/>
     <id>http://www.liuyuchuan.com/2017/08/01/nexus6p_sign/</id>
     <published>2017-08-01T01:57:43.515Z</published>
-    <updated>2017-08-06T15:58:28.188Z</updated>
+    <updated>2017-08-15T01:19:08.438Z</updated>
     
     <content type="html"><![CDATA[<p>最近将手机操作系统升级到了 Android 7.1.2，连接网络的时WIFI出现了小叉号，移动流量也是出现这种情况。</p>
 <p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170801/%E6%89%8B%E6%9C%BA%E8%81%94%E7%BD%91%E5%87%BA%E7%8E%B0%E5%B0%8F%E5%8F%89%E5%8F%B7.png?imageMogr/thumbnail/400x300/quality/250" alt=""></p>
@@ -329,7 +389,7 @@
     
     </summary>
     
-      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+      <category term="life" scheme="http://www.liuyuchuan.com/categories/life/"/>
     
     
       <category term="Android" scheme="http://www.liuyuchuan.com/tags/Android/"/>
@@ -339,11 +399,11 @@
   </entry>
   
   <entry>
-    <title>Git SSH密钥对生成以及多个SSH存在情况配置</title>
+    <title>【原创】Git SSH密钥对生成以及多个SSH存在情况配置</title>
     <link href="http://www.liuyuchuan.com/2017/07/25/git_ssh/"/>
     <id>http://www.liuyuchuan.com/2017/07/25/git_ssh/</id>
     <published>2017-07-25T02:08:43.525Z</published>
-    <updated>2017-08-06T15:58:57.763Z</updated>
+    <updated>2017-08-15T01:17:23.844Z</updated>
     
     <content type="html"><![CDATA[<h3 id="一、使用Git-Bash-生成一个新的SSH密钥"><a href="#一、使用Git-Bash-生成一个新的SSH密钥" class="headerlink" title="一、使用Git Bash 生成一个新的SSH密钥"></a>一、使用Git Bash 生成一个新的SSH密钥</h3><p><strong><em>1</em></strong>、 打开 <strong><em>Git Bash</em></strong>.</p>
 <p><img src="http://osauqjpy8.bkt.clouddn.com/github/open_git_bash.png" alt=""></p>
@@ -379,7 +439,7 @@
     
     </summary>
     
-      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
     
     
       <category term="Git" scheme="http://www.liuyuchuan.com/tags/Git/"/>
@@ -393,11 +453,11 @@
   </entry>
   
   <entry>
-    <title>Git相关学习</title>
+    <title>【原创】Git相关学习</title>
     <link href="http://www.liuyuchuan.com/2017/07/24/git_tortoisegit_egit/"/>
     <id>http://www.liuyuchuan.com/2017/07/24/git_tortoisegit_egit/</id>
     <published>2017-07-24T08:20:28.000Z</published>
-    <updated>2017-08-06T15:58:53.429Z</updated>
+    <updated>2017-08-15T01:17:56.389Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>导读部分<br>最近一直在学习Git的使用，下面做一下笔记记录。</p>
@@ -417,7 +477,7 @@
     
     </summary>
     
-      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
     
     
       <category term="Git" scheme="http://www.liuyuchuan.com/tags/Git/"/>
@@ -429,11 +489,11 @@
   </entry>
   
   <entry>
-    <title>未来，闪闪发光</title>
+    <title>【原创】未来，闪闪发光</title>
     <link href="http://www.liuyuchuan.com/2017/07/17/future_glitters/"/>
     <id>http://www.liuyuchuan.com/2017/07/17/future_glitters/</id>
     <published>2017-07-17T09:03:06.656Z</published>
-    <updated>2017-08-06T15:59:01.591Z</updated>
+    <updated>2017-08-15T01:16:58.728Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p><strong><em>导读</em></strong><br>我们，未来，闪闪发光    </p>
@@ -473,7 +533,7 @@
     
     </summary>
     
-      <category term="生活琐事" scheme="http://www.liuyuchuan.com/categories/%E7%94%9F%E6%B4%BB%E7%90%90%E4%BA%8B/"/>
+      <category term="life" scheme="http://www.liuyuchuan.com/categories/life/"/>
     
     
       <category term="travel" scheme="http://www.liuyuchuan.com/tags/travel/"/>
@@ -501,11 +561,11 @@
   </entry>
   
   <entry>
-    <title>Maven 的长枪配置 pom.xml</title>
+    <title>【翻译】Maven 的长枪配置 pom.xml</title>
     <link href="http://www.liuyuchuan.com/2017/07/08/maven_pom/"/>
     <id>http://www.liuyuchuan.com/2017/07/08/maven_pom/</id>
     <published>2017-07-08T02:50:31.245Z</published>
-    <updated>2017-08-06T15:58:32.263Z</updated>
+    <updated>2017-08-15T01:18:22.271Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p><strong> – 导读</strong></p>
@@ -619,7 +679,7 @@
     
     </summary>
     
-      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
     
     
       <category term="mavne" scheme="http://www.liuyuchuan.com/tags/mavne/"/>
@@ -629,11 +689,11 @@
   </entry>
   
   <entry>
-    <title>Bootstrap Modal 的使用</title>
+    <title>【转载】Bootstrap Modal 的使用</title>
     <link href="http://www.liuyuchuan.com/2017/07/06/bootstrap-modal/"/>
     <id>http://www.liuyuchuan.com/2017/07/06/bootstrap-modal/</id>
     <published>2017-07-05T16:00:00.000Z</published>
-    <updated>2017-08-06T15:59:16.280Z</updated>
+    <updated>2017-08-15T01:15:53.848Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Bootstrap-模态框（Modal）插件"><a href="#Bootstrap-模态框（Modal）插件" class="headerlink" title="Bootstrap 模态框（Modal）插件"></a>Bootstrap 模态框（Modal）插件</h3><p>模态框（Modal）是覆盖在父窗体上的子窗体。通常，目的是显示来自一个单独的源的内容，可以在不离开父窗体的情况下有一些互动。子窗体可提供信息、交互等。</p>
 <blockquote>
@@ -831,7 +891,7 @@
     
     </summary>
     
-      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
     
     
       <category term="bootstrap" scheme="http://www.liuyuchuan.com/tags/bootstrap/"/>
@@ -845,13 +905,13 @@
     <link href="http://www.liuyuchuan.com/2017/07/05/%E5%81%A5%E5%BA%B7%E4%B8%8E%E8%BF%90%E5%8A%A8/"/>
     <id>http://www.liuyuchuan.com/2017/07/05/健康与运动/</id>
     <published>2017-07-05T08:35:23.996Z</published>
-    <updated>2017-08-06T15:58:12.299Z</updated>
+    <updated>2017-08-21T03:34:38.397Z</updated>
     
     <content type="html"><![CDATA[<h4 id="那些年，走过的路"><a href="#那些年，走过的路" class="headerlink" title="那些年，走过的路"></a>那些年，走过的路</h4><p>##2017年</p>
 <blockquote>
 <p>2月份</p>
 </blockquote>
-<pre><code>1、02月12日 25KM 牛木外线
+<pre><code>1、02月12日 25.00KM 牛木外线
 </code></pre><blockquote>
 <p>3月份</p>
 </blockquote>
@@ -859,20 +919,24 @@
 </code></pre><blockquote>
 <p>4月份</p>
 </blockquote>
-<pre><code>1、04月09日 16KM 火凤线
+<pre><code>1、04月09日 16.00KM 火凤线
 </code></pre><a id="more"></a>
 <blockquote>
 <p>5月份</p>
 </blockquote>
-<pre><code>1、05月06日 20KM 渔帽线（第一机耕路）
+<pre><code>1、05月06日 20.00KM 渔帽线（第一机耕路）
 </code></pre><blockquote>
 <p>6月份</p>
 </blockquote>
-<pre><code>1.06月11日 11.4KM 龙洞总站到大源森源居农庄（腐败游水线）
+<pre><code>1.06月11日 11.40KM 龙洞总站到大源森源居农庄（腐败游水线）
 </code></pre><blockquote>
 <p>7月份</p>
 </blockquote>
-<pre><code>1、07月01日 2KM 火炉山（后山开炉 - 腐败线）
+<pre><code>1、07月01日 2.00KM 火炉山（后山开炉 - 腐败线）
+</code></pre><blockquote>
+<p>8月份</p>
+</blockquote>
+<pre><code>1、08月19日 11.45KM 白云山（白云山环线）
 </code></pre><h6 id="—-—同步更新博客园"><a href="#—-—同步更新博客园" class="headerlink" title="— —同步更新博客园"></a>— —同步更新<a href="http://www.cnblogs.com/yuchuan/p/hill.html" target="_blank" rel="external">博客园</a></h6>]]></content>
     
     <summary type="html">
@@ -881,7 +945,7 @@
     
     </summary>
     
-      <category term="生活随笔" scheme="http://www.liuyuchuan.com/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="life" scheme="http://www.liuyuchuan.com/categories/life/"/>
     
     
       <category term="sport" scheme="http://www.liuyuchuan.com/tags/sport/"/>
@@ -893,11 +957,11 @@
   </entry>
   
   <entry>
-    <title>Ajax 方法以及参数的参考</title>
+    <title>【转载】Ajax 方法以及参数的参考</title>
     <link href="http://www.liuyuchuan.com/2017/07/05/jquery_ajax/"/>
     <id>http://www.liuyuchuan.com/2017/07/05/jquery_ajax/</id>
     <published>2017-07-05T03:30:38.672Z</published>
-    <updated>2017-08-06T15:58:45.084Z</updated>
+    <updated>2017-08-15T01:17:56.395Z</updated>
     
     <content type="html"><![CDATA[<h2 id="jQuery-ajax-ajax-方法"><a href="#jQuery-ajax-ajax-方法" class="headerlink" title="jQuery ajax - ajax() 方法"></a>jQuery ajax - ajax() 方法</h2><h3 id="定义和用法"><a href="#定义和用法" class="headerlink" title="定义和用法"></a>定义和用法</h3><p>ajax()方法通过HTTP请求加载远程数据。<br>该方法是jQuery底层AJAX实现。简单易用的高层实现见 <em>$.get</em> , <em>$.post</em> 等。 <em>$.ajax()</em> 返回其创建的 <em>XMLHttpRequest</em> 对象。大多数情况下你无需直接操作该函数，除非你需要操作不常用的选项，以获得更多的灵活性。最简单的情况下，<em>$.ajax()</em> 可以不带任何参数直接使用。<br><span style="color: red; ">注意</span>：所有的选项都可以通过 <em>$.ajaxSetup()</em> 函数来全局设置。</p>
 <h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h1><pre><code>jQuery.ajax([settings])
@@ -988,7 +1052,7 @@
     
     </summary>
     
-      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
     
     
       <category term="jquery" scheme="http://www.liuyuchuan.com/tags/jquery/"/>
@@ -1002,7 +1066,7 @@
     <link href="http://www.liuyuchuan.com/2017/07/04/%E8%AF%97%E4%B8%8E%E8%BF%9C%E6%96%B9/"/>
     <id>http://www.liuyuchuan.com/2017/07/04/诗与远方/</id>
     <published>2017-07-03T16:47:53.000Z</published>
-    <updated>2017-08-06T15:58:05.843Z</updated>
+    <updated>2017-08-15T01:19:31.686Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>导读</p>
@@ -1040,7 +1104,7 @@
     
     </summary>
     
-      <category term="生活随笔" scheme="http://www.liuyuchuan.com/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="life" scheme="http://www.liuyuchuan.com/categories/life/"/>
     
     
       <category term="poetry" scheme="http://www.liuyuchuan.com/tags/poetry/"/>
@@ -1052,11 +1116,11 @@
   </entry>
   
   <entry>
-    <title>埋点整理</title>
+    <title>【原创】埋点整理</title>
     <link href="http://www.liuyuchuan.com/2017/07/03/burying_point/"/>
     <id>http://www.liuyuchuan.com/2017/07/03/burying_point/</id>
     <published>2017-07-03T03:17:26.591Z</published>
-    <updated>2017-08-06T15:59:12.914Z</updated>
+    <updated>2017-08-15T01:16:21.917Z</updated>
     
     <content type="html"><![CDATA[<p>欢迎大家 <br></p>
 <h3 id="一、-自我介绍"><a href="#一、-自我介绍" class="headerlink" title="一、 自我介绍"></a>一、 自我介绍</h3><blockquote>
@@ -1081,7 +1145,7 @@
     
     </summary>
     
-      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
     
     
       <category term="埋点" scheme="http://www.liuyuchuan.com/tags/%E5%9F%8B%E7%82%B9/"/>
@@ -1093,7 +1157,7 @@
     <link href="http://www.liuyuchuan.com/2017/06/29/create_blog_steps/"/>
     <id>http://www.liuyuchuan.com/2017/06/29/create_blog_steps/</id>
     <published>2017-06-29T07:49:12.302Z</published>
-    <updated>2017-08-06T15:59:09.620Z</updated>
+    <updated>2017-08-15T01:16:29.628Z</updated>
     
     <content type="html"><![CDATA[<p>一、Git</p>
 <p>二、Node.js</p>
@@ -1117,7 +1181,7 @@
     
     </summary>
     
-      <category term="技术随笔" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF%E9%9A%8F%E7%AC%94/"/>
+      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
     
     
       <category term="blog" scheme="http://www.liuyuchuan.com/tags/blog/"/>
@@ -1129,7 +1193,7 @@
     <link href="http://www.liuyuchuan.com/2017/06/29/dst/"/>
     <id>http://www.liuyuchuan.com/2017/06/29/dst/</id>
     <published>2017-06-29T05:39:40.024Z</published>
-    <updated>2017-08-06T15:59:05.640Z</updated>
+    <updated>2017-08-15T01:16:33.471Z</updated>
     
     <content type="html"><![CDATA[<pre><code>基本信息
 </code></pre><table>
@@ -1248,7 +1312,7 @@
     
     </summary>
     
-      <category term="关于他人" scheme="http://www.liuyuchuan.com/categories/%E5%85%B3%E4%BA%8E%E4%BB%96%E4%BA%BA/"/>
+      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
     
     
       <category term="about" scheme="http://www.liuyuchuan.com/tags/about/"/>
