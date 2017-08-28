@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.liuyuchuan.com/"/>
-  <updated>2017-08-25T07:34:31.597Z</updated>
+  <updated>2017-08-28T10:13:58.383Z</updated>
   <id>http://www.liuyuchuan.com/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【翻译】Freemarker - 过时的内置对象列表</title>
+    <link href="http://www.liuyuchuan.com/2017/08/28/freemarker-deprecated_built-ins,/"/>
+    <id>http://www.liuyuchuan.com/2017/08/28/freemarker-deprecated_built-ins,/</id>
+    <published>2017-08-28T09:57:07.000Z</published>
+    <updated>2017-08-28T10:13:58.383Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="过时的内置列表"><a href="#过时的内置列表" class="headerlink" title="过时的内置列表"></a>过时的内置列表</h4><p>下面的内置对象已经过时，但是它们仍然可以使用：</p>
+<ul>
+<li><strong>default</strong>：这个是过时的 <a href="http://freemarker.org/docs/dgui_template_exp.html#dgui_template_exp_missing_default" target="_blank" rel="external">默认值操作</a>。<strong><em> exp1?default(exp2)</em></strong> 对象操作接近于 <strong><em>exp1!exp2</em></strong>，<strong><em>(exp1)?default(exp2)</em></strong> 对象操作接近于 <strong><em>(exp1)!exp2</em></strong>。唯一的区别是 FreeMarker 2.4，<em>default</em> 对象等价于 <em>exp2</em>, 默认值运算符只在真正需要默认值时计算它。无论怎么样，从FreeMarker 2.4开始，默认内置已被改进，其行为与默认值运算符完全相同。</li>
+</ul>
+<ul>
+<li><p><strong>exists</strong>：这是默过时的默认对象，缺失值测试操作符。<strong><em>exp1?exists</em></strong> 等价于<strong><em> exp1??</em></strong>，同样 <strong><em>(exp1)?exists</em></strong> 等价于 <strong><em>(exp1)??</em></strong>。</p>
+</li>
+<li><p><strong>if_exists</strong>：这是默过时的默认对象，缺失值测试操作符。<strong><em>exp1?if_exists</em></strong> 类似于 <strong><em> exp1!</em></strong>, <strong><em>(exp1)?if_exists</em></strong> 类似于 <strong><em>(exp1)!</em></strong>。不同之处在于，用 if_exists 的默认值不仅仅同时是空字符串，空序列和空哈希表，而且布尔值 false 和不做任何事情的变<br>换，还有忽略所有参数。</p>
+</li>
+<li><p><strong>web_safe</strong>: 同 <a href="http://freemarker.org/docs/ref_builtins_string.html#ref_builtin_html" target="_blank" rel="external">html</a></p>
+</li>
+</ul>
+<p>翻译参考: <a href="http://freemarker.org/docs/ref_depr_builtin.html" target="_blank" rel="external">http://freemarker.org/docs/ref_depr_builtin.html</a><br>参考: <a href="http://freemarker.org/docs/ref_directives.html" target="_blank" rel="external">http://freemarker.org/docs/ref_directives.html</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      Freemarker中default，exists，if_exists
+    
+    </summary>
+    
+      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
+    
+    
+      <category term="Freemarker" scheme="http://www.liuyuchuan.com/tags/Freemarker/"/>
+    
+  </entry>
   
   <entry>
     <title>【翻译】Freemarker - if, else, elseif 标签使用</title>

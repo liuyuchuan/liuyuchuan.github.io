@@ -263,6 +263,91 @@
 
 
   
+    <article id="post-freemarker-deprecated_built-ins," class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/08/28/freemarker-deprecated_built-ins,/">【翻译】Freemarker - 过时的内置对象列表</a>
+    </h1>
+  
+
+        
+        <a href="/2017/08/28/freemarker-deprecated_built-ins,/" class="archive-article-date">
+  	<time datetime="2017-08-28T09:57:07.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-28</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="过时的内置列表"><a href="#过时的内置列表" class="headerlink" title="过时的内置列表"></a>过时的内置列表</h4><p>下面的内置对象已经过时，但是它们仍然可以使用：</p>
+<ul>
+<li><strong>default</strong>：这个是过时的 <a href="http://freemarker.org/docs/dgui_template_exp.html#dgui_template_exp_missing_default" target="_blank" rel="external">默认值操作</a>。<strong><em> exp1?default(exp2)</em></strong> 对象操作接近于 <strong><em>exp1!exp2</em></strong>，<strong><em>(exp1)?default(exp2)</em></strong> 对象操作接近于 <strong><em>(exp1)!exp2</em></strong>。唯一的区别是 FreeMarker 2.4，<em>default</em> 对象等价于 <em>exp2</em>, 默认值运算符只在真正需要默认值时计算它。无论怎么样，从FreeMarker 2.4开始，默认内置已被改进，其行为与默认值运算符完全相同。</li>
+</ul>
+<ul>
+<li><p><strong>exists</strong>：这是默过时的默认对象，缺失值测试操作符。<strong><em>exp1?exists</em></strong> 等价于<strong><em> exp1??</em></strong>，同样 <strong><em>(exp1)?exists</em></strong> 等价于 <strong><em>(exp1)??</em></strong>。</p>
+</li>
+<li><p><strong>if_exists</strong>：这是默过时的默认对象，缺失值测试操作符。<strong><em>exp1?if_exists</em></strong> 类似于 <strong><em> exp1!</em></strong>, <strong><em>(exp1)?if_exists</em></strong> 类似于 <strong><em>(exp1)!</em></strong>。不同之处在于，用 if_exists 的默认值不仅仅同时是空字符串，空序列和空哈希表，而且布尔值 false 和不做任何事情的变<br>换，还有忽略所有参数。</p>
+</li>
+<li><p><strong>web_safe</strong>: 同 <a href="http://freemarker.org/docs/ref_builtins_string.html#ref_builtin_html" target="_blank" rel="external">html</a></p>
+</li>
+</ul>
+<p>翻译参考: <a href="http://freemarker.org/docs/ref_depr_builtin.html" target="_blank" rel="external">http://freemarker.org/docs/ref_depr_builtin.html</a><br>参考: <a href="http://freemarker.org/docs/ref_directives.html" target="_blank" rel="external">http://freemarker.org/docs/ref_directives.html</a></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Freemarker</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/essay/" class="article-tag-list-link color1">essay</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/08/28/freemarker-deprecated_built-ins,/">查看全文 >></a>
+        </p>
+      
+
+      
+
+      <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
+
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+  
     <article id="post-freemarker-if_elseif_else" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -617,97 +702,9 @@
 
 
   
-    <article id="post-git_tortoisegit_egit" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/07/24/git_tortoisegit_egit/">【原创】Git相关学习</a>
-    </h1>
-  
-
-        
-        <a href="/2017/07/24/git_tortoisegit_egit/" class="archive-article-date">
-  	<time datetime="2017-07-24T08:20:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-24</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p>导读部分<br>最近一直在学习Git的使用，下面做一下笔记记录。</p>
-</blockquote>
-<h4 id="一、-Git-安装"><a href="#一、-Git-安装" class="headerlink" title="一、 Git 安装"></a>一、 Git 安装</h4><p>Git官方下载地址：<br><a href="https://git-scm.com/downloads" target="_blank" rel="external">https://git-scm.com/downloads</a><br>或者<br><a href="https://git-for-windows.github.io/" target="_blank" rel="external">https://git-for-windows.github.io/</a></p>
-<p>Git 界面工具 Git　UI下载安装地址：<br><a href="https://git-scm.com/downloads/guis" target="_blank" rel="external">https://git-scm.com/downloads/guis</a></p>
-<p><strong>注意</strong>：上述Git UI 不推荐，因为我这里很少使用<br>
-        
-          <a class="article-more-a" href="/2017/07/24/git_tortoisegit_egit/#more">更多 >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Git</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">TortoiseGit</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">EGit</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/essay/" class="article-tag-list-link color1">essay</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/07/24/git_tortoisegit_egit/">查看全文 >></a>
-        </p>
-      
-
-      
-
-      <a href="javascript:;" id="scroll2Top-btn" title="回到顶部"></a>
-
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-  
   
     <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">旧篇章 &raquo;</a>
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/">旧篇章 &raquo;</a>
     </nav>
   
 
@@ -826,6 +823,14 @@ MathJax.Hub.Queue(function() {
           <ul class="article-tag-list" q-show="showTags">
             
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">埋点</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Freemarker</a>
+              </li>
+            
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">bootstrap</a>
               </li>
             
@@ -834,7 +839,7 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">埋点</a>
+                <a href="javascript:void(0)" class="js-tag color5">blog</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -842,27 +847,7 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Freemarker</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">travel</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">food</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Git</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">TortoiseGit</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">EGit</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -878,15 +863,23 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">jquery</a>
+                <a href="javascript:void(0)" class="js-tag color3">Android</a>
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">ajax</a>
+                <a href="javascript:void(0)" class="js-tag color5">WIFI</a>
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">优化记录</a>
+                <a href="javascript:void(0)" class="js-tag color2">TortoiseGit</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">EGit</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">volunteer</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -898,19 +891,15 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Android</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">WIFI</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">log</a>
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">volunteer</a>
+                <a href="javascript:void(0)" class="js-tag color2">jquery</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">ajax</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -938,7 +927,15 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">blog</a>
+                <a href="javascript:void(0)" class="js-tag color2">travel</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">food</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">优化记录</a>
               </li>
             
             <div class="clearfix"></div>
