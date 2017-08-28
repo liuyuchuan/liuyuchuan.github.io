@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.liuyuchuan.com/"/>
-  <updated>2017-08-28T10:13:58.383Z</updated>
+  <updated>2017-08-28T10:16:24.889Z</updated>
   <id>http://www.liuyuchuan.com/</id>
   
   <author>
@@ -20,13 +20,12 @@
     <link href="http://www.liuyuchuan.com/2017/08/28/freemarker-deprecated_built-ins,/"/>
     <id>http://www.liuyuchuan.com/2017/08/28/freemarker-deprecated_built-ins,/</id>
     <published>2017-08-28T09:57:07.000Z</published>
-    <updated>2017-08-28T10:13:58.383Z</updated>
+    <updated>2017-08-28T10:16:24.889Z</updated>
     
     <content type="html"><![CDATA[<h4 id="过时的内置列表"><a href="#过时的内置列表" class="headerlink" title="过时的内置列表"></a>过时的内置列表</h4><p>下面的内置对象已经过时，但是它们仍然可以使用：</p>
 <ul>
-<li><strong>default</strong>：这个是过时的 <a href="http://freemarker.org/docs/dgui_template_exp.html#dgui_template_exp_missing_default" target="_blank" rel="external">默认值操作</a>。<strong><em> exp1?default(exp2)</em></strong> 对象操作接近于 <strong><em>exp1!exp2</em></strong>，<strong><em>(exp1)?default(exp2)</em></strong> 对象操作接近于 <strong><em>(exp1)!exp2</em></strong>。唯一的区别是 FreeMarker 2.4，<em>default</em> 对象等价于 <em>exp2</em>, 默认值运算符只在真正需要默认值时计算它。无论怎么样，从FreeMarker 2.4开始，默认内置已被改进，其行为与默认值运算符完全相同。</li>
-</ul>
-<ul>
+<li><p><strong>default</strong>：这个是过时的 <a href="http://freemarker.org/docs/dgui_template_exp.html#dgui_template_exp_missing_default" target="_blank" rel="external">默认值操作</a>。<strong><em> exp1?default(exp2)</em></strong> 对象操作接近于 <strong><em>exp1!exp2</em></strong>，<strong><em>(exp1)?default(exp2)</em></strong> 对象操作接近于 <strong><em>(exp1)!exp2</em></strong>。唯一的区别是 FreeMarker 2.4，<em>default</em> 对象等价于 <em>exp2</em>, 默认值运算符只在真正需要默认值时计算它。无论怎么样，从FreeMarker 2.4开始，默认内置已被改进，其行为与默认值运算符完全相同。</p>
+</li>
 <li><p><strong>exists</strong>：这是默过时的默认对象，缺失值测试操作符。<strong><em>exp1?exists</em></strong> 等价于<strong><em> exp1??</em></strong>，同样 <strong><em>(exp1)?exists</em></strong> 等价于 <strong><em>(exp1)??</em></strong>。</p>
 </li>
 <li><p><strong>if_exists</strong>：这是默过时的默认对象，缺失值测试操作符。<strong><em>exp1?if_exists</em></strong> 类似于 <strong><em> exp1!</em></strong>, <strong><em>(exp1)?if_exists</em></strong> 类似于 <strong><em>(exp1)!</em></strong>。不同之处在于，用 if_exists 的默认值不仅仅同时是空字符串，空序列和空哈希表，而且布尔值 false 和不做任何事情的变<br>换，还有忽略所有参数。</p>
@@ -34,6 +33,7 @@
 <li><p><strong>web_safe</strong>: 同 <a href="http://freemarker.org/docs/ref_builtins_string.html#ref_builtin_html" target="_blank" rel="external">html</a></p>
 </li>
 </ul>
+<a id="more"></a>
 <p>翻译参考: <a href="http://freemarker.org/docs/ref_depr_builtin.html" target="_blank" rel="external">http://freemarker.org/docs/ref_depr_builtin.html</a><br>参考: <a href="http://freemarker.org/docs/ref_directives.html" target="_blank" rel="external">http://freemarker.org/docs/ref_directives.html</a></p>
 ]]></content>
     
@@ -114,7 +114,7 @@
     <link href="http://www.liuyuchuan.com/2017/08/05/test/"/>
     <id>http://www.liuyuchuan.com/2017/08/05/test/</id>
     <published>2017-08-05T04:48:32.000Z</published>
-    <updated>2017-08-06T15:58:24.367Z</updated>
+    <updated>2017-08-28T10:17:09.698Z</updated>
     
     <content type="html"><![CDATA[<p>aaaaaaaaaaaaa</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">code</span><span class="selector-class">.has-numbering</span> &#123;</div><div class="line">  <span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;<span class="attribute">margin-left</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">word-wrap</span>: normal;</div><div class="line">  <span class="attribute">word-break</span>: keep-all;</div><div class="line">  <span class="attribute">white-space</span>: pre;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.pre-numbering</span> &#123;</div><div class="line">  <span class="attribute">position</span>: absolute;</div><div class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">left</span>: <span class="number">0</span>;</div><div class="line">  <span class="attribute">width</span>: <span class="number">20px</span>;</div><div class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</div><div class="line">  <span class="attribute">padding</span>: .<span class="number">5em</span> <span class="number">0.2em</span> .<span class="number">5em</span> <span class="number">0</span>;</div><div class="line">  <span class="attribute">border-right</span>: <span class="number">1px</span> solid <span class="number">#C3CCD0</span>;</div><div class="line">  <span class="attribute">border-radius</span>: <span class="number">3px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">3px</span>;</div><div class="line">  <span class="attribute">background-color</span>: <span class="number">#EEE</span>;</div><div class="line">  <span class="attribute">text-align</span>: right;</div><div class="line">  <span class="attribute">font-size</span>: <span class="number">1.0em</span>;</div><div class="line">  <span class="attribute">color</span>: <span class="number">#AAA</span>;</div><div class="line">  <span class="attribute">list-style</span>: none;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -138,7 +138,7 @@
     <link href="http://www.liuyuchuan.com/2017/08/04/log/"/>
     <id>http://www.liuyuchuan.com/2017/08/04/log/</id>
     <published>2017-08-04T01:57:49.314Z</published>
-    <updated>2017-08-15T01:18:04.168Z</updated>
+    <updated>2017-08-28T10:17:39.340Z</updated>
     
     <content type="html"><![CDATA[<h3 id="2017年08月07日"><a href="#2017年08月07日" class="headerlink" title="2017年08月07日"></a>2017年08月07日</h3><table>
 <thead>

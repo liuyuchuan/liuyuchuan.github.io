@@ -15,7 +15,7 @@
 <meta property="og:url" content="http://www.liuyuchuan.com/2017/08/28/freemarker-deprecated_built-ins,/index.html">
 <meta property="og:site_name" content="Lycos 小站">
 <meta property="og:description" content="Freemarker中default，exists，if_exists">
-<meta property="og:updated_time" content="2017-08-28T10:13:58.383Z">
+<meta property="og:updated_time" content="2017-08-28T10:16:24.889Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="【翻译】Freemarker - 过时的内置对象列表">
 <meta name="twitter:description" content="Freemarker中default，exists，if_exists">
@@ -206,9 +206,8 @@
       
         <h4 id="过时的内置列表"><a href="#过时的内置列表" class="headerlink" title="过时的内置列表"></a>过时的内置列表</h4><p>下面的内置对象已经过时，但是它们仍然可以使用：</p>
 <ul>
-<li><strong>default</strong>：这个是过时的 <a href="http://freemarker.org/docs/dgui_template_exp.html#dgui_template_exp_missing_default" target="_blank" rel="external">默认值操作</a>。<strong><em> exp1?default(exp2)</em></strong> 对象操作接近于 <strong><em>exp1!exp2</em></strong>，<strong><em>(exp1)?default(exp2)</em></strong> 对象操作接近于 <strong><em>(exp1)!exp2</em></strong>。唯一的区别是 FreeMarker 2.4，<em>default</em> 对象等价于 <em>exp2</em>, 默认值运算符只在真正需要默认值时计算它。无论怎么样，从FreeMarker 2.4开始，默认内置已被改进，其行为与默认值运算符完全相同。</li>
-</ul>
-<ul>
+<li><p><strong>default</strong>：这个是过时的 <a href="http://freemarker.org/docs/dgui_template_exp.html#dgui_template_exp_missing_default" target="_blank" rel="external">默认值操作</a>。<strong><em> exp1?default(exp2)</em></strong> 对象操作接近于 <strong><em>exp1!exp2</em></strong>，<strong><em>(exp1)?default(exp2)</em></strong> 对象操作接近于 <strong><em>(exp1)!exp2</em></strong>。唯一的区别是 FreeMarker 2.4，<em>default</em> 对象等价于 <em>exp2</em>, 默认值运算符只在真正需要默认值时计算它。无论怎么样，从FreeMarker 2.4开始，默认内置已被改进，其行为与默认值运算符完全相同。</p>
+</li>
 <li><p><strong>exists</strong>：这是默过时的默认对象，缺失值测试操作符。<strong><em>exp1?exists</em></strong> 等价于<strong><em> exp1??</em></strong>，同样 <strong><em>(exp1)?exists</em></strong> 等价于 <strong><em>(exp1)??</em></strong>。</p>
 </li>
 <li><p><strong>if_exists</strong>：这是默过时的默认对象，缺失值测试操作符。<strong><em>exp1?if_exists</em></strong> 类似于 <strong><em> exp1!</em></strong>, <strong><em>(exp1)?if_exists</em></strong> 类似于 <strong><em>(exp1)!</em></strong>。不同之处在于，用 if_exists 的默认值不仅仅同时是空字符串，空序列和空哈希表，而且布尔值 false 和不做任何事情的变<br>换，还有忽略所有参数。</p>
@@ -216,6 +215,7 @@
 <li><p><strong>web_safe</strong>: 同 <a href="http://freemarker.org/docs/ref_builtins_string.html#ref_builtin_html" target="_blank" rel="external">html</a></p>
 </li>
 </ul>
+<a id="more"></a>
 <p>翻译参考: <a href="http://freemarker.org/docs/ref_depr_builtin.html" target="_blank" rel="external">http://freemarker.org/docs/ref_depr_builtin.html</a><br>参考: <a href="http://freemarker.org/docs/ref_directives.html" target="_blank" rel="external">http://freemarker.org/docs/ref_directives.html</a></p>
 
       
@@ -489,14 +489,6 @@ MathJax.Hub.Queue(function() {
           <ul class="article-tag-list" q-show="showTags">
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">埋点</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Freemarker</a>
-              </li>
-            
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">bootstrap</a>
               </li>
             
@@ -505,11 +497,19 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">blog</a>
+                <a href="javascript:void(0)" class="js-tag color3">埋点</a>
               </li>
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">about</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">blog</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Freemarker</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -529,11 +529,11 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Android</a>
+                <a href="javascript:void(0)" class="js-tag color2">travel</a>
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">WIFI</a>
+                <a href="javascript:void(0)" class="js-tag color5">food</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -545,7 +545,11 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">volunteer</a>
+                <a href="javascript:void(0)" class="js-tag color2">jquery</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">ajax</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -557,15 +561,23 @@ MathJax.Hub.Queue(function() {
               </li>
             
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">优化记录</a>
+              </li>
+            
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">log</a>
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">jquery</a>
+                <a href="javascript:void(0)" class="js-tag color3">Android</a>
               </li>
             
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">ajax</a>
+                <a href="javascript:void(0)" class="js-tag color5">WIFI</a>
+              </li>
+            
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">volunteer</a>
               </li>
             
               <li class="article-tag-list-item">
@@ -590,18 +602,6 @@ MathJax.Hub.Queue(function() {
             
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">writing</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">travel</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">food</a>
-              </li>
-            
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">优化记录</a>
               </li>
             
             <div class="clearfix"></div>
