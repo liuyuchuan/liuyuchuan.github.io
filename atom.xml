@@ -349,9 +349,9 @@
       <category term="技术" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="ajax" scheme="http://www.liuyuchuan.com/tags/ajax/"/>
-    
       <category term="JQuery" scheme="http://www.liuyuchuan.com/tags/JQuery/"/>
+    
+      <category term="ajax" scheme="http://www.liuyuchuan.com/tags/ajax/"/>
     
   </entry>
   
@@ -866,9 +866,9 @@
     
       <category term="poetry" scheme="http://www.liuyuchuan.com/tags/poetry/"/>
     
-      <category term="writing" scheme="http://www.liuyuchuan.com/tags/writing/"/>
-    
       <category term="w ord" scheme="http://www.liuyuchuan.com/tags/w-ord/"/>
+    
+      <category term="writing" scheme="http://www.liuyuchuan.com/tags/writing/"/>
     
   </entry>
   
