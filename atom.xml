@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.liuyuchuan.com/"/>
-  <updated>2017-08-28T10:16:24.889Z</updated>
+  <updated>2019-09-18T11:38:29.470Z</updated>
   <id>http://www.liuyuchuan.com/</id>
   
   <author>
@@ -16,363 +16,80 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【翻译】Freemarker - 过时的内置对象列表</title>
-    <link href="http://www.liuyuchuan.com/2017/08/28/freemarker-deprecated_built-ins,/"/>
-    <id>http://www.liuyuchuan.com/2017/08/28/freemarker-deprecated_built-ins,/</id>
-    <published>2017-08-28T09:57:07.000Z</published>
-    <updated>2017-08-28T10:16:24.889Z</updated>
+    <title>健康与运动</title>
+    <link href="http://www.liuyuchuan.com/2019/09/18/%E5%81%A5%E5%BA%B7%E4%B8%8E%E8%BF%90%E5%8A%A8/"/>
+    <id>http://www.liuyuchuan.com/2019/09/18/健康与运动/</id>
+    <published>2019-09-18T11:38:29.470Z</published>
+    <updated>2019-09-18T11:38:29.470Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="过时的内置列表"><a href="#过时的内置列表" class="headerlink" title="过时的内置列表"></a>过时的内置列表</h4><p>下面的内置对象已经过时，但是它们仍然可以使用：</p>
-<ul>
-<li><p><strong>default</strong>：这个是过时的 <a href="http://freemarker.org/docs/dgui_template_exp.html#dgui_template_exp_missing_default" target="_blank" rel="external">默认值操作</a>。<strong><em> exp1?default(exp2)</em></strong> 对象操作接近于 <strong><em>exp1!exp2</em></strong>，<strong><em>(exp1)?default(exp2)</em></strong> 对象操作接近于 <strong><em>(exp1)!exp2</em></strong>。唯一的区别是 FreeMarker 2.4，<em>default</em> 对象等价于 <em>exp2</em>, 默认值运算符只在真正需要默认值时计算它。无论怎么样，从FreeMarker 2.4开始，默认内置已被改进，其行为与默认值运算符完全相同。</p>
-</li>
-<li><p><strong>exists</strong>：这是默过时的默认对象，缺失值测试操作符。<strong><em>exp1?exists</em></strong> 等价于<strong><em> exp1??</em></strong>，同样 <strong><em>(exp1)?exists</em></strong> 等价于 <strong><em>(exp1)??</em></strong>。</p>
-</li>
-<li><p><strong>if_exists</strong>：这是默过时的默认对象，缺失值测试操作符。<strong><em>exp1?if_exists</em></strong> 类似于 <strong><em> exp1!</em></strong>, <strong><em>(exp1)?if_exists</em></strong> 类似于 <strong><em>(exp1)!</em></strong>。不同之处在于，用 if_exists 的默认值不仅仅同时是空字符串，空序列和空哈希表，而且布尔值 false 和不做任何事情的变<br>换，还有忽略所有参数。</p>
-</li>
-<li><p><strong>web_safe</strong>: 同 <a href="http://freemarker.org/docs/ref_builtins_string.html#ref_builtin_html" target="_blank" rel="external">html</a></p>
-</li>
-</ul>
-<a id="more"></a>
-<p>翻译参考: <a href="http://freemarker.org/docs/ref_depr_builtin.html" target="_blank" rel="external">http://freemarker.org/docs/ref_depr_builtin.html</a><br>参考: <a href="http://freemarker.org/docs/ref_directives.html" target="_blank" rel="external">http://freemarker.org/docs/ref_directives.html</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      Freemarker中default，exists，if_exists
-    
-    </summary>
-    
-      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
-    
-    
-      <category term="Freemarker" scheme="http://www.liuyuchuan.com/tags/Freemarker/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【翻译】Freemarker - if, else, elseif 标签使用</title>
-    <link href="http://www.liuyuchuan.com/2017/08/24/freemarker-if_elseif_else/"/>
-    <id>http://www.liuyuchuan.com/2017/08/24/freemarker-if_elseif_else/</id>
-    <published>2017-08-24T01:47:33.000Z</published>
-    <updated>2017-08-25T07:34:31.597Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h4><ul>
-<li>摘要</li>
-<li>描述</li>
-</ul>
-<h4 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h4><!-- zhaiao -->
-<figure class="highlight clean"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;#<span class="keyword">if</span> 条件<span class="number">1</span>&gt;</div><div class="line">  ...</div><div class="line">&lt;#elseif 条件<span class="number">2</span>&gt;</div><div class="line">  ...</div><div class="line">&lt;#elseif 条件<span class="number">3</span>&gt;</div><div class="line">  ...</div><div class="line">  ...</div><div class="line">&lt;#else&gt;</div><div class="line">  ...</div><div class="line">&lt;/#<span class="keyword">if</span>&gt;</div></pre></td></tr></table></figure>
-<p>备注：</p>
-<ul>
-<li><em>条件</em>, <em>条件2</em>, …等。： 表达式的计算结果为布尔值。<br><strong>elseif-s</strong> 和 <strong>else</strong> 是条件选项。</li>
-</ul>
-<a id="more"></a>
-<p>驼峰命名法： <strong>elseIf</strong></p>
-<h4 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h4><!-- miaosu -->
-<p>你可以使用 <strong>if</strong>, <strong>elseif</strong> 和 <strong>else</strong> 有条件地跳过一段模板指令。选项表达式计算结果必须是不二类型, 否则，一个错误将中止处理模板。标签 <strong>elseif-s</strong> and <strong>else-s</strong> 必须在 <strong>if</strong> 之后 (意味着 <strong>if</strong> 标签开始，<strong>#if</strong> 标签结束)。标签 if 可以有任意数量的 <strong>elseif-s</strong> (也可以没有)，最后也要使用 <strong>if</strong> 标签结束。例如:</p>
-<ul>
-<li>if 语句（只有 if 标签开始，if 标签结束）</li>
-</ul>
-<figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
-<ul>
-<li>if else 语句</li>
-</ul>
-<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
-<ul>
-<li>if elseif 语句</li>
-</ul>
-<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 2&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">2</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 3&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">3</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
-<ul>
-<li>if elseif else 语句</li>
-</ul>
-<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 2&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">2</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 3&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">3</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 4&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">4</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span> nor <span class="number">2</span> nor <span class="number">3</span> nor <span class="number">4</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
-<p>更多资料请参考这里：<a href="http://freemarker.org/docs/dgui_template_exp.html" target="_blank" rel="external">Template Author’s Guide/The Template/Expressions</a>。</p>
-<p>你也可以使用嵌套 <strong>if</strong> 语句（这也是可以）：</p>
-<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">if</span> y == 1&gt;</span></div><div class="line">    <span class="keyword">and</span> y <span class="keyword">is</span> <span class="number">1</span> too</div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">    but y <span class="keyword">is</span> <span class="keyword">not</span></div><div class="line">  &lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span></div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">if</span> y &lt; 0&gt;</span></div><div class="line">    <span class="keyword">and</span> y <span class="keyword">is</span> less than <span class="number">0</span></div><div class="line">  &lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<h4 id="那些年，走过的路"><a href="#那些年，走过的路" class="headerlink" title="那些年，走过的路"></a>那些年，走过的路</h4><p>##2017年</p>
 <blockquote>
-<p>注意：<br>当你想要 <strong><em>if x &gt; 0</em></strong> 或者 <strong><em>x &gt;= 0</em></strong>, 写 <strong><em>&lt;#if x &gt; 0&gt;</em></strong> 或者 <strong><em>&lt;#if x &gt;= 0&gt;</em></strong> 是错误的, 第一个 &gt; 将会关闭 <strong>#if</strong> 标签。如果想要指令工作，就要这样 <strong><em>&lt;#if x gt 0&gt;</em></strong> 或者 <strong><em>&lt;#if gte 0&gt;</em></strong> 。注意，如果计算表达式比较发生在括号中，你就不会有这样的问题, 像 <strong>&lt;#if foo.bar(x &gt; 0)&gt;</strong> 。</p>
+<p>2月份</p>
 </blockquote>
-<p>翻译参考: <a href="http://freemarker.org/docs/ref_directive_if.html" target="_blank" rel="external">http://freemarker.org/docs/ref_directive_if.html</a><br>参考: <a href="http://freemarker.org/docs/ref_directives.html" target="_blank" rel="external">http://freemarker.org/docs/ref_directives.html</a></p>
-]]></content>
+<pre><code>1、02月12日 25.00KM 牛木外线
+</code></pre><blockquote>
+<p>3月份</p>
+</blockquote>
+<pre><code>暂无数据。
+</code></pre><blockquote>
+<p>4月份</p>
+</blockquote>
+<pre><code>1、04月09日 16.00KM 火凤线    
+</code></pre><blockquote>
+<p>5月份</p>
+</blockquote>
+<pre><code>1、05月06日 20.00KM 渔帽线（第一机耕路）
+</code></pre><a id="more"></a>    
+<blockquote>
+<p>6月份</p>
+</blockquote>
+<pre><code>1.06月11日 11.40KM 龙洞总站到大源森源居农庄（腐败游水线）
+</code></pre><blockquote>
+<p>7月份</p>
+</blockquote>
+<pre><code>1、07月01日 2.00KM 火炉山（后山开炉 - 腐败线）
+</code></pre><blockquote>
+<p>8月份</p>
+</blockquote>
+<pre><code>1、08月19日 11.45KM 白云山（白云山环线）
+</code></pre><h6 id="—-—同步更新博客园"><a href="#—-—同步更新博客园" class="headerlink" title="— —同步更新博客园"></a>— —同步更新<a href="http://www.cnblogs.com/yuchuan/p/hill.html" target="_blank" rel="external">博客园</a></h6>]]></content>
     
     <summary type="html">
     
-      Freemarker中if else elseif 标签使用
+      那些年，登山徒步远足记录，立贴
     
     </summary>
     
-      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
+      <category term="生活" scheme="http://www.liuyuchuan.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="Freemarker" scheme="http://www.liuyuchuan.com/tags/Freemarker/"/>
+      <category term="sport" scheme="http://www.liuyuchuan.com/tags/sport/"/>
     
-  </entry>
-  
-  <entry>
-    <title>更新日志</title>
-    <link href="http://www.liuyuchuan.com/2017/08/04/log/"/>
-    <id>http://www.liuyuchuan.com/2017/08/04/log/</id>
-    <published>2017-08-04T01:57:49.314Z</published>
-    <updated>2017-08-28T10:17:39.340Z</updated>
+      <category term="healthy" scheme="http://www.liuyuchuan.com/tags/healthy/"/>
     
-    <content type="html"><![CDATA[<h3 id="2017年08月07日"><a href="#2017年08月07日" class="headerlink" title="2017年08月07日"></a>2017年08月07日</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">操作</th>
-<th style="text-align:left">更新文件列表</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">add</td>
-<td style="text-align:left"><strong>../themes/yilia/layout/_partial/totop.ejs</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">add</td>
-<td style="text-align:left"><strong>../themes/yilia/source/totop.js</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">mod</td>
-<td style="text-align:left"><strong>../themes/yilia/layout/_partial/after-footer.ejs</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">add</td>
-<td style="text-align:left"><strong>../source/assets/images/totop.png</strong></td>
-</tr>
-</tbody>
-</table>
-<p>1、新增“返回顶部”功能<br><a id="more"></a></p>
-<h3 id="2017年08月04日"><a href="#2017年08月04日" class="headerlink" title="2017年08月04日"></a>2017年08月04日</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">操作</th>
-<th style="text-align:left">更新文件列表</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">mod</td>
-<td style="text-align:left"><strong>../themes/yilia/layout/_partial/script.ejs</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">mod</td>
-<td style="text-align:left"><strong>../themes/yilia/source/main.b3331d.css</strong></td>
-</tr>
-</tbody>
-</table>
-<p>1、当首次进入博客时分页处显示Prev，当进入末页时显示Next，优化为汉字；<br>2、优化火狐浏览器浏览文章时，畅言评论处的快捷回复被覆盖功能；</p>
-<h3 id="2017年08月03日"><a href="#2017年08月03日" class="headerlink" title="2017年08月03日"></a>2017年08月03日</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">操作</th>
-<th style="text-align:left">更新文件列表</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">mod</td>
-<td style="text-align:left"><strong>../themes/yilia/layout/_partial/tools.ejs</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">mod</td>
-<td style="text-align:left"><strong>../themes/yilia/layout/_partial/left-col.ejs</strong></td>
-</tr>
-</tbody>
-</table>
-<p>1、优化手机网页端（WAP）点击“关于我”，直接跳转网页；<br>2、优化“关于我”由原来写死链接修改为可以配置项；<br>3、新增文章“置顶”功能，此处只是新增了置顶标签。</p>
-<h3 id="2017年08月02日"><a href="#2017年08月02日" class="headerlink" title="2017年08月02日"></a>2017年08月02日</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">操作</th>
-<th style="text-align:left">更新文件列表</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">plan</td>
-<td style="text-align:left"><strong>计划相册功能</strong></td>
-</tr>
-</tbody>
-</table>
-<p>1、计划，新增相册功能</p>
-<h3 id="2017年07月24日"><a href="#2017年07月24日" class="headerlink" title="2017年07月24日"></a>2017年07月24日</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">操作</th>
-<th style="text-align:left">更新文件列表</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">opt</td>
-<td style="text-align:left"><strong>七牛图片大小处理</strong></td>
-</tr>
-</tbody>
-</table>
-<p>1、优化博文中插入图片的尺寸，通过阅读API，<em>?imageMogr/thumbnail/WxH/quality/Q</em> ，具体问题请参考<a href="https://developer.qiniu.com/dora/manual/1270/the-advanced-treatment-of-images-imagemogr2" target="_blank" rel="external">七牛高级图片处理</a></p>
-<h3 id="2017年07月18日"><a href="#2017年07月18日" class="headerlink" title="2017年07月18日"></a>2017年07月18日</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">操作</th>
-<th style="text-align:left">更新文件列表</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">new</td>
-<td style="text-align:left"><strong>新增网易云音乐外链</strong></td>
-</tr>
-</tbody>
-</table>
-<p>1、新增音乐外链，当前博客使用 <a href="http://music.163.com/#/outchain/2/32619064/m/use" target="_blank" rel="external">网易云</a>；<br>2、其他音乐外链推荐：<a href="http://www.xiami.com/widget/isingle?spm=0.0.0.0.CDiarB" target="_blank" rel="external">虾米</a> ；</p>
-<h3 id="2017年07月10日"><a href="#2017年07月10日" class="headerlink" title="2017年07月10日"></a>2017年07月10日</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">操作</th>
-<th style="text-align:left">更新文件列表</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">new</td>
-<td style="text-align:left"><strong>博客开通</strong></td>
-</tr>
-</tbody>
-</table>
-<p>1、我的生日，Congratulations，开通了博客。</p>
-<h3 id="2017年06月03日"><a href="#2017年06月03日" class="headerlink" title="2017年06月03日"></a>2017年06月03日</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">操作</th>
-<th style="text-align:left">更新文件列表</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">add</td>
-<td style="text-align:left"><strong>新增评论、分享、分页模块</strong></td>
-</tr>
-</tbody>
-</table>
-<p>1、新增网易评论模块；<br>2、新增分享模块；<br>3、支付宝 &amp; 微信转账模块；<br>4、分页模块以及分页处理；</p>
-<h3 id="2017年06月29日"><a href="#2017年06月29日" class="headerlink" title="2017年06月29日"></a>2017年06月29日</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">操作</th>
-<th style="text-align:left">更新文件列表</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">add</td>
-<td style="text-align:left"><strong>新增“关于我”链接</strong></td>
-</tr>
-</tbody>
-</table>
-<p>1、新增“关于我”链接；<br>2、新增“友链”，其中写了两个‘个人简介’部分；</p>
-<h3 id="2017年06月28日"><a href="#2017年06月28日" class="headerlink" title="2017年06月28日"></a>2017年06月28日</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">操作</th>
-<th style="text-align:left">更新文件列表</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">add</td>
-<td style="text-align:left"><strong>新增简介文章</strong></td>
-</tr>
-</tbody>
-</table>
-<p>1、新增简介文章；</p>
-<h3 id="2017年06月15日"><a href="#2017年06月15日" class="headerlink" title="2017年06月15日"></a>2017年06月15日</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">操作</th>
-<th style="text-align:left">更新文件列表</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">new</td>
-<td style="text-align:left"><strong>底部统计功能</strong></td>
-</tr>
-</tbody>
-</table>
-<p>1、新增底部统计功能，当前博客使用 <a href="http://busuanzi.ibruce.info/" target="_blank" rel="external">不蒜子</a>；<br>2、其他第三方推荐：<a href="http://mob.com/" target="_blank" rel="external">Mob 官网</a>；</p>
-<h3 id="2017年05月27日"><a href="#2017年05月27日" class="headerlink" title="2017年05月27日"></a>2017年05月27日</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">操作</th>
-<th style="text-align:left">更新文件列表</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">add</td>
-<td style="text-align:left"><strong>配置域名，确认主题，公益404</strong></td>
-</tr>
-</tbody>
-</table>
-<p>1、配置域名，由原来的 <strong><em> liuyuchuan.github.io </em></strong>映射到 <strong><em> liuyuchuan.com </em></strong>，新增<strong>cname</strong>文件；<br>2、github &amp; hexo 开始写博客；<br>2、寻找theme，最后确定主题为 <a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">yilia</a> 的主题，相关问题以及解决方案，请在官网查找；<br>3、新增公益404.html文件，此处使用<a href="http://www.qq.com/404/" target="_blank" rel="external">腾讯公益404</a>，优化页面配置项；</p>
-<h3 id="2016年05月23日"><a href="#2016年05月23日" class="headerlink" title="2016年05月23日"></a>2016年05月23日</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">操作</th>
-<th style="text-align:left">更新文件列表</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">add</td>
-<td style="text-align:left"><strong>Begin</strong></td>
-</tr>
-</tbody>
-</table>
-<p>1、打算写博客，学习github &amp; jetty 开始写博客；<br>2、配置github博客域名为 <strong><em> <a href="https://liuyuchuan.github.io" target="_blank" rel="external">liuyuchuan.github.io</a> </em></strong>；<br>3、在<a href="https://www.aliyun.com/" target="_blank" rel="external">阿里云</a>购买域名<strong><em> <a href="http://www.liuyuchuan.com">www.liuyuchuan.com</a> </em></strong>；<br>4、第一篇博客日志 helloword 展示；</p>
-]]></content>
-    
-    <summary type="html">
-    
-      更新配置当前博客的日志记录
-    
-    </summary>
-    
-      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
-    
-    
-      <category term="优化记录" scheme="http://www.liuyuchuan.com/tags/%E4%BC%98%E5%8C%96%E8%AE%B0%E5%BD%95/"/>
+      <category term="hill" scheme="http://www.liuyuchuan.com/tags/hill/"/>
     
   </entry>
   
   <entry>
     <title>【原创】Android 7.1.2 WIFI多出了X号消除方法</title>
-    <link href="http://www.liuyuchuan.com/2017/08/01/nexus6p_sign/"/>
-    <id>http://www.liuyuchuan.com/2017/08/01/nexus6p_sign/</id>
-    <published>2017-08-01T01:57:43.515Z</published>
-    <updated>2017-08-15T01:19:08.438Z</updated>
+    <link href="http://www.liuyuchuan.com/2019/09/18/nexus6p_sign/"/>
+    <id>http://www.liuyuchuan.com/2019/09/18/nexus6p_sign/</id>
+    <published>2019-09-18T11:37:04.153Z</published>
+    <updated>2019-09-18T11:37:04.153Z</updated>
     
-    <content type="html"><![CDATA[<p>最近将手机操作系统升级到了 Android 7.1.2，连接网络的时WIFI出现了小叉号，移动流量也是出现这种情况。</p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170801/%E6%89%8B%E6%9C%BA%E8%81%94%E7%BD%91%E5%87%BA%E7%8E%B0%E5%B0%8F%E5%8F%89%E5%8F%B7.png?imageMogr/thumbnail/400x300/quality/250" alt=""></p>
-<p>无论是什么原因引起的，是不是始终看着不爽。那我们就来手动干掉这个小叉号。</p>
-<a id="more"></a>
+    <content type="html"><![CDATA[<p>最近将手机操作系统升级到了 Android 7.1.2，连接网络的时WIFI出现了小叉号，移动流量也是出现这种情况。<br>无论是什么原因引起的，是不是始终看着不爽。那我们就来手动干掉这个小叉号。<br><a id="more"></a></p>
 <blockquote>
-<p>首先将手机连接电脑，安装电脑所需要的手机驱动以及打开手机的调试模式</p>
+<p>首先将手机连接电脑，安装电脑所需要的手机驱动以及打开手机的调试模式<br>像上图我这样子，只是安装好了 ADB Interface，如果这个也安装不好，那就不好整了。 如果安装不好，你可以按照下面的网址下载并手动安装，如果已经安装，点击后它还会给于提示。</p>
 </blockquote>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170801/%E5%AE%89%E8%A3%85%E9%A9%B1%E5%8A%A8%E8%AE%BE%E5%A4%87.png" alt=""></p>
-<p>像上图我这样子，只是安装好了 ADB Interface，如果这个也安装不好，那就不好整了。 如果安装不好，你可以按照下面的网址下载并手动安装，如果已经安装，点击后它还会给于提示。</p>
 <ul>
 <li>下载地址（包含驱动、adb &amp; fastboot包）：<br><a href="http://adbshell.com/downloads" target="_blank" rel="external">adbshell DownLoad</a></li>
 </ul>
 <p>如果打不开，你也可以在这里下载，百度网盘： <a href="https://pan.baidu.com/s/1mhZrcSS" target="_blank" rel="external">https://pan.baidu.com/s/1mhZrcSS</a> 密码: xbg7</p>
 <ul>
-<li><p>如果已经安装，则有已安装提示<br><img src="http://osauqjpy8.bkt.clouddn.com/github/20170801/%E5%A6%82%E6%9E%9C%E5%B7%B2%E7%BB%8F%E5%AE%89%E8%A3%85.png?imageMogr/thumbnail/400x300/quality/350" alt=""></p>
-</li>
-<li><p>拷贝文件<br>将已经下载的文件 <strong>adb.exe</strong>、<strong>AdbWinApi.dll</strong>、<strong>AdbWinUsbApi.dll</strong> 拷贝到当前电脑的 C:\Windows\system\ 和 C:\Windows\system32\ 文件包下面去</p>
-</li>
-<li><p>执行命令<br>然后使用快捷方式 <strong>win + R</strong> 打开命令窗口，依次输入以下命令：</p>
-</li>
+<li>如果已经安装，则有已安装提示</li>
+<li>拷贝文件<br>将已经下载的文件 <strong>adb.exe</strong>、<strong>AdbWinApi.dll</strong>、<strong>AdbWinUsbApi.dll</strong> 拷贝到当前电脑的 C:\Windows\system\ 和 C:\Windows\system32\ 文件包下面去</li>
+<li>执行命令<br>然后使用快捷方式 <strong>win + R</strong> 打开命令窗口，依次输入以下命令：</li>
 </ul>
 <blockquote>
 <p>其次，手动操作命令</p>
@@ -388,8 +105,6 @@
 <li>google.cn模式</li>
 </ul>
 <figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">adb <span class="keyword">shell</span><span class="bash"> <span class="string">"settings put global captive_portal_server https://www.google.cn/generate_204"</span></span></div></pre></td></tr></table></figure>
-<p>自己操作图解：</p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170801/%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%AA%A4%E5%B1%95%E7%A4%BA.png" alt=""></p>
 <p>现在看看自己手机的网络小叉号是不是消失了呢？</p>
 <h2 id="有问题请及时在下面回复或者联系本文作者"><a href="#有问题请及时在下面回复或者联系本文作者" class="headerlink" title="有问题请及时在下面回复或者联系本文作者"></a>有问题请及时在下面回复或者联系本文作者</h2>]]></content>
     
@@ -399,7 +114,7 @@
     
     </summary>
     
-      <category term="life" scheme="http://www.liuyuchuan.com/categories/life/"/>
+      <category term="生活" scheme="http://www.liuyuchuan.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
       <category term="Android" scheme="http://www.liuyuchuan.com/tags/Android/"/>
@@ -409,173 +124,11 @@
   </entry>
   
   <entry>
-    <title>【原创】Git SSH密钥对生成以及多个SSH存在情况配置</title>
-    <link href="http://www.liuyuchuan.com/2017/07/25/git_ssh/"/>
-    <id>http://www.liuyuchuan.com/2017/07/25/git_ssh/</id>
-    <published>2017-07-25T02:08:43.525Z</published>
-    <updated>2017-08-15T01:17:23.844Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="一、使用Git-Bash-生成一个新的SSH密钥"><a href="#一、使用Git-Bash-生成一个新的SSH密钥" class="headerlink" title="一、使用Git Bash 生成一个新的SSH密钥"></a>一、使用Git Bash 生成一个新的SSH密钥</h3><p><strong><em>1</em></strong>、 打开 <strong><em>Git Bash</em></strong>.</p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/open_git_bash.png" alt=""></p>
-<a id="more"></a>
-<p><strong><em>2</em></strong>、 邮箱设置<br>粘贴下面的文字，替换成为你自己的邮箱。</p>
-<p>Github SSH<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> ssh-keygen -t rsa -b 4096 -C <span class="string">"your_email@example.com"</span></span></div></pre></td></tr></table></figure></p>
-<p>Git SSH<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> ssh-keygen -t rsa -b -C <span class="string">"your_email@example.com"</span></span></div></pre></td></tr></table></figure></p>
-<p>这将使用所提供的电子邮件作为标签创建一个新的SSH密钥。 下面展示创建中：<br><figure class="highlight lasso"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Generating <span class="keyword">public</span>/<span class="keyword">private</span> rsa key <span class="built_in">pair</span>.</div></pre></td></tr></table></figure></p>
-<p>等会你将看到下面步骤所示</p>
-<p><strong><em>3</em></strong>、文件存放位置以及文件名<br>当你被提示“输入一个文件保存的关键，“按回车。 这种接受默认文件位置。<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter <span class="keyword">a</span> <span class="built_in">file</span> <span class="keyword">in</span> which <span class="built_in">to</span> save <span class="keyword">the</span> key (/c/Users/you/.ssh/id_rsa):</div></pre></td></tr></table></figure></p>
-<p>如果想已经存在，则需要新建一个另外的名字的文件即可，这也会出现多个SSH存在的情况，请参考 三</p>
-<p><strong><em>4</em></strong>、密码以及确认密码<br>在提示符下，键入一个安全的密码。更多信息，见“<a href="https://help.github.com/articles/working-with-ssh-key-passphrases" target="_blank" rel="external">使用SSH密钥的口令</a>”。<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter passphrase (<span class="built_in">empty</span> <span class="keyword">for</span> <span class="keyword">no</span> passphrase):</div></pre></td></tr></table></figure></p>
-<p>看到上面输入一个密码，当然，你输入的密码是看不到任何效果的，确定密码后回车<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter same passphrase <span class="string">again:</span></div></pre></td></tr></table></figure></p>
-<p>上面是确认密码</p>
-<p><strong><em>5</em></strong>、<br>进入你的本地磁盘地址（由于默认，你可以按照下面的地址找到公钥、私钥）<br><figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="regexp">/c/</span>Users<span class="regexp">/你的登录账户名/</span>.ssh<span class="regexp">/id_rsa</span></div></pre></td></tr></table></figure></p>
-<h3 id="二、实际操作展示"><a href="#二、实际操作展示" class="headerlink" title="二、实际操作展示"></a>二、实际操作展示</h3><p>概述：<br>下面是我实际操作的截图，分享下：<br><img src="http://osauqjpy8.bkt.clouddn.com/github/git_bash_use.png" alt=""></p>
-<p>如果上述步骤不明确，可以查看我这里的图片，这里给于详细解释：</p>
-<blockquote>
-<p>红色 1 处，查询当前默认位置是否存在公钥、私钥，<br>红色 2 ，3 ，4 处，就是上面的第一部分所操作。</p>
-</blockquote>
-<h3 id="三、关于多个SSH密钥对存在的情况"><a href="#三、关于多个SSH密钥对存在的情况" class="headerlink" title="三、关于多个SSH密钥对存在的情况"></a>三、关于多个SSH密钥对存在的情况</h3><blockquote>
-<p>场景：例如，我使用了Github的时候使用自己的邮箱，在自己公司使用公司邮箱，<br>那么这种情况就是一种很常见的情况，那么遇到这种情况我们要如何处理呢？别<br>着急，我们这里有方法</p>
-</blockquote>
-<p>首先：Windows 进入密钥默认的路径下面，然后新建一个没有后缀名的 <strong><em>config</em></strong> 文件</p>
-<p>其次：在文件内部输入以下代码<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">Host github.com</div><div class="line">    HostName        github.com</div><div class="line">   <span class="built_in"> User </span>           your_email_1@example.com</div><div class="line">    IdentityFile    /c/Users/you/.ssh/id_rsa</div><div class="line">     </div><div class="line">Host 服务域名或者IP</div><div class="line">    HostName        服务域名或者IP</div><div class="line">   <span class="built_in"> User </span>           your_email_2@example.com</div><div class="line">    IdentityFile    /c/Users/you/.ssh/id_rsa_别名</div></pre></td></tr></table></figure></p>
-<p>配置完成后，删除kown_host即可，在使用过程中，会自动根据配置文件来访问</p>
-<p><strong><em>注意</em></strong>：<br>1、如果有github，那么github的一定要使用 <strong>github.com</strong><br>2、每次连接的时候会有一个提示框弹出，这个时候直接输入 <strong>yes</strong> 就可以了</p>
-]]></content>
-    
-    <summary type="html">
-    
-      使用Git Bash 生成一个新的SSH密钥
-    
-    </summary>
-    
-      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
-    
-    
-      <category term="Git" scheme="http://www.liuyuchuan.com/tags/Git/"/>
-    
-      <category term="SSH" scheme="http://www.liuyuchuan.com/tags/SSH/"/>
-    
-      <category term="公钥" scheme="http://www.liuyuchuan.com/tags/%E5%85%AC%E9%92%A5/"/>
-    
-      <category term="私钥" scheme="http://www.liuyuchuan.com/tags/%E7%A7%81%E9%92%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【原创】Git相关学习</title>
-    <link href="http://www.liuyuchuan.com/2017/07/24/git_tortoisegit_egit/"/>
-    <id>http://www.liuyuchuan.com/2017/07/24/git_tortoisegit_egit/</id>
-    <published>2017-07-24T08:20:28.000Z</published>
-    <updated>2017-08-15T01:17:56.389Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>导读部分<br>最近一直在学习Git的使用，下面做一下笔记记录。</p>
-</blockquote>
-<h4 id="一、-Git-安装"><a href="#一、-Git-安装" class="headerlink" title="一、 Git 安装"></a>一、 Git 安装</h4><p>Git官方下载地址：<br><a href="https://git-scm.com/downloads" target="_blank" rel="external">https://git-scm.com/downloads</a><br>或者<br><a href="https://git-for-windows.github.io/" target="_blank" rel="external">https://git-for-windows.github.io/</a></p>
-<p>Git 界面工具 Git　UI下载安装地址：<br><a href="https://git-scm.com/downloads/guis" target="_blank" rel="external">https://git-scm.com/downloads/guis</a></p>
-<p><strong>注意</strong>：上述Git UI 不推荐，因为我这里很少使用<br><a id="more"></a></p>
-<h4 id="二、-TortoiseGit-安装"><a href="#二、-TortoiseGit-安装" class="headerlink" title="二、 TortoiseGit 安装"></a>二、 TortoiseGit 安装</h4><p>TortoiseGit 磁盘界面工具下载安装地址：<br><a href="https://tortoisegit.org/download/" target="_blank" rel="external">https://tortoisegit.org/download/</a></p>
-<p>当前页面中有语言包，可以根据需要下载语言包</p>
-<h4 id="三、-开发环境Eclipse-的GIT插件EGit下载和安装"><a href="#三、-开发环境Eclipse-的GIT插件EGit下载和安装" class="headerlink" title="三、 开发环境Eclipse 的GIT插件EGit下载和安装"></a>三、 开发环境Eclipse 的GIT插件EGit下载和安装</h4><p>EGit官方网址：<br><a href="http://www.eclipse.org/egit/" target="_blank" rel="external">http://www.eclipse.org/egit/</a></p>
-<p>EGit官方下载地址：<br><a href="http://www.eclipse.org/egit/download/" target="_blank" rel="external">http://www.eclipse.org/egit/download/</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      Git的一些使用记录
-    
-    </summary>
-    
-      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
-    
-    
-      <category term="Git" scheme="http://www.liuyuchuan.com/tags/Git/"/>
-    
-      <category term="TortoiseGit" scheme="http://www.liuyuchuan.com/tags/TortoiseGit/"/>
-    
-      <category term="EGit" scheme="http://www.liuyuchuan.com/tags/EGit/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【原创】未来，闪闪发光</title>
-    <link href="http://www.liuyuchuan.com/2017/07/17/future_glitters/"/>
-    <id>http://www.liuyuchuan.com/2017/07/17/future_glitters/</id>
-    <published>2017-07-17T09:03:06.656Z</published>
-    <updated>2017-08-15T01:16:58.728Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p><strong><em>导读</em></strong><br>我们，未来，闪闪发光    </p>
-</blockquote>
-<p>外面世界，好奇这世界。唯独美食与美景才是此生所需要追求。</p>
-<h4 id="美景"><a href="#美景" class="headerlink" title="美景"></a>美景</h4><p>阳光正好，青山碧水，听着树上的鸟鸣声，望着远方青山，心情瞬间美美的。<br><img src="http://osauqjpy8.bkt.clouddn.com/github/20170714_115458.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-<a id="more"></a>
-<p>其实，田园生活也是一种向往，看着这些无忧无虑的鸡鸭，真是羡煞了众人。</p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170714_115441.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-<p><br></p>
-<h4 id="美食"><a href="#美食" class="headerlink" title="美食"></a>美食</h4><p>来到这里，吃到不少美食</p>
-<p><strong><em>火宫殿</em></strong>：长沙臭豆腐</p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_164014.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-<p><strong><em>火宫殿</em></strong>：糖油粑粑</p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_164018.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-<p><strong><em>火宫殿</em></strong>：葱油粑粑</p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_164020.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-<p><strong><em>火宫殿</em></strong>：脑髓卷</p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_164023.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-<p>额外还有 三角豆腐，等。</p>
-<p><br><br>烧烤哪里都有，但是这种貌似还是第一次见到。</p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170715_231326.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170715_224512.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170715_224840.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170715_225455.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-<p><br></p>
-<h4 id="建筑"><a href="#建筑" class="headerlink" title="建筑"></a>建筑</h4><p>建筑，想去溜达溜达一下大学，寺院。</p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_113537.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_105400.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/20170713_083702.jpg?imageMogr/thumbnail/300x/quality/150" alt=""></p>
-<p><br></p>
-]]></content>
-    
-    <summary type="html">
-    
-      旅行这些事
-    
-    </summary>
-    
-      <category term="life" scheme="http://www.liuyuchuan.com/categories/life/"/>
-    
-    
-      <category term="travel" scheme="http://www.liuyuchuan.com/tags/travel/"/>
-    
-      <category term="food" scheme="http://www.liuyuchuan.com/tags/food/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>输入框限制字数的</title>
-    <link href="http://www.liuyuchuan.com/2017/07/12/JQuery_/"/>
-    <id>http://www.liuyuchuan.com/2017/07/12/JQuery_/</id>
-    <published>2017-07-12T10:42:11.687Z</published>
-    <updated>2017-07-12T10:42:11.939Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">aaa</span></div></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;figure class=&quot;highlight ebnf&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>【翻译】Maven 的长枪配置 pom.xml</title>
-    <link href="http://www.liuyuchuan.com/2017/07/08/maven_pom/"/>
-    <id>http://www.liuyuchuan.com/2017/07/08/maven_pom/</id>
-    <published>2017-07-08T02:50:31.245Z</published>
-    <updated>2017-08-15T01:18:22.271Z</updated>
+    <link href="http://www.liuyuchuan.com/2019/09/18/maven_pom/"/>
+    <id>http://www.liuyuchuan.com/2019/09/18/maven_pom/</id>
+    <published>2019-09-18T11:36:27.322Z</published>
+    <updated>2019-09-18T11:36:27.322Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p><strong> – 导读</strong></p>
@@ -689,7 +242,7 @@
     
     </summary>
     
-      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
+      <category term="技术" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
       <category term="mavne" scheme="http://www.liuyuchuan.com/tags/mavne/"/>
@@ -699,11 +252,380 @@
   </entry>
   
   <entry>
+    <title>【转载】Ajax 方法以及参数的参考</title>
+    <link href="http://www.liuyuchuan.com/2019/09/18/jquery_ajax/"/>
+    <id>http://www.liuyuchuan.com/2019/09/18/jquery_ajax/</id>
+    <published>2019-09-18T11:36:07.302Z</published>
+    <updated>2019-09-18T11:36:07.302Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="jQuery-ajax-ajax-方法"><a href="#jQuery-ajax-ajax-方法" class="headerlink" title="jQuery ajax - ajax() 方法"></a>jQuery ajax - ajax() 方法</h2><h3 id="定义和用法"><a href="#定义和用法" class="headerlink" title="定义和用法"></a>定义和用法</h3><p>ajax()方法通过HTTP请求加载远程数据。<br>该方法是jQuery底层AJAX实现。简单易用的高层实现见 <em>$.get</em> , <em>$.post</em> 等。 <em>$.ajax()</em> 返回其创建的 <em>XMLHttpRequest</em> 对象。大多数情况下你无需直接操作该函数，除非你需要操作不常用的选项，以获得更多的灵活性。最简单的情况下，<em>$.ajax()</em> 可以不带任何参数直接使用。<br><span style="color: red; ">注意</span>：所有的选项都可以通过 <em>$.ajaxSetup()</em> 函数来全局设置。</p>
+<h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h1><pre><code>jQuery.ajax([settings])
+</code></pre><table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">settings</td>
+<td style="text-align:left">可选。用于配置 Ajax 请求的键值对集合。<br>可以通过 <em>$.ajaxSetup()</em> 设置任何选项的默认值。</td>
+</tr>
+</tbody>
+</table>
+<a id="more"></a>
+<h1 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h1><h5 id="options"><a href="#options" class="headerlink" title="options"></a>options</h5><p>类型：Object<br>说明：可选。AJAX 请求设置。所有选项都是可选的。</p>
+<h5 id="async"><a href="#async" class="headerlink" title="async"></a>async</h5><p>类型：Boolean<br>说明：默认值: true。默认设置下，所有请求均为异步请求。如果需要发送同步请求，请将此选项设置为 false。注意，同步请求将锁住浏览器，用户其它操作必须等待请求完成才可以执行。</p>
+<h5 id="beforeSend-XHR"><a href="#beforeSend-XHR" class="headerlink" title="beforeSend(XHR)"></a>beforeSend(XHR)</h5><p>类型：Function<br>说明：发送请求前可修改 XMLHttpRequest 对象的函数，如添加自定义 HTTP 头。XMLHttpRequest 对象是唯一的参数。这是一个 Ajax 事件。如果返回 false 可以取消本次 ajax 请求。</p>
+<h5 id="cache"><a href="#cache" class="headerlink" title="cache"></a>cache</h5><p>类型：Boolean<br>说明：默认值: true，dataType 为 script 和 jsonp 时默认为 false。设置为 false 将不缓存此页面。jQuery 1.2 新功能。</p>
+<h5 id="complete-XHR-TS"><a href="#complete-XHR-TS" class="headerlink" title="complete(XHR, TS)"></a>complete(XHR, TS)</h5><p>类型：Function<br>说明：请求完成后回调函数 (请求成功或失败之后均调用)。参数： XMLHttpRequest 对象和一个描述请求类型的字符串。这是一个 Ajax 事件。</p>
+<h5 id="contentType"><a href="#contentType" class="headerlink" title="contentType"></a>contentType</h5><p>类型：String<br>说明：默认值: “application/x-www-form-urlencoded”。发送信息至服务器时内容编码类型。默认值适合大多数情况。如果你明确地传递了一个 content-type 给 $.ajax() 那么它必定会发送给服务器（即使没有数据要发送）。</p>
+<h5 id="context"><a href="#context" class="headerlink" title="context"></a>context</h5><p>类型：Object<br>说明：这个对象用于设置 Ajax 相关回调函数的上下文。也就是说，让回调函数内 this 指向这个对象（如果不设定这个参数，那么 this 就指向调用本次 AJAX 请求时传递的 options 参数）。比如指定一个 DOM 元素作为 context 参数，这样就设置了 success 回调函数的上下文为这个 DOM 元素。就像这样：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$.ajax(&#123; </div><div class="line">  <span class="attr">url</span>: <span class="string">"test.html"</span>, </div><div class="line">  <span class="attr">context</span>: <span class="built_in">document</span>.body, </div><div class="line">  <span class="attr">success</span>: <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">truetrue$(<span class="keyword">this</span>).addClass(<span class="string">"done"</span>);</div><div class="line">  &#125;&#125;);</div></pre></td></tr></table></figure></p>
+<h5 id="data"><a href="#data" class="headerlink" title="data"></a>data</h5><p>类型：String<br>说明：发送到服务器的数据。将自动转换为请求字符串格式。GET 请求中将附加在 URL 后。查看 processData 选项说明以禁止此自动转换。必须为 Key/Value 格式。如果为数组，jQuery 将自动为不同值对应同一个名称。如 {foo:[“bar1”, “bar2”]} 转换为 ‘&amp;foo=bar1&amp;foo=bar2’。</p>
+<h5 id="dataFilter"><a href="#dataFilter" class="headerlink" title="dataFilter"></a>dataFilter</h5><p>类型：Function<br>说明：给 Ajax 返回的原始数据的进行预处理的函数。提供 data 和 type 两个参数：data 是 Ajax 返回的原始数据，type 是调用 jQuery.ajax 时提供的 dataType 参数。函数返回的值将由 jQuery 进一步处理。</p>
+<h5 id="dataType"><a href="#dataType" class="headerlink" title="dataType"></a>dataType</h5><p>类型：String<br>说明：预期服务器返回的数据类型。如果不指定，jQuery 将自动根据 HTTP 包 MIME 信息来智能判断，比如 XML MIME 类型就被识别为 XML。在 1.4 中，JSON 就会生成一个 JavaScript 对象，而 script 则会执行这个脚本。随后服务器端返回的数据会根据这个值解析后，传递给回调函数。可用值:</p>
+<ul>
+<li>“xml”: 返回 XML 文档，可用 jQuery 处理。</li>
+<li>“html”: 返回纯文本 HTML 信息；包含的 script 标签会在插入 dom 时执行。</li>
+<li>“script”: 返回纯文本 JavaScript 代码。不会自动缓存结果。除非设置了 “cache” 参数。注意：在远程请求时(不在同一个域下)，所有 POST 请求都将转为 GET 请求。（因为将使用 DOM 的 script标签来加载）</li>
+<li>“json”: 返回 JSON 数据 。</li>
+<li>“jsonp”: JSONP 格式。使用 JSONP 形式调用函数时，如 “myurl?callback=?” jQuery 将自动替换 ? 为正确的函数名，以执行回调函数。</li>
+<li>“text”: 返回纯文本字符串</li>
+</ul>
+<h5 id="error"><a href="#error" class="headerlink" title="error"></a>error</h5><p>类型：Function<br>说明：默认值: 自动判断 (xml 或 html)。请求失败时调用此函数。<br>有以下三个参数：XMLHttpRequest 对象、错误信息、（可选）捕获的异常对象。<br>如果发生了错误，错误信息（第二个参数）除了得到 null 之外，还可能是 “timeout”, “error”, “notmodified” 和 “parsererror”。<br>这是一个 Ajax 事件。</p>
+<h5 id="global"><a href="#global" class="headerlink" title="global"></a>global</h5><p>类型：Boolean<br>说明：是否触发全局 AJAX 事件。默认值: true。设置为 false 将不会触发全局 AJAX 事件，如 ajaxStart 或 ajaxStop 可用于控制不同的 Ajax 事件。</p>
+<h5 id="ifModified"><a href="#ifModified" class="headerlink" title="ifModified"></a>ifModified</h5><p>类型：Boolean<br>说明：仅在服务器数据改变时获取新数据。默认值: false。使用 HTTP 包 Last-Modified 头信息判断。在 jQuery 1.4 中，它也会检查服务器指定的 ‘etag’ 来确定数据没有被修改过。</p>
+<h5 id="jsonp"><a href="#jsonp" class="headerlink" title="jsonp"></a>jsonp</h5><p>类型：String<br>说明：在一个 jsonp 请求中重写回调函数的名字。这个值用来替代在 “callback=?” 这种 GET 或 POST 请求中 URL 参数里的 “callback” 部分，比如 {jsonp:’onJsonPLoad’} 会导致将 “onJsonPLoad=?” 传给服务器。</p>
+<h5 id="jsonpCallback"><a href="#jsonpCallback" class="headerlink" title="jsonpCallback"></a>jsonpCallback</h5><p>类型：String<br>说明：为 jsonp 请求指定一个回调函数名。这个值将用来取代 jQuery 自动生成的随机函数名。这主要用来让 jQuery 生成度独特的函数名，这样管理请求更容易，也能方便地提供回调函数和错误处理。你也可以在想让浏览器缓存 GET 请求的时候，指定这个回调函数名。</p>
+<h5 id="password"><a href="#password" class="headerlink" title="password"></a>password</h5><p>类型：String<br>说明：用于响应 HTTP 访问认证请求的密码</p>
+<h5 id="processData"><a href="#processData" class="headerlink" title="processData"></a>processData</h5><p>类型：Boolean<br>说明：默认值: true。默认情况下，通过data选项传递进来的数据，如果是一个对象(技术上讲只要不是字符串)，都会处理转化成一个查询字符串，以配合默认内容类型 “application/x-www-form-urlencoded”。如果要发送 DOM 树信息或其它不希望转换的信息，请设置为 false。</p>
+<h5 id="scriptCharset"><a href="#scriptCharset" class="headerlink" title="scriptCharset"></a>scriptCharset</h5><p>类型：String<br>说明：只有当请求时 dataType 为 “jsonp” 或 “script”，并且 type 是 “GET” 才会用于强制修改 charset。通常只在本地和远程的内容编码不同时使用。</p>
+<h5 id="success"><a href="#success" class="headerlink" title="success"></a>success</h5><p>类型：Function<br>说明：请求成功后的回调函数。<br>参数：由服务器返回，并根据 dataType 参数进行处理后的数据；描述状态的字符串。<br>这是一个 Ajax 事件。</p>
+<h5 id="traditional"><a href="#traditional" class="headerlink" title="traditional"></a>traditional</h5><p>类型：Boolean<br>说明：如果你想要用传统的方式来序列化数据，那么就设置为 true。请参考工具分类下面的 jQuery.param 方法。</p>
+<h5 id="timeout"><a href="#timeout" class="headerlink" title="timeout"></a>timeout</h5><p>类型：Number<br>说明：设置请求超时时间（毫秒）。此设置将覆盖全局设置。</p>
+<h5 id="type"><a href="#type" class="headerlink" title="type"></a>type</h5><p>类型：String<br>说明：默认值: “GET”)。请求方式 (“POST” 或 “GET”)， 默认为 “GET”。注意：其它 HTTP 请求方法，如 PUT 和 DELETE 也可以使用，但仅部分浏览器支持。</p>
+<h5 id="url"><a href="#url" class="headerlink" title="url"></a>url</h5><p>类型：String<br>说明：默认值: 当前页地址。发送请求的地址。</p>
+<h5 id="username"><a href="#username" class="headerlink" title="username"></a>username</h5><p>类型：String<br>说明：用于响应 HTTP 访问认证请求的用户名。</p>
+<h5 id="xhr"><a href="#xhr" class="headerlink" title="xhr"></a>xhr</h5><p>类型：Function<br>说明：需要返回一个 XMLHttpRequest 对象。默认在 IE 下是 ActiveXObject 而其他情况下是 XMLHttpRequest 。用于重写或者提供一个增强的 XMLHttpRequest 对象。这个参数在 jQuery 1.3 以前不可用。</p>
+<hr>
+<p>如果要处理 $.ajax() 得到的数据，则需要使用回调函数：beforeSend、error、dataFilter、success、complete。</p>
+<h5 id="beforeSend"><a href="#beforeSend" class="headerlink" title="beforeSend"></a>beforeSend</h5><p>在发送请求之前调用，并且传入一个 XMLHttpRequest 作为参数。</p>
+<h5 id="error-1"><a href="#error-1" class="headerlink" title="error"></a>error</h5><p>在请求出错时调用。传入 XMLHttpRequest 对象，描述错误类型的字符串以及一个异常对象（如果有的话）</p>
+<h5 id="dataFilter-1"><a href="#dataFilter-1" class="headerlink" title="dataFilter"></a>dataFilter</h5><p>在请求成功之后调用。传入返回的数据以及 “dataType” 参数的值。并且必须返回新的数据（可能是处理过的）传递给 success 回调函数。</p>
+<h5 id="success-1"><a href="#success-1" class="headerlink" title="success"></a>success</h5><p>当请求之后调用。传入返回后的数据，以及包含成功代码的字符串。</p>
+<h5 id="complete"><a href="#complete" class="headerlink" title="complete"></a>complete</h5><p>当请求完成之后调用这个函数，无论成功或失败。传入 XMLHttpRequest 对象，以及一个包含成功或错误代码的字符串。</p>
+<hr>
+<h5 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h5><p>$.ajax() 函数依赖服务器提供的信息来处理返回的数据。如果服务器报告说返回的数据是 XML，那么返回的结果就可以用普通的 XML 方法或者 jQuery 的选择器来遍历。如果见得到其他类型，比如 HTML，则数据就以文本形式来对待。</p>
+<p>通过 dataType 选项还可以指定其他不同数据处理方式。除了单纯的 XML，还可以指定 html、json、jsonp、script 或者 text。</p>
+<p>其中，text 和 xml 类型返回的数据不会经过处理。数据仅仅简单的将 XMLHttpRequest 的 responseText 或 responseHTML 属性传递给 success 回调函数。</p>
+<p><label style="color: red">注意</label>：我们必须确保网页服务器报告的 MIME 类型与我们选择的 dataType 所匹配。比如说，XML的话，服务器端就必须声明 text/xml 或者 application/xml 来获得一致的结果。</p>
+<p>如果指定为 html 类型，任何内嵌的 JavaScript 都会在 HTML 作为一个字符串返回之前执行。类似地，指定 script 类型的话，也会先执行服务器端生成 JavaScript，然后再把脚本作为一个文本数据返回。</p>
+<p>如果指定为 json 类型，则会把获取到的数据作为一个 JavaScript 对象来解析，并且把构建好的对象作为结</p>
+<p>如果返回。为了实现这个目的，它首先尝试使用 JSON.parse()。如果浏览器不支持，则使用一个函数来构建。</p>
+<p>JSON 数据是一种能很方便通过 JavaScript 解析的结构化数据。如果获取的数据文件存放在远程服务器上（域名不同，也就是跨域获取数据），则需要使用 jsonp 类型。使用这种类型的话，会创建一个查询字符串参数 callback=? ，这个参数会加在请求的 URL 后面。服务器端应当在 JSON 数据前加上回调函数名，以便完成一个有效的 JSONP 请求。如果要指定回调函数的参数名来取代默认的 callback，可以通过设置 $.ajax() 的 jsonp 参数。</p>
+<p><label style="color: red">注意</label>：JSONP 是 JSON 格式的扩展。它要求一些服务器端的代码来检测并处理查询字符串参数。<br>如果指定了 script 或者 jsonp 类型，那么当从服务器接收到数据时，实际上是用了 <script> 标签而不是 XMLHttpRequest 对象。这种情况下，$.ajax() 不再返回一个 XMLHttpRequest 对象，并且也不会传递事件处理函数，比如 beforeSend。</p>
+<hr>
+<h5 id="发送数据到服务器"><a href="#发送数据到服务器" class="headerlink" title="发送数据到服务器"></a>发送数据到服务器</h5><p>默认情况下，Ajax 请求使用 GET 方法。如果要使用 POST 方法，可以设定 type 参数值。这个选项也会影响 data 选项中的内容如何发送到服务器。</p>
+<p>data 选项既可以包含一个查询字符串，比如 key1=value1&amp;key2=value2 ，也可以是一个映射，比如 {key1: ‘value1’, key2: ‘value2’} 。如果使用了后者的形式，则数据再发送器会被转换成查询字符串。这个处理过程也可以通过设置 processData 选项为 false 来回避。如果我们希望发送一个 XML 对象给服务器时，这种处理可能并不合适。并且在这种情况下，我们也应当改变 contentType 选项的值，用其他合适的 MIME 类型来取代默认的 application/x-www-form-urlencoded 。</p>
+<hr>
+<h5 id="高级选项"><a href="#高级选项" class="headerlink" title="高级选项"></a>高级选项</h5><p>global 选项用于阻止响应注册的回调函数，比如 .ajaxSend，或者 ajaxError，以及类似的方法。这在有些时候很有用，比如发送的请求非常频繁且简短的时候，就可以在 ajaxSend 里禁用这个。</p>
+<p>如果服务器需要 HTTP 认证，可以使用用户名和密码可以通过 username 和 password 选项来设置。</p>
+<p>Ajax 请求是限时的，所以错误警告被捕获并处理后，可以用来提升用户体验。请求超时这个参数通常就保留其默认值，要不就通过 jQuery.ajaxSetup 来全局设定，很少为特定的请求重新设置 timeout 选项。</p>
+<p>默认情况下，请求总会被发出去，但浏览器有可能从它的缓存中调取数据。要禁止使用缓存的结果，可以设置 cache 参数为 false。如果希望判断数据自从上次请求后没有更改过就报告出错的话，可以设置 ifModified 为 true。</p>
+<p>scriptCharset 允许给 <script> 标签的请求设定一个特定的字符集，用于 script 或者 jsonp 类似的数据。当脚本和页面字符集不同时，这特别好用。</p>
+<p>Ajax 的第一个字母是 asynchronous 的开头字母，这意味着所有的操作都是并行的，完成的顺序没有前后关系。$.ajax() 的 async 参数总是设置成true，这标志着在请求开始后，其他代码依然能够执行。强烈不建议把这个选项设置成 false，这意味着所有的请求都不再是异步的了，这也会导致浏览器被锁死。</p>
+<p>$.ajax 函数返回它创建的 XMLHttpRequest 对象。通常 jQuery 只在内部处理并创建这个对象，但用户也可以通过 xhr 选项来传递一个自己创建的 xhr 对象。返回的对象通常已经被丢弃了，但依然提供一个底层接口来观察和操控请求。比如说，调用对象上的 .abort() 可以在请求完成前挂起请求。</p>
+<hr>
+<p>参考文献：<a href="http://www.w3school.com.cn/jquery/ajax_ajax.asp">w3school</a></p>
+</script></p>]]></content>
+    
+    <summary type="html">
+    
+      JQuery的一些方法整理
+    
+    </summary>
+    
+      <category term="技术" scheme="http://www.liuyuchuan.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="ajax" scheme="http://www.liuyuchuan.com/tags/ajax/"/>
+    
+      <category term="JQuery" scheme="http://www.liuyuchuan.com/tags/JQuery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://www.liuyuchuan.com/2019/09/18/hello_world/"/>
+    <id>http://www.liuyuchuan.com/2019/09/18/hello_world/</id>
+    <published>2019-09-18T11:35:37.522Z</published>
+    <updated>2019-09-18T11:35:37.522Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      hello world
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【原创】Git SSH密钥对生成以及多个SSH存在情况配置</title>
+    <link href="http://www.liuyuchuan.com/2019/09/18/git_ssh/"/>
+    <id>http://www.liuyuchuan.com/2019/09/18/git_ssh/</id>
+    <published>2019-09-18T11:34:41.518Z</published>
+    <updated>2019-09-18T11:34:41.518Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="一、使用Git-Bash-生成一个新的SSH密钥"><a href="#一、使用Git-Bash-生成一个新的SSH密钥" class="headerlink" title="一、使用Git Bash 生成一个新的SSH密钥"></a>一、使用Git Bash 生成一个新的SSH密钥</h3><p><strong><em>1</em></strong>、 打开 <strong><em>Git Bash</em></strong>.<br><strong><em>2</em></strong>、 邮箱设置<br>粘贴下面的文字，替换成为你自己的邮箱。<br>Github SSH<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> ssh-keygen -t rsa -b 4096 -C <span class="string">"your_email@example.com"</span></span></div></pre></td></tr></table></figure></p>
+<p>Git SSH<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> ssh-keygen -t rsa -b -C <span class="string">"your_email@example.com"</span></span></div></pre></td></tr></table></figure></p>
+<p>这将使用所提供的电子邮件作为标签创建一个新的SSH密钥。 下面展示创建中：<br><figure class="highlight lasso"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Generating <span class="keyword">public</span>/<span class="keyword">private</span> rsa key <span class="built_in">pair</span>.</div></pre></td></tr></table></figure></p>
+<p>等会你将看到下面步骤所示</p>
+<p><strong><em>3</em></strong>、文件存放位置以及文件名<br>当你被提示“输入一个文件保存的关键，“按回车。 这种接受默认文件位置。<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter <span class="keyword">a</span> <span class="built_in">file</span> <span class="keyword">in</span> which <span class="built_in">to</span> save <span class="keyword">the</span> key (/c/Users/you/.ssh/id_rsa):</div></pre></td></tr></table></figure></p>
+<p>如果想已经存在，则需要新建一个另外的名字的文件即可，这也会出现多个SSH存在的情况，请参考 三</p>
+<p><strong><em>4</em></strong>、密码以及确认密码<br>在提示符下，键入一个安全的密码。更多信息，见“<a href="https://help.github.com/articles/working-with-ssh-key-passphrases" target="_blank" rel="external">使用SSH密钥的口令</a>”。<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter passphrase (<span class="built_in">empty</span> <span class="keyword">for</span> <span class="keyword">no</span> passphrase):</div></pre></td></tr></table></figure></p>
+<p>看到上面输入一个密码，当然，你输入的密码是看不到任何效果的，确定密码后回车<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter same passphrase <span class="string">again:</span></div></pre></td></tr></table></figure></p>
+<p>上面是确认密码</p>
+<p><strong><em>5</em></strong>、<br>进入你的本地磁盘地址（由于默认，你可以按照下面的地址找到公钥、私钥）<br><figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="regexp">/c/</span>Users<span class="regexp">/你的登录账户名/</span>.ssh<span class="regexp">/id_rsa</span></div></pre></td></tr></table></figure></p>
+<h3 id="二、关于多个SSH密钥对存在的情况"><a href="#二、关于多个SSH密钥对存在的情况" class="headerlink" title="二、关于多个SSH密钥对存在的情况"></a>二、关于多个SSH密钥对存在的情况</h3><blockquote>
+<p>场景：例如，我使用了Github的时候使用自己的邮箱，在自己公司使用公司邮箱，<br>那么这种情况就是一种很常见的情况，那么遇到这种情况我们要如何处理呢？别<br>着急，我们这里有方法</p>
+</blockquote>
+<p>首先：Windows 进入密钥默认的路径下面，然后新建一个没有后缀名的 <strong><em>config</em></strong> 文件<br>其次：在文件内部输入以下代码<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">Host github.com</div><div class="line">    HostName        github.com</div><div class="line">   <span class="built_in"> User </span>           your_email_1@example.com</div><div class="line">    IdentityFile    /c/Users/you/.ssh/id_rsa</div><div class="line">     </div><div class="line">Host 服务域名或者IP</div><div class="line">    HostName        服务域名或者IP</div><div class="line">   <span class="built_in"> User </span>           your_email_2@example.com</div><div class="line">    IdentityFile    /c/Users/you/.ssh/id_rsa_别名</div></pre></td></tr></table></figure></p>
+<p>配置完成后，删除kown_host即可，在使用过程中，会自动根据配置文件来访问</p>
+<p><strong><em>注意</em></strong>：<br>1、如果有github，那么github的一定要使用 <strong>github.com</strong><br>2、每次连接的时候会有一个提示框弹出，这个时候直接输入 <strong>yes</strong> 就可以了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      使用Git Bash 生成一个新的SSH密钥
+    
+    </summary>
+    
+      <category term="原创" scheme="http://www.liuyuchuan.com/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="技术" scheme="http://www.liuyuchuan.com/categories/%E5%8E%9F%E5%88%9B/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="Windows" scheme="http://www.liuyuchuan.com/categories/%E5%8E%9F%E5%88%9B/%E6%8A%80%E6%9C%AF/Windows/"/>
+    
+    
+      <category term="git" scheme="http://www.liuyuchuan.com/tags/git/"/>
+    
+      <category term="ssh" scheme="http://www.liuyuchuan.com/tags/ssh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【原创】未来，闪闪发光</title>
+    <link href="http://www.liuyuchuan.com/2019/09/18/future_glitters/"/>
+    <id>http://www.liuyuchuan.com/2019/09/18/future_glitters/</id>
+    <published>2019-09-18T11:34:18.044Z</published>
+    <updated>2019-09-18T11:34:18.044Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p><strong><em>导读</em></strong><br>我们，未来，闪闪发光    </p>
+</blockquote>
+<p>外面世界，好奇这世界。唯独美食与美景才是此生所需要追求。</p>
+<h4 id="美景"><a href="#美景" class="headerlink" title="美景"></a>美景</h4><p>阳光正好，青山碧水，听着树上的鸟鸣声，望着远方青山，心情瞬间美美的。</p>
+<p>其实，田园生活也是一种向往，看着这些无忧无虑的鸡鸭，真是羡煞了众人。</p>
+<h4 id="美食"><a href="#美食" class="headerlink" title="美食"></a>美食</h4><p>来到这里，吃到不少美食</p>
+<p><strong><em>火宫殿</em></strong>：长沙臭豆腐<br><strong><em>火宫殿</em></strong>：糖油粑粑<br><strong><em>火宫殿</em></strong>：葱油粑粑<br><strong><em>火宫殿</em></strong>：脑髓卷<br>额外还有 三角豆腐，等。<br><br><br>烧烤哪里都有，但是这种貌似还是第一次见到。<br><br></p>
+<h4 id="建筑"><a href="#建筑" class="headerlink" title="建筑"></a>建筑</h4><p>建筑，想去溜达溜达一下大学，寺院。<br><br></p>
+]]></content>
+    
+    <summary type="html">
+    
+      旅行这些事
+    
+    </summary>
+    
+      <category term="生活" scheme="http://www.liuyuchuan.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="travel" scheme="http://www.liuyuchuan.com/tags/travel/"/>
+    
+      <category term="life" scheme="http://www.liuyuchuan.com/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【原创】埋点整理</title>
+    <link href="http://www.liuyuchuan.com/2019/09/18/burying_point/"/>
+    <id>http://www.liuyuchuan.com/2019/09/18/burying_point/</id>
+    <published>2019-09-18T11:33:20.169Z</published>
+    <updated>2019-09-18T11:33:20.169Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="一、-主要功能点"><a href="#一、-主要功能点" class="headerlink" title="一、 主要功能点"></a>一、 主要功能点</h3><blockquote>
+<p>埋点</p>
+</blockquote>
+<h3 id="二、-说明文档"><a href="#二、-说明文档" class="headerlink" title="二、 说明文档"></a>二、 说明文档</h3><p>1、 <a href="http://note.youdao.com/share/?id=ba888e25dec8d59f030a0ee25ca1d1a1&amp;type=note#/" target="_blank" rel="external">手工埋点样例 – 有道</a><br>2、 <a href="http://docs.sugo.io/developer/web/get-sdk.html" target="_blank" rel="external">官方 – 文档</a><br><a id="more"></a></p>
+<h3 id="三、-操作"><a href="#三、-操作" class="headerlink" title="三、 操作"></a>三、 操作</h3><p> 1、 载入<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">...</div><div class="line">    <span class="comment">&lt;!-- start sugoio --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">'text/javascript'</span>&gt;</span><span class="javascript"></span></div><div class="line">        <span class="comment">// var SUGOIO_CUSTOM_LIB_URL = "http://astro.sugo.io/_bc/sugo-sdk-js/libs/sugoio-latest.min.js";</span></div><div class="line"></div><div class="line">        (<span class="function"><span class="keyword">function</span>(<span class="params">e,a</span>)</span>&#123;<span class="keyword">if</span>(!a.__SV)&#123;<span class="keyword">var</span> b=<span class="built_in">window</span>;<span class="keyword">try</span>&#123;<span class="keyword">var</span> c,n,k,l=b.location,g=l.hash;c=<span class="function"><span class="keyword">function</span>(<span class="params">a,b</span>)</span>&#123;<span class="keyword">return</span>(n=a.match(<span class="keyword">new</span> <span class="built_in">RegExp</span>(b+<span class="string">"=([^&amp;]*)"</span>)))?n[<span class="number">1</span>]:<span class="literal">null</span>&#125;;g&amp;&amp;c(g,<span class="string">"state"</span>)&amp;&amp;(k=<span class="built_in">JSON</span>.parse(<span class="built_in">decodeURIComponent</span>(c(g,<span class="string">"state"</span>))),<span class="string">"mpeditor"</span>===k.action&amp;&amp;(b.sessionStorage.setItem(<span class="string">"_mpcehash"</span>,g),history.replaceState(k.desiredHash||<span class="string">""</span>,e.title,l.pathname+l.search)))&#125;<span class="keyword">catch</span>(p)&#123;&#125;<span class="keyword">var</span> m,h;<span class="built_in">window</span>.sugoio=a;a._i=[];a.init=<span class="function"><span class="keyword">function</span>(<span class="params">b,c,f</span>)</span>&#123;<span class="function"><span class="keyword">function</span> <span class="title">e</span>(<span class="params">b,a</span>)</span>&#123;<span class="keyword">var</span> c=a.split(<span class="string">"."</span>);<span class="number">2</span>==c.length&amp;&amp;(b=b[c[<span class="number">0</span>]],a=c[<span class="number">1</span>]);b[a]=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;b.push([a].concat(<span class="built_in">Array</span>.prototype.slice.call(<span class="built_in">arguments</span>,</div><div class="line">        <span class="number">0</span>)))&#125;&#125;<span class="keyword">var</span> d=a;<span class="string">"undefined"</span>!==<span class="keyword">typeof</span> f?d=a[f]=[]:f=<span class="string">"sugoio"</span>;d.people=d.people||[];d.toString=<span class="function"><span class="keyword">function</span>(<span class="params">b</span>)</span>&#123;<span class="keyword">var</span> a=<span class="string">"sugoio"</span>;<span class="string">"sugoio"</span>!==f&amp;&amp;(a+=<span class="string">"."</span>+f);b||(a+=<span class="string">" (stub)"</span>);<span class="keyword">return</span> a&#125;;d.people.toString=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="keyword">return</span> d.toString(<span class="number">1</span>)+<span class="string">".people (stub)"</span>&#125;;m=<span class="string">"disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user"</span>.split(<span class="string">" "</span>);</div><div class="line">        <span class="keyword">for</span>(h=<span class="number">0</span>;h&lt;m.length;h++)e(d,m[h]);a._i.push([b,c,f])&#125;;a.__SV=<span class="number">1.2</span>;b=e.createElement(<span class="string">"script"</span>);b.type=<span class="string">"text/javascript"</span>;b.async=!<span class="number">0</span>;<span class="string">"undefined"</span>!==<span class="keyword">typeof</span> SUGOIO_CUSTOM_LIB_URL?b.src=SUGOIO_CUSTOM_LIB_URL:b.src=<span class="string">"file:"</span>===e.location.protocol&amp;&amp;<span class="string">"//astro.sugo.io/_bc/sugo-sdk-js/libs/sugoio-latest.min.js"</span>.match(<span class="regexp">/^\/\//</span>)?<span class="string">"https://astro.sugo.io/_bc/sugo-sdk-js/libs/sugoio-latest.min.js"</span>:<span class="string">"//astro.sugo.io/_bc/sugo-sdk-js/libs/sugoio-latest.min.js"</span>;c=e.getElementsByTagName(<span class="string">"script"</span>)[<span class="number">0</span>];c.parentNode.insertBefore(b,</div><div class="line">        c)&#125;&#125;)(<span class="built_in">document</span>,<span class="built_in">window</span>.sugoio||[]);</div><div class="line"></div><div class="line">        sugoio.init(<span class="string">'YOUR_TOKEN'</span>, &#123;<span class="string">'project_id'</span>: <span class="string">'YOUR_PROJECT_ID'</span>&#125;);</div><div class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!-- end sugoio --&gt;</span></div><div class="line">...</div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p> 2、 初始化</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">sugoio</span><span class="selector-class">.init</span>(<span class="string">'YOUR_TOKEN'</span>, &#123; <span class="comment">// 项目TOKEN</span></div><div class="line">    <span class="attribute">project_id</span>: <span class="string">'YOUR_PROJECT_ID'</span>, <span class="comment">// 项目ID</span></div><div class="line">    <span class="attribute">api_host</span>: <span class="string">''</span>, <span class="comment">// sugoio-latest.min.js文件以及数据上报的地址</span></div><div class="line">    <span class="attribute">app_host</span>: <span class="string">''</span>, <span class="comment">// 可视化配置时服务端地址</span></div><div class="line">    <span class="attribute">decide_host</span>: <span class="string">''</span>, <span class="comment">// 加载已埋点配置地址</span></div><div class="line">    <span class="attribute">loaded</span>: function(lib) &#123; &#125;, <span class="comment">// **sugoio** **sdk** 加载完成回调函数=</span></div><div class="line">    <span class="attribute">DEBUG</span>: false <span class="comment">// 是否启用debug</span></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<p> 3、 埋点</p>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sugoio : 全局变量函数</div></pre></td></tr></table></figure>
+<h3 id="四、-常用属性"><a href="#四、-常用属性" class="headerlink" title="四、 常用属性"></a>四、 常用属性</h3><figure class="highlight 1c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">['page_name', '页面名称'],                     <span class="comment">//页面名称或屏幕名称</span></div><div class="line">['path_name', '页面路径'],                     <span class="comment">//页面路径</span></div><div class="line">['event_id', '事件ID'],                        <span class="comment">//事件ID</span></div><div class="line">['event_name', '事件名称'],                    <span class="comment">//事件名称</span></div><div class="line">['event_type', '事件类型'],                    <span class="comment">//事件类型click、focus、submit、change</span></div><div class="line">['event_label', '事件源文本'],                  <span class="comment">//事件源文本</span></div><div class="line">['sugo_lib', 'sdk类型'],                       <span class="comment">//sdk类型 web、ios、android</span></div><div class="line">['token', '应用ID'],                           <span class="comment">//应用ID</span></div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>(<span class="keyword">typeof</span>(sugoio)!= <span class="string">'undefined'</span>)&#123;</div><div class="line">    <span class="built_in">console</span>.log($(<span class="keyword">this</span>).text());</div><div class="line">    sugoio.track(<span class="string">"考试类别"</span>, &#123;</div><div class="line">        <span class="string">'page_name'</span>: <span class="string">'考试类别'</span>,</div><div class="line">        <span class="string">'event_type'</span>: <span class="string">'click'</span>,</div><div class="line">        <span class="string">'event_name'</span>: $(<span class="keyword">this</span>).text()</div><div class="line">    &#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      代码埋点开发整理
+    
+    </summary>
+    
+      <category term="原创" scheme="http://www.liuyuchuan.com/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+      <category term="cat" scheme="http://www.liuyuchuan.com/tags/cat/"/>
+    
+      <category term="sugoio" scheme="http://www.liuyuchuan.com/tags/sugoio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【翻译】Freemarker - 过时的内置对象列表</title>
+    <link href="http://www.liuyuchuan.com/2017/08/28/freemarker-deprecated_built-ins,/"/>
+    <id>http://www.liuyuchuan.com/2017/08/28/freemarker-deprecated_built-ins,/</id>
+    <published>2017-08-28T09:57:07.000Z</published>
+    <updated>2019-09-18T11:29:57.461Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="过时的内置列表"><a href="#过时的内置列表" class="headerlink" title="过时的内置列表"></a>过时的内置列表</h4><p>下面的内置对象已经过时，但是它们仍然可以使用：</p>
+<ul>
+<li><p><strong>default</strong>：这个是过时的 <a href="http://freemarker.org/docs/dgui_template_exp.html#dgui_template_exp_missing_default" target="_blank" rel="external">默认值操作</a>。<strong><em> exp1?default(exp2)</em></strong> 对象操作接近于 <strong><em>exp1!exp2</em></strong>，<strong><em>(exp1)?default(exp2)</em></strong> 对象操作接近于 <strong><em>(exp1)!exp2</em></strong>。唯一的区别是 FreeMarker 2.4，<em>default</em> 对象等价于 <em>exp2</em>, 默认值运算符只在真正需要默认值时计算它。无论怎么样，从FreeMarker 2.4开始，默认内置已被改进，其行为与默认值运算符完全相同。</p>
+</li>
+<li><p><strong>exists</strong>：这是默过时的默认对象，缺失值测试操作符。<strong><em>exp1?exists</em></strong> 等价于<strong><em> exp1??</em></strong>，同样 <strong><em>(exp1)?exists</em></strong> 等价于 <strong><em>(exp1)??</em></strong>。</p>
+</li>
+<li><p><strong>if_exists</strong>：这是默过时的默认对象，缺失值测试操作符。<strong><em>exp1?if_exists</em></strong> 类似于 <strong><em> exp1!</em></strong>, <strong><em>(exp1)?if_exists</em></strong> 类似于 <strong><em>(exp1)!</em></strong>。不同之处在于，用 if_exists 的默认值不仅仅同时是空字符串，空序列和空哈希表，而且布尔值 false 和不做任何事情的变<br>换，还有忽略所有参数。</p>
+</li>
+<li><p><strong>web_safe</strong>: 同 <a href="http://freemarker.org/docs/ref_builtins_string.html#ref_builtin_html" target="_blank" rel="external">html</a></p>
+</li>
+</ul>
+<a id="more"></a>
+<p>翻译参考: <a href="http://freemarker.org/docs/ref_depr_builtin.html" target="_blank" rel="external">http://freemarker.org/docs/ref_depr_builtin.html</a><br>参考: <a href="http://freemarker.org/docs/ref_directives.html" target="_blank" rel="external">http://freemarker.org/docs/ref_directives.html</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      Freemarker中default，exists，if_exists
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://www.liuyuchuan.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Freemarker" scheme="http://www.liuyuchuan.com/tags/Freemarker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【翻译】Freemarker - if, else, elseif 标签使用</title>
+    <link href="http://www.liuyuchuan.com/2017/08/24/freemarker-if_elseif_else/"/>
+    <id>http://www.liuyuchuan.com/2017/08/24/freemarker-if_elseif_else/</id>
+    <published>2017-08-24T01:47:33.000Z</published>
+    <updated>2019-09-18T11:33:56.781Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h4><ul>
+<li>摘要</li>
+<li>描述</li>
+</ul>
+<h4 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h4><!-- zhaiao -->
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;#<span class="keyword">if</span> 条件<span class="number">1</span>&gt;</div><div class="line">  ...</div><div class="line">&lt;#elseif 条件<span class="number">2</span>&gt;</div><div class="line">  ...</div><div class="line">&lt;#elseif 条件<span class="number">3</span>&gt;</div><div class="line">  ...</div><div class="line">  ...</div><div class="line">&lt;#else&gt;</div><div class="line">  ...</div><div class="line">&lt;/#<span class="keyword">if</span>&gt;</div></pre></td></tr></table></figure>
+<p>备注：</p>
+<ul>
+<li><em>条件</em>, <em>条件2</em>, …等。： 表达式的计算结果为布尔值。<br><strong>elseif-s</strong> 和 <strong>else</strong> 是条件选项。<a id="more"></a>
+驼峰命名法： <strong>elseIf</strong></li>
+</ul>
+<h4 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h4><p>你可以使用 <strong>if</strong>, <strong>elseif</strong> 和 <strong>else</strong> 有条件地跳过一段模板指令。选项表达式计算结果必须是不二类型, 否则，一个错误将中止处理模板。标签 <strong>elseif-s</strong> and <strong>else-s</strong> 必须在 <strong>if</strong> 之后 (意味着 <strong>if</strong> 标签开始，<strong>#if</strong> 标签结束)。标签 if 可以有任意数量的 <strong>elseif-s</strong> (也可以没有)，最后也要使用 <strong>if</strong> 标签结束。例如:</p>
+<ul>
+<li>if 语句（只有 if 标签开始，if 标签结束）</li>
+</ul>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>if else 语句</li>
+</ul>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>if elseif 语句</li>
+</ul>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 2&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">2</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 3&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">3</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>if elseif else 语句</li>
+</ul>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 2&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">2</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 3&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">3</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">elseif</span> x == 4&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">4</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span> nor <span class="number">2</span> nor <span class="number">3</span> nor <span class="number">4</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>更多资料请参考这里：<a href="http://freemarker.org/docs/dgui_template_exp.html" target="_blank" rel="external">Template Author’s Guide/The Template/Expressions</a>。</p>
+<p>你也可以使用嵌套 <strong>if</strong> 语句（这也是可以）：</p>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">&lt;<span class="meta">#<span class="meta-keyword">if</span> x == 1&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="number">1</span></div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">if</span> y == 1&gt;</span></div><div class="line">    <span class="keyword">and</span> y <span class="keyword">is</span> <span class="number">1</span> too</div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">    but y <span class="keyword">is</span> <span class="keyword">not</span></div><div class="line">  &lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div><div class="line">&lt;<span class="meta">#<span class="meta-keyword">else</span>&gt;</span></div><div class="line">  x <span class="keyword">is</span> <span class="keyword">not</span> <span class="number">1</span></div><div class="line">  &lt;<span class="meta">#<span class="meta-keyword">if</span> y &lt; 0&gt;</span></div><div class="line">    <span class="keyword">and</span> y <span class="keyword">is</span> less than <span class="number">0</span></div><div class="line">  &lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div><div class="line">&lt;/<span class="meta">#<span class="meta-keyword">if</span>&gt;</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p>注意：<br>当你想要 <strong><em>if x &gt; 0</em></strong> 或者 <strong><em>x &gt;= 0</em></strong>, 写 <strong><em>&lt;#if x &gt; 0&gt;</em></strong> 或者 <strong><em>&lt;#if x &gt;= 0&gt;</em></strong> 是错误的, 第一个 &gt; 将会关闭 <strong>#if</strong> 标签。如果想要指令工作，就要这样 <strong><em>&lt;#if x gt 0&gt;</em></strong> 或者 <strong><em>&lt;#if gte 0&gt;</em></strong> 。注意，如果计算表达式比较发生在括号中，你就不会有这样的问题, 像 <strong>&lt;#if foo.bar(x &gt; 0)&gt;</strong> 。</p>
+</blockquote>
+<p>翻译参考: <a href="http://freemarker.org/docs/ref_directive_if.html" target="_blank" rel="external">http://freemarker.org/docs/ref_directive_if.html</a><br>参考: <a href="http://freemarker.org/docs/ref_directives.html" target="_blank" rel="external">http://freemarker.org/docs/ref_directives.html</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      Freemarker中if else elseif 标签使用
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://www.liuyuchuan.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Freemarker" scheme="http://www.liuyuchuan.com/tags/Freemarker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【原创】Git相关学习</title>
+    <link href="http://www.liuyuchuan.com/2017/07/24/git_tortoisegit_egit/"/>
+    <id>http://www.liuyuchuan.com/2017/07/24/git_tortoisegit_egit/</id>
+    <published>2017-07-24T08:20:28.000Z</published>
+    <updated>2019-09-18T11:25:24.716Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>导读部分<br>最近一直在学习Git的使用，下面做一下笔记记录。</p>
+</blockquote>
+<h4 id="一、-Git-安装"><a href="#一、-Git-安装" class="headerlink" title="一、 Git 安装"></a>一、 Git 安装</h4><p>Git官方下载地址：<br><a href="https://git-scm.com/downloads" target="_blank" rel="external">https://git-scm.com/downloads</a><br>或者<br><a href="https://git-for-windows.github.io/" target="_blank" rel="external">https://git-for-windows.github.io/</a></p>
+<p>Git 界面工具 Git　UI下载安装地址：<br><a href="https://git-scm.com/downloads/guis" target="_blank" rel="external">https://git-scm.com/downloads/guis</a></p>
+<p><strong>注意</strong>：上述Git UI 不推荐，因为我这里很少使用<br><a id="more"></a></p>
+<h4 id="二、-TortoiseGit-安装"><a href="#二、-TortoiseGit-安装" class="headerlink" title="二、 TortoiseGit 安装"></a>二、 TortoiseGit 安装</h4><p>TortoiseGit 磁盘界面工具下载安装地址：<br><a href="https://tortoisegit.org/download/" target="_blank" rel="external">https://tortoisegit.org/download/</a></p>
+<p>当前页面中有语言包，可以根据需要下载语言包</p>
+<h4 id="三、-开发环境Eclipse-的GIT插件EGit下载和安装"><a href="#三、-开发环境Eclipse-的GIT插件EGit下载和安装" class="headerlink" title="三、 开发环境Eclipse 的GIT插件EGit下载和安装"></a>三、 开发环境Eclipse 的GIT插件EGit下载和安装</h4><p>EGit官方网址：<br><a href="http://www.eclipse.org/egit/" target="_blank" rel="external">http://www.eclipse.org/egit/</a></p>
+<p>EGit官方下载地址：<br><a href="http://www.eclipse.org/egit/download/" target="_blank" rel="external">http://www.eclipse.org/egit/download/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      Git的一些使用记录
+    
+    </summary>
+    
+      <category term="原创" scheme="http://www.liuyuchuan.com/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="技术" scheme="http://www.liuyuchuan.com/categories/%E5%8E%9F%E5%88%9B/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Git" scheme="http://www.liuyuchuan.com/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【转载】Bootstrap Modal 的使用</title>
     <link href="http://www.liuyuchuan.com/2017/07/06/bootstrap-modal/"/>
     <id>http://www.liuyuchuan.com/2017/07/06/bootstrap-modal/</id>
     <published>2017-07-05T16:00:00.000Z</published>
-    <updated>2017-08-15T01:15:53.848Z</updated>
+    <updated>2019-09-18T11:31:55.610Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Bootstrap-模态框（Modal）插件"><a href="#Bootstrap-模态框（Modal）插件" class="headerlink" title="Bootstrap 模态框（Modal）插件"></a>Bootstrap 模态框（Modal）插件</h3><p>模态框（Modal）是覆盖在父窗体上的子窗体。通常，目的是显示来自一个单独的源的内容，可以在不离开父窗体的情况下有一些互动。子窗体可提供信息、交互等。</p>
 <blockquote>
@@ -711,19 +633,14 @@
 </blockquote>
 <h3 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h3><p>您可以切换模态框（Modal）插件的隐藏内容：</p>
 <ul>
-<li><p>通过 data 属性：在控制器元素（比如按钮或者链接）上设置属性 <strong>data-toggle=”modal”</strong>，同时设置 <strong>data-target=”#identifier”</strong> 或 <strong>href=”#identifier”</strong> 来指定要切换的特定的模态框（带有 id=”identifier”）。</p>
-</li>
-<li><p>通过 JavaScript：使用这种技术，您可以通过简单的一行 JavaScript 来调用带有 <strong>id=”identifier”</strong> 的模态框：</p>
+<li>通过 data 属性：在控制器元素（比如按钮或者链接）上设置属性 <strong>data-toggle=”modal”</strong>，同时设置 <strong>data-target=”#identifier”</strong> 或 <strong>href=”#identifier”</strong> 来指定要切换的特定的模态框（带有 id=”identifier”）。</li>
+<li>通过 JavaScript：使用这种技术，您可以通过简单的一行 JavaScript 来调用带有 <strong>id=”identifier”</strong> 的模态框：<figure class="highlight gams"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">$</span>(<span class="string">'#identifier'</span>).modal(<span class="keyword">options</span>)</div></pre></td></tr></table></figure>
 </li>
 </ul>
-<figure class="highlight gams"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">$</span>(<span class="string">'#identifier'</span>).modal(<span class="keyword">options</span>)</div></pre></td></tr></table></figure>
 <a id="more"></a>
 <h5 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h5><p>一个静态的模态窗口实例，如下面的实例所示：</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">h2</span>&gt;</span>创建模态框（Modal）<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- 按钮触发模态框 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">"btn btn-primary btn-lg"</span> <span class="attr">data-toggle</span>=<span class="string">"modal"</span> <span class="attr">data-target</span>=<span class="string">"#myModal"</span>&gt;</span>开始演示模态框<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- 模态框（Modal） --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal fade"</span> <span class="attr">id</span>=<span class="string">"myModal"</span> <span class="attr">tabindex</span>=<span class="string">"-1"</span> <span class="attr">role</span>=<span class="string">"dialog"</span> <span class="attr">aria-labelledby</span>=<span class="string">"myModalLabel"</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-dialog"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-content"</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-header"</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"close"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span>&amp;times;<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">h4</span> <span class="attr">class</span>=<span class="string">"modal-title"</span> <span class="attr">id</span>=<span class="string">"myModalLabel"</span>&gt;</span>模态框（Modal）标题<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-body"</span>&gt;</span>在这里添加一些文本<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-footer"</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-default"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span>&gt;</span>关闭<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-primary"</span>&gt;</span>提交更改<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="comment">&lt;!-- /.modal-content --&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="comment">&lt;!-- /.modal --&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
-<p><a href="http://www.runoob.com/try/try.php?filename=bootstrap3-plugin-modal" target="_blank" rel="external">进入演示&gt;&gt;</a></p>
-<p>结果如下所示：</p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/modalplugin_demo.jpg" alt=""></p>
-<p>代码讲解：</p>
+<p><a href="http://www.runoob.com/try/try.php?filename=bootstrap3-plugin-modal" target="_blank" rel="external">进入演示&gt;&gt;</a><br>代码讲解：</p>
 <p>定义和用法</p>
 <ul>
 <li><p>使用模态窗口，您需要有某种触发器。您可以使用按钮或链接。这里我们使用的是按钮。</p>
@@ -836,8 +753,6 @@
 <h5 id="实例-1"><a href="#实例-1" class="headerlink" title="实例"></a>实例</h5><p>下面的实例演示了方法的用法：</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- 模态框（Modal） --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal fade"</span> <span class="attr">id</span>=<span class="string">"myModal"</span> <span class="attr">tabindex</span>=<span class="string">"-1"</span> <span class="attr">role</span>=<span class="string">"dialog"</span> <span class="attr">aria-labelledby</span>=<span class="string">"myModalLabel"</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-dialog"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-content"</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-header"</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"close"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span>×<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">h4</span> <span class="attr">class</span>=<span class="string">"modal-title"</span> <span class="attr">id</span>=<span class="string">"myModalLabel"</span>&gt;</span>模态框（Modal）标题<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-body"</span>&gt;</span>按下 ESC 按钮退出。<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-footer"</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-default"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span>&gt;</span>关闭<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-primary"</span>&gt;</span>提交更改<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="comment">&lt;!-- /.modal-content --&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="comment">&lt;!-- /.modal-dialog --&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /.modal --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></div><div class="line">$(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    $(<span class="string">'#myModal'</span>).modal(&#123;</div><div class="line">        <span class="attr">keyboard</span>: <span class="literal">true</span></div><div class="line">    &#125;)</div><div class="line">&#125;);</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
 <p><a href="http://www.runoob.com/try/try.php?filename=bootstrap3-plugin-modal-method" target="_blank" rel="external">进入演示&gt;&gt;</a></p>
-<p>结果如下所示：</p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/modalpluginmethod_demo.jpg" alt=""></p>
 <p>只需要点击 ESC 键，模态窗口即会退出。</p>
 <h3 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h3><blockquote>
 <label style="color: red"> 注意 ： 我也是在这里踩了坑，当时想监听右上角关闭的事件，写了但是没有效果，最后在这里发现了以下的 <em>hide.bs.modal</em> 这个方法来触发，所以才打算来记录，整理一下这个笔记。 </label>
@@ -877,11 +792,7 @@
 </table>
 <h5 id="实例-2"><a href="#实例-2" class="headerlink" title="实例"></a>实例</h5><p>下面的实例演示了事件的用法：</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- 模态框（Modal） --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">h2</span>&gt;</span>模态框（Modal）插件事件<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- 按钮触发模态框 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">"btn btn-primary btn-lg"</span> <span class="attr">data-toggle</span>=<span class="string">"modal"</span> <span class="attr">data-target</span>=<span class="string">"#myModal"</span>&gt;</span>开始演示模态框<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- 模态框（Modal） --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal fade"</span> <span class="attr">id</span>=<span class="string">"myModal"</span> <span class="attr">tabindex</span>=<span class="string">"-1"</span> <span class="attr">role</span>=<span class="string">"dialog"</span> <span class="attr">aria-labelledby</span>=<span class="string">"myModalLabel"</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-dialog"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-content"</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-header"</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"close"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span>×<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">h4</span> <span class="attr">class</span>=<span class="string">"modal-title"</span> <span class="attr">id</span>=<span class="string">"myModalLabel"</span>&gt;</span>模态框（Modal）标题<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-body"</span>&gt;</span>点击关闭按钮检查事件功能。<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-footer"</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-default"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span>&gt;</span>关闭<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-primary"</span>&gt;</span>提交更改<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="comment">&lt;!-- /.modal-content --&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span><span class="comment">&lt;!-- /.modal-dialog --&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- /.modal --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></div><div class="line">$(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    $(<span class="string">'#myModal'</span>).modal(<span class="string">'hide'</span>)</div><div class="line">&#125;);</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></div><div class="line">$(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    $(<span class="string">'#myModal'</span>).on(<span class="string">'hide.bs.modal'</span>,</div><div class="line">    <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">        alert(<span class="string">'嘿，我听说您喜欢模态框...'</span>);</div><div class="line">    &#125;)</div><div class="line">&#125;);</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<p><a href="http://www.runoob.com/try/try.php?filename=bootstrap3-plugin-modal-event" target="_blank" rel="external">进入演示&gt;&gt;</a></p>
-<p>结果如下所示：</p>
-<p><img src="http://osauqjpy8.bkt.clouddn.com/github/modalpluginevents_demo.jpg" alt=""></p>
-<p>参考文档：<a href="http://www.runoob.com/bootstrap/bootstrap-modal-plugin.html" target="_blank" rel="external">Bootstrap 模态框（Modal）插件</a></p>
-<p> —— Create By Lycos </p>
+<p><a href="http://www.runoob.com/try/try.php?filename=bootstrap3-plugin-modal-event" target="_blank" rel="external">进入演示&gt;&gt;</a><br>参考文档：<a href="http://www.runoob.com/bootstrap/bootstrap-modal-plugin.html" target="_blank" rel="external">Bootstrap 模态框（Modal）插件</a></p>
 ]]></content>
     
     <summary type="html">
@@ -892,16 +803,14 @@
 &lt;/blockquote&gt;
 &lt;h3 id=&quot;用法&quot;&gt;&lt;a href=&quot;#用法&quot; class=&quot;headerlink&quot; title=&quot;用法&quot;&gt;&lt;/a&gt;用法&lt;/h3&gt;&lt;p&gt;您可以切换模态框（Modal）插件的隐藏内容：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;通过 data 属性：在控制器元素（比如按钮或者链接）上设置属性 &lt;strong&gt;data-toggle=”modal”&lt;/strong&gt;，同时设置 &lt;strong&gt;data-target=”#identifier”&lt;/strong&gt; 或 &lt;strong&gt;href=”#identifier”&lt;/strong&gt; 来指定要切换的特定的模态框（带有 id=”identifier”）。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;通过 JavaScript：使用这种技术，您可以通过简单的一行 JavaScript 来调用带有 &lt;strong&gt;id=”identifier”&lt;/strong&gt; 的模态框：&lt;/p&gt;
+&lt;li&gt;通过 data 属性：在控制器元素（比如按钮或者链接）上设置属性 &lt;strong&gt;data-toggle=”modal”&lt;/strong&gt;，同时设置 &lt;strong&gt;data-target=”#identifier”&lt;/strong&gt; 或 &lt;strong&gt;href=”#identifier”&lt;/strong&gt; 来指定要切换的特定的模态框（带有 id=”identifier”）。&lt;/li&gt;
+&lt;li&gt;通过 JavaScript：使用这种技术，您可以通过简单的一行 JavaScript 来调用带有 &lt;strong&gt;id=”identifier”&lt;/strong&gt; 的模态框：&lt;figure class=&quot;highlight gams&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;$&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;#identifier&#39;&lt;/span&gt;).modal(&lt;span class=&quot;keyword&quot;&gt;options&lt;/span&gt;)&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&quot;highlight gams&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;symbol&quot;&gt;$&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;#identifier&#39;&lt;/span&gt;).modal(&lt;span class=&quot;keyword&quot;&gt;options&lt;/span&gt;)&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
-      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
+      <category term="转载" scheme="http://www.liuyuchuan.com/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
       <category term="bootstrap" scheme="http://www.liuyuchuan.com/tags/bootstrap/"/>
@@ -911,172 +820,11 @@
   </entry>
   
   <entry>
-    <title>健康与运动</title>
-    <link href="http://www.liuyuchuan.com/2017/07/05/%E5%81%A5%E5%BA%B7%E4%B8%8E%E8%BF%90%E5%8A%A8/"/>
-    <id>http://www.liuyuchuan.com/2017/07/05/健康与运动/</id>
-    <published>2017-07-05T08:35:23.996Z</published>
-    <updated>2017-08-21T03:34:38.397Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="那些年，走过的路"><a href="#那些年，走过的路" class="headerlink" title="那些年，走过的路"></a>那些年，走过的路</h4><p>##2017年</p>
-<blockquote>
-<p>2月份</p>
-</blockquote>
-<pre><code>1、02月12日 25.00KM 牛木外线
-</code></pre><blockquote>
-<p>3月份</p>
-</blockquote>
-<pre><code>暂无数据。
-</code></pre><blockquote>
-<p>4月份</p>
-</blockquote>
-<pre><code>1、04月09日 16.00KM 火凤线
-</code></pre><a id="more"></a>
-<blockquote>
-<p>5月份</p>
-</blockquote>
-<pre><code>1、05月06日 20.00KM 渔帽线（第一机耕路）
-</code></pre><blockquote>
-<p>6月份</p>
-</blockquote>
-<pre><code>1.06月11日 11.40KM 龙洞总站到大源森源居农庄（腐败游水线）
-</code></pre><blockquote>
-<p>7月份</p>
-</blockquote>
-<pre><code>1、07月01日 2.00KM 火炉山（后山开炉 - 腐败线）
-</code></pre><blockquote>
-<p>8月份</p>
-</blockquote>
-<pre><code>1、08月19日 11.45KM 白云山（白云山环线）
-</code></pre><h6 id="—-—同步更新博客园"><a href="#—-—同步更新博客园" class="headerlink" title="— —同步更新博客园"></a>— —同步更新<a href="http://www.cnblogs.com/yuchuan/p/hill.html" target="_blank" rel="external">博客园</a></h6>]]></content>
-    
-    <summary type="html">
-    
-      那些年，登山徒步远足记录，立贴
-    
-    </summary>
-    
-      <category term="life" scheme="http://www.liuyuchuan.com/categories/life/"/>
-    
-    
-      <category term="sport" scheme="http://www.liuyuchuan.com/tags/sport/"/>
-    
-      <category term="healthy" scheme="http://www.liuyuchuan.com/tags/healthy/"/>
-    
-      <category term="hill" scheme="http://www.liuyuchuan.com/tags/hill/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【转载】Ajax 方法以及参数的参考</title>
-    <link href="http://www.liuyuchuan.com/2017/07/05/jquery_ajax/"/>
-    <id>http://www.liuyuchuan.com/2017/07/05/jquery_ajax/</id>
-    <published>2017-07-05T03:30:38.672Z</published>
-    <updated>2017-08-15T01:17:56.395Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="jQuery-ajax-ajax-方法"><a href="#jQuery-ajax-ajax-方法" class="headerlink" title="jQuery ajax - ajax() 方法"></a>jQuery ajax - ajax() 方法</h2><h3 id="定义和用法"><a href="#定义和用法" class="headerlink" title="定义和用法"></a>定义和用法</h3><p>ajax()方法通过HTTP请求加载远程数据。<br>该方法是jQuery底层AJAX实现。简单易用的高层实现见 <em>$.get</em> , <em>$.post</em> 等。 <em>$.ajax()</em> 返回其创建的 <em>XMLHttpRequest</em> 对象。大多数情况下你无需直接操作该函数，除非你需要操作不常用的选项，以获得更多的灵活性。最简单的情况下，<em>$.ajax()</em> 可以不带任何参数直接使用。<br><span style="color: red; ">注意</span>：所有的选项都可以通过 <em>$.ajaxSetup()</em> 函数来全局设置。</p>
-<h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h1><pre><code>jQuery.ajax([settings])
-</code></pre><table>
-<thead>
-<tr>
-<th style="text-align:left">参数</th>
-<th style="text-align:left">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">settings</td>
-<td style="text-align:left">可选。用于配置 Ajax 请求的键值对集合。<br>可以通过 <em>$.ajaxSetup()</em> 设置任何选项的默认值。</td>
-</tr>
-</tbody>
-</table>
-<a id="more"></a>
-<h1 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h1><h5 id="options"><a href="#options" class="headerlink" title="options"></a>options</h5><p>类型：Object<br>说明：可选。AJAX 请求设置。所有选项都是可选的。</p>
-<h5 id="async"><a href="#async" class="headerlink" title="async"></a>async</h5><p>类型：Boolean<br>说明：默认值: true。默认设置下，所有请求均为异步请求。如果需要发送同步请求，请将此选项设置为 false。注意，同步请求将锁住浏览器，用户其它操作必须等待请求完成才可以执行。</p>
-<h5 id="beforeSend-XHR"><a href="#beforeSend-XHR" class="headerlink" title="beforeSend(XHR)"></a>beforeSend(XHR)</h5><p>类型：Function<br>说明：发送请求前可修改 XMLHttpRequest 对象的函数，如添加自定义 HTTP 头。XMLHttpRequest 对象是唯一的参数。这是一个 Ajax 事件。如果返回 false 可以取消本次 ajax 请求。</p>
-<h5 id="cache"><a href="#cache" class="headerlink" title="cache"></a>cache</h5><p>类型：Boolean<br>说明：默认值: true，dataType 为 script 和 jsonp 时默认为 false。设置为 false 将不缓存此页面。jQuery 1.2 新功能。</p>
-<h5 id="complete-XHR-TS"><a href="#complete-XHR-TS" class="headerlink" title="complete(XHR, TS)"></a>complete(XHR, TS)</h5><p>类型：Function<br>说明：请求完成后回调函数 (请求成功或失败之后均调用)。参数： XMLHttpRequest 对象和一个描述请求类型的字符串。这是一个 Ajax 事件。</p>
-<h5 id="contentType"><a href="#contentType" class="headerlink" title="contentType"></a>contentType</h5><p>类型：String<br>说明：默认值: “application/x-www-form-urlencoded”。发送信息至服务器时内容编码类型。默认值适合大多数情况。如果你明确地传递了一个 content-type 给 $.ajax() 那么它必定会发送给服务器（即使没有数据要发送）。</p>
-<h5 id="context"><a href="#context" class="headerlink" title="context"></a>context</h5><p>类型：Object<br>说明：这个对象用于设置 Ajax 相关回调函数的上下文。也就是说，让回调函数内 this 指向这个对象（如果不设定这个参数，那么 this 就指向调用本次 AJAX 请求时传递的 options 参数）。比如指定一个 DOM 元素作为 context 参数，这样就设置了 success 回调函数的上下文为这个 DOM 元素。就像这样：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$.ajax(&#123; </div><div class="line">  <span class="attr">url</span>: <span class="string">"test.html"</span>, </div><div class="line">  <span class="attr">context</span>: <span class="built_in">document</span>.body, </div><div class="line">  <span class="attr">success</span>: <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">truetrue$(<span class="keyword">this</span>).addClass(<span class="string">"done"</span>);</div><div class="line">  &#125;&#125;);</div></pre></td></tr></table></figure></p>
-<h5 id="data"><a href="#data" class="headerlink" title="data"></a>data</h5><p>类型：String<br>说明：发送到服务器的数据。将自动转换为请求字符串格式。GET 请求中将附加在 URL 后。查看 processData 选项说明以禁止此自动转换。必须为 Key/Value 格式。如果为数组，jQuery 将自动为不同值对应同一个名称。如 {foo:[“bar1”, “bar2”]} 转换为 ‘&amp;foo=bar1&amp;foo=bar2’。</p>
-<h5 id="dataFilter"><a href="#dataFilter" class="headerlink" title="dataFilter"></a>dataFilter</h5><p>类型：Function<br>说明：给 Ajax 返回的原始数据的进行预处理的函数。提供 data 和 type 两个参数：data 是 Ajax 返回的原始数据，type 是调用 jQuery.ajax 时提供的 dataType 参数。函数返回的值将由 jQuery 进一步处理。</p>
-<h5 id="dataType"><a href="#dataType" class="headerlink" title="dataType"></a>dataType</h5><p>类型：String<br>说明：预期服务器返回的数据类型。如果不指定，jQuery 将自动根据 HTTP 包 MIME 信息来智能判断，比如 XML MIME 类型就被识别为 XML。在 1.4 中，JSON 就会生成一个 JavaScript 对象，而 script 则会执行这个脚本。随后服务器端返回的数据会根据这个值解析后，传递给回调函数。可用值:</p>
-<ul>
-<li>“xml”: 返回 XML 文档，可用 jQuery 处理。</li>
-<li>“html”: 返回纯文本 HTML 信息；包含的 script 标签会在插入 dom 时执行。</li>
-<li>“script”: 返回纯文本 JavaScript 代码。不会自动缓存结果。除非设置了 “cache” 参数。注意：在远程请求时(不在同一个域下)，所有 POST 请求都将转为 GET 请求。（因为将使用 DOM 的 script标签来加载）</li>
-<li>“json”: 返回 JSON 数据 。</li>
-<li>“jsonp”: JSONP 格式。使用 JSONP 形式调用函数时，如 “myurl?callback=?” jQuery 将自动替换 ? 为正确的函数名，以执行回调函数。</li>
-<li>“text”: 返回纯文本字符串</li>
-</ul>
-<h5 id="error"><a href="#error" class="headerlink" title="error"></a>error</h5><p>类型：Function<br>说明：默认值: 自动判断 (xml 或 html)。请求失败时调用此函数。<br>有以下三个参数：XMLHttpRequest 对象、错误信息、（可选）捕获的异常对象。<br>如果发生了错误，错误信息（第二个参数）除了得到 null 之外，还可能是 “timeout”, “error”, “notmodified” 和 “parsererror”。<br>这是一个 Ajax 事件。</p>
-<h5 id="global"><a href="#global" class="headerlink" title="global"></a>global</h5><p>类型：Boolean<br>说明：是否触发全局 AJAX 事件。默认值: true。设置为 false 将不会触发全局 AJAX 事件，如 ajaxStart 或 ajaxStop 可用于控制不同的 Ajax 事件。</p>
-<h5 id="ifModified"><a href="#ifModified" class="headerlink" title="ifModified"></a>ifModified</h5><p>类型：Boolean<br>说明：仅在服务器数据改变时获取新数据。默认值: false。使用 HTTP 包 Last-Modified 头信息判断。在 jQuery 1.4 中，它也会检查服务器指定的 ‘etag’ 来确定数据没有被修改过。</p>
-<h5 id="jsonp"><a href="#jsonp" class="headerlink" title="jsonp"></a>jsonp</h5><p>类型：String<br>说明：在一个 jsonp 请求中重写回调函数的名字。这个值用来替代在 “callback=?” 这种 GET 或 POST 请求中 URL 参数里的 “callback” 部分，比如 {jsonp:’onJsonPLoad’} 会导致将 “onJsonPLoad=?” 传给服务器。</p>
-<h5 id="jsonpCallback"><a href="#jsonpCallback" class="headerlink" title="jsonpCallback"></a>jsonpCallback</h5><p>类型：String<br>说明：为 jsonp 请求指定一个回调函数名。这个值将用来取代 jQuery 自动生成的随机函数名。这主要用来让 jQuery 生成度独特的函数名，这样管理请求更容易，也能方便地提供回调函数和错误处理。你也可以在想让浏览器缓存 GET 请求的时候，指定这个回调函数名。</p>
-<h5 id="password"><a href="#password" class="headerlink" title="password"></a>password</h5><p>类型：String<br>说明：用于响应 HTTP 访问认证请求的密码</p>
-<h5 id="processData"><a href="#processData" class="headerlink" title="processData"></a>processData</h5><p>类型：Boolean<br>说明：默认值: true。默认情况下，通过data选项传递进来的数据，如果是一个对象(技术上讲只要不是字符串)，都会处理转化成一个查询字符串，以配合默认内容类型 “application/x-www-form-urlencoded”。如果要发送 DOM 树信息或其它不希望转换的信息，请设置为 false。</p>
-<h5 id="scriptCharset"><a href="#scriptCharset" class="headerlink" title="scriptCharset"></a>scriptCharset</h5><p>类型：String<br>说明：只有当请求时 dataType 为 “jsonp” 或 “script”，并且 type 是 “GET” 才会用于强制修改 charset。通常只在本地和远程的内容编码不同时使用。</p>
-<h5 id="success"><a href="#success" class="headerlink" title="success"></a>success</h5><p>类型：Function<br>说明：请求成功后的回调函数。<br>参数：由服务器返回，并根据 dataType 参数进行处理后的数据；描述状态的字符串。<br>这是一个 Ajax 事件。</p>
-<h5 id="traditional"><a href="#traditional" class="headerlink" title="traditional"></a>traditional</h5><p>类型：Boolean<br>说明：如果你想要用传统的方式来序列化数据，那么就设置为 true。请参考工具分类下面的 jQuery.param 方法。</p>
-<h5 id="timeout"><a href="#timeout" class="headerlink" title="timeout"></a>timeout</h5><p>类型：Number<br>说明：设置请求超时时间（毫秒）。此设置将覆盖全局设置。</p>
-<h5 id="type"><a href="#type" class="headerlink" title="type"></a>type</h5><p>类型：String<br>说明：默认值: “GET”)。请求方式 (“POST” 或 “GET”)， 默认为 “GET”。注意：其它 HTTP 请求方法，如 PUT 和 DELETE 也可以使用，但仅部分浏览器支持。</p>
-<h5 id="url"><a href="#url" class="headerlink" title="url"></a>url</h5><p>类型：String<br>说明：默认值: 当前页地址。发送请求的地址。</p>
-<h5 id="username"><a href="#username" class="headerlink" title="username"></a>username</h5><p>类型：String<br>说明：用于响应 HTTP 访问认证请求的用户名。</p>
-<h5 id="xhr"><a href="#xhr" class="headerlink" title="xhr"></a>xhr</h5><p>类型：Function<br>说明：需要返回一个 XMLHttpRequest 对象。默认在 IE 下是 ActiveXObject 而其他情况下是 XMLHttpRequest 。用于重写或者提供一个增强的 XMLHttpRequest 对象。这个参数在 jQuery 1.3 以前不可用。</p>
-<hr>
-<p>如果要处理 $.ajax() 得到的数据，则需要使用回调函数：beforeSend、error、dataFilter、success、complete。</p>
-<h5 id="beforeSend"><a href="#beforeSend" class="headerlink" title="beforeSend"></a>beforeSend</h5><p>在发送请求之前调用，并且传入一个 XMLHttpRequest 作为参数。</p>
-<h5 id="error-1"><a href="#error-1" class="headerlink" title="error"></a>error</h5><p>在请求出错时调用。传入 XMLHttpRequest 对象，描述错误类型的字符串以及一个异常对象（如果有的话）</p>
-<h5 id="dataFilter-1"><a href="#dataFilter-1" class="headerlink" title="dataFilter"></a>dataFilter</h5><p>在请求成功之后调用。传入返回的数据以及 “dataType” 参数的值。并且必须返回新的数据（可能是处理过的）传递给 success 回调函数。</p>
-<h5 id="success-1"><a href="#success-1" class="headerlink" title="success"></a>success</h5><p>当请求之后调用。传入返回后的数据，以及包含成功代码的字符串。</p>
-<h5 id="complete"><a href="#complete" class="headerlink" title="complete"></a>complete</h5><p>当请求完成之后调用这个函数，无论成功或失败。传入 XMLHttpRequest 对象，以及一个包含成功或错误代码的字符串。</p>
-<hr>
-<h5 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h5><p>$.ajax() 函数依赖服务器提供的信息来处理返回的数据。如果服务器报告说返回的数据是 XML，那么返回的结果就可以用普通的 XML 方法或者 jQuery 的选择器来遍历。如果见得到其他类型，比如 HTML，则数据就以文本形式来对待。</p>
-<p>通过 dataType 选项还可以指定其他不同数据处理方式。除了单纯的 XML，还可以指定 html、json、jsonp、script 或者 text。</p>
-<p>其中，text 和 xml 类型返回的数据不会经过处理。数据仅仅简单的将 XMLHttpRequest 的 responseText 或 responseHTML 属性传递给 success 回调函数。</p>
-<p><label style="color: red">注意</label>：我们必须确保网页服务器报告的 MIME 类型与我们选择的 dataType 所匹配。比如说，XML的话，服务器端就必须声明 text/xml 或者 application/xml 来获得一致的结果。</p>
-<p>如果指定为 html 类型，任何内嵌的 JavaScript 都会在 HTML 作为一个字符串返回之前执行。类似地，指定 script 类型的话，也会先执行服务器端生成 JavaScript，然后再把脚本作为一个文本数据返回。</p>
-<p>如果指定为 json 类型，则会把获取到的数据作为一个 JavaScript 对象来解析，并且把构建好的对象作为结</p>
-<p>如果返回。为了实现这个目的，它首先尝试使用 JSON.parse()。如果浏览器不支持，则使用一个函数来构建。</p>
-<p>JSON 数据是一种能很方便通过 JavaScript 解析的结构化数据。如果获取的数据文件存放在远程服务器上（域名不同，也就是跨域获取数据），则需要使用 jsonp 类型。使用这种类型的话，会创建一个查询字符串参数 callback=? ，这个参数会加在请求的 URL 后面。服务器端应当在 JSON 数据前加上回调函数名，以便完成一个有效的 JSONP 请求。如果要指定回调函数的参数名来取代默认的 callback，可以通过设置 $.ajax() 的 jsonp 参数。</p>
-<p><label style="color: red">注意</label>：JSONP 是 JSON 格式的扩展。它要求一些服务器端的代码来检测并处理查询字符串参数。<br>如果指定了 script 或者 jsonp 类型，那么当从服务器接收到数据时，实际上是用了 <script> 标签而不是 XMLHttpRequest 对象。这种情况下，$.ajax() 不再返回一个 XMLHttpRequest 对象，并且也不会传递事件处理函数，比如 beforeSend。</p>
-<hr>
-<h5 id="发送数据到服务器"><a href="#发送数据到服务器" class="headerlink" title="发送数据到服务器"></a>发送数据到服务器</h5><p>默认情况下，Ajax 请求使用 GET 方法。如果要使用 POST 方法，可以设定 type 参数值。这个选项也会影响 data 选项中的内容如何发送到服务器。</p>
-<p>data 选项既可以包含一个查询字符串，比如 key1=value1&amp;key2=value2 ，也可以是一个映射，比如 {key1: ‘value1’, key2: ‘value2’} 。如果使用了后者的形式，则数据再发送器会被转换成查询字符串。这个处理过程也可以通过设置 processData 选项为 false 来回避。如果我们希望发送一个 XML 对象给服务器时，这种处理可能并不合适。并且在这种情况下，我们也应当改变 contentType 选项的值，用其他合适的 MIME 类型来取代默认的 application/x-www-form-urlencoded 。</p>
-<hr>
-<h5 id="高级选项"><a href="#高级选项" class="headerlink" title="高级选项"></a>高级选项</h5><p>global 选项用于阻止响应注册的回调函数，比如 .ajaxSend，或者 ajaxError，以及类似的方法。这在有些时候很有用，比如发送的请求非常频繁且简短的时候，就可以在 ajaxSend 里禁用这个。</p>
-<p>如果服务器需要 HTTP 认证，可以使用用户名和密码可以通过 username 和 password 选项来设置。</p>
-<p>Ajax 请求是限时的，所以错误警告被捕获并处理后，可以用来提升用户体验。请求超时这个参数通常就保留其默认值，要不就通过 jQuery.ajaxSetup 来全局设定，很少为特定的请求重新设置 timeout 选项。</p>
-<p>默认情况下，请求总会被发出去，但浏览器有可能从它的缓存中调取数据。要禁止使用缓存的结果，可以设置 cache 参数为 false。如果希望判断数据自从上次请求后没有更改过就报告出错的话，可以设置 ifModified 为 true。</p>
-<p>scriptCharset 允许给 <script> 标签的请求设定一个特定的字符集，用于 script 或者 jsonp 类似的数据。当脚本和页面字符集不同时，这特别好用。</p>
-<p>Ajax 的第一个字母是 asynchronous 的开头字母，这意味着所有的操作都是并行的，完成的顺序没有前后关系。$.ajax() 的 async 参数总是设置成true，这标志着在请求开始后，其他代码依然能够执行。强烈不建议把这个选项设置成 false，这意味着所有的请求都不再是异步的了，这也会导致浏览器被锁死。</p>
-<p>$.ajax 函数返回它创建的 XMLHttpRequest 对象。通常 jQuery 只在内部处理并创建这个对象，但用户也可以通过 xhr 选项来传递一个自己创建的 xhr 对象。返回的对象通常已经被丢弃了，但依然提供一个底层接口来观察和操控请求。比如说，调用对象上的 .abort() 可以在请求完成前挂起请求。</p>
-<hr>
-<p>参考文献：<a href="http://www.w3school.com.cn/jquery/ajax_ajax.asp">w3school</a></p>
-<p>编辑日期： 2017-07-05</p>
-</script></p>]]></content>
-    
-    <summary type="html">
-    
-      JQuery的一些方法整理
-    
-    </summary>
-    
-      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
-    
-    
-      <category term="jquery" scheme="http://www.liuyuchuan.com/tags/jquery/"/>
-    
-      <category term="ajax" scheme="http://www.liuyuchuan.com/tags/ajax/"/>
-    
-  </entry>
-  
-  <entry>
     <title>诗与远方</title>
     <link href="http://www.liuyuchuan.com/2017/07/04/%E8%AF%97%E4%B8%8E%E8%BF%9C%E6%96%B9/"/>
     <id>http://www.liuyuchuan.com/2017/07/04/诗与远方/</id>
     <published>2017-07-03T16:47:53.000Z</published>
-    <updated>2017-08-15T01:19:31.686Z</updated>
+    <updated>2019-09-18T11:38:55.432Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>导读</p>
@@ -1099,7 +847,6 @@
 <p>没有了远方的理想，怎么才有前进的动力，当动力与压力接踵而至，催化剂生效了。没有一个人是随随便便就可以成功，只因为他们有远方，只不过，他们在去远方的道路上认真些罢了。</p>
 <p>远方，是一种向往。</p>
 <h3 id="真谛"><a href="#真谛" class="headerlink" title="真谛"></a>真谛</h3><p>后来，我才发现，“生命不只是苟且，还有诗和远方”这一句话的真正的意义。</p>
-<p>Create by <strong><em>Lycos</em></strong> in 2017-07-04<br>Update by <strong><em>Lycos</em></strong> in 2017-07-06</p>
 ]]></content>
     
     <summary type="html">
@@ -1114,141 +861,14 @@
     
     </summary>
     
-      <category term="life" scheme="http://www.liuyuchuan.com/categories/life/"/>
+      <category term="生活" scheme="http://www.liuyuchuan.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
       <category term="poetry" scheme="http://www.liuyuchuan.com/tags/poetry/"/>
     
-      <category term="word" scheme="http://www.liuyuchuan.com/tags/word/"/>
-    
       <category term="writing" scheme="http://www.liuyuchuan.com/tags/writing/"/>
     
-  </entry>
-  
-  <entry>
-    <title>【原创】埋点整理</title>
-    <link href="http://www.liuyuchuan.com/2017/07/03/burying_point/"/>
-    <id>http://www.liuyuchuan.com/2017/07/03/burying_point/</id>
-    <published>2017-07-03T03:17:26.591Z</published>
-    <updated>2017-08-15T01:16:21.917Z</updated>
-    
-    <content type="html"><![CDATA[<p>欢迎大家 <br></p>
-<h3 id="一、-自我介绍"><a href="#一、-自我介绍" class="headerlink" title="一、 自我介绍"></a>一、 自我介绍</h3><blockquote>
-<p>埋点</p>
-</blockquote>
-<h3 id="二、-说明文档"><a href="#二、-说明文档" class="headerlink" title="二、 说明文档"></a>二、 说明文档</h3><p>1、 <a href="http://note.youdao.com/share/?id=ba888e25dec8d59f030a0ee25ca1d1a1&amp;type=note#/" target="_blank" rel="external">手工埋点样例 – 有道</a> </p>
-<p>2、 <a href="http://docs.sugo.io/developer/web/get-sdk.html" target="_blank" rel="external">官方 – 文档</a></p>
-<a id="more"></a>
-<h3 id="三、-操作"><a href="#三、-操作" class="headerlink" title="三、 操作"></a>三、 操作</h3><p> 1、 载入</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">...</div><div class="line">    <span class="comment">&lt;!-- start sugoio --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">'text/javascript'</span>&gt;</span><span class="javascript"></span></div><div class="line">        <span class="comment">// var SUGOIO_CUSTOM_LIB_URL = "http://astro.sugo.io/_bc/sugo-sdk-js/libs/sugoio-latest.min.js";</span></div><div class="line"></div><div class="line">        (<span class="function"><span class="keyword">function</span>(<span class="params">e,a</span>)</span>&#123;<span class="keyword">if</span>(!a.__SV)&#123;<span class="keyword">var</span> b=<span class="built_in">window</span>;<span class="keyword">try</span>&#123;<span class="keyword">var</span> c,n,k,l=b.location,g=l.hash;c=<span class="function"><span class="keyword">function</span>(<span class="params">a,b</span>)</span>&#123;<span class="keyword">return</span>(n=a.match(<span class="keyword">new</span> <span class="built_in">RegExp</span>(b+<span class="string">"=([^&amp;]*)"</span>)))?n[<span class="number">1</span>]:<span class="literal">null</span>&#125;;g&amp;&amp;c(g,<span class="string">"state"</span>)&amp;&amp;(k=<span class="built_in">JSON</span>.parse(<span class="built_in">decodeURIComponent</span>(c(g,<span class="string">"state"</span>))),<span class="string">"mpeditor"</span>===k.action&amp;&amp;(b.sessionStorage.setItem(<span class="string">"_mpcehash"</span>,g),history.replaceState(k.desiredHash||<span class="string">""</span>,e.title,l.pathname+l.search)))&#125;<span class="keyword">catch</span>(p)&#123;&#125;<span class="keyword">var</span> m,h;<span class="built_in">window</span>.sugoio=a;a._i=[];a.init=<span class="function"><span class="keyword">function</span>(<span class="params">b,c,f</span>)</span>&#123;<span class="function"><span class="keyword">function</span> <span class="title">e</span>(<span class="params">b,a</span>)</span>&#123;<span class="keyword">var</span> c=a.split(<span class="string">"."</span>);<span class="number">2</span>==c.length&amp;&amp;(b=b[c[<span class="number">0</span>]],a=c[<span class="number">1</span>]);b[a]=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;b.push([a].concat(<span class="built_in">Array</span>.prototype.slice.call(<span class="built_in">arguments</span>,</div><div class="line">        <span class="number">0</span>)))&#125;&#125;<span class="keyword">var</span> d=a;<span class="string">"undefined"</span>!==<span class="keyword">typeof</span> f?d=a[f]=[]:f=<span class="string">"sugoio"</span>;d.people=d.people||[];d.toString=<span class="function"><span class="keyword">function</span>(<span class="params">b</span>)</span>&#123;<span class="keyword">var</span> a=<span class="string">"sugoio"</span>;<span class="string">"sugoio"</span>!==f&amp;&amp;(a+=<span class="string">"."</span>+f);b||(a+=<span class="string">" (stub)"</span>);<span class="keyword">return</span> a&#125;;d.people.toString=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="keyword">return</span> d.toString(<span class="number">1</span>)+<span class="string">".people (stub)"</span>&#125;;m=<span class="string">"disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user"</span>.split(<span class="string">" "</span>);</div><div class="line">        <span class="keyword">for</span>(h=<span class="number">0</span>;h&lt;m.length;h++)e(d,m[h]);a._i.push([b,c,f])&#125;;a.__SV=<span class="number">1.2</span>;b=e.createElement(<span class="string">"script"</span>);b.type=<span class="string">"text/javascript"</span>;b.async=!<span class="number">0</span>;<span class="string">"undefined"</span>!==<span class="keyword">typeof</span> SUGOIO_CUSTOM_LIB_URL?b.src=SUGOIO_CUSTOM_LIB_URL:b.src=<span class="string">"file:"</span>===e.location.protocol&amp;&amp;<span class="string">"//astro.sugo.io/_bc/sugo-sdk-js/libs/sugoio-latest.min.js"</span>.match(<span class="regexp">/^\/\//</span>)?<span class="string">"https://astro.sugo.io/_bc/sugo-sdk-js/libs/sugoio-latest.min.js"</span>:<span class="string">"//astro.sugo.io/_bc/sugo-sdk-js/libs/sugoio-latest.min.js"</span>;c=e.getElementsByTagName(<span class="string">"script"</span>)[<span class="number">0</span>];c.parentNode.insertBefore(b,</div><div class="line">        c)&#125;&#125;)(<span class="built_in">document</span>,<span class="built_in">window</span>.sugoio||[]);</div><div class="line"></div><div class="line">        sugoio.init(<span class="string">'YOUR_TOKEN'</span>, &#123;<span class="string">'project_id'</span>: <span class="string">'YOUR_PROJECT_ID'</span>&#125;);</div><div class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!-- end sugoio --&gt;</span></div><div class="line">...</div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div></pre></td></tr></table></figure>
-<p> 2、 初始化</p>
-<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">sugoio</span><span class="selector-class">.init</span>(<span class="string">'YOUR_TOKEN'</span>, &#123; <span class="comment">// 项目TOKEN</span></div><div class="line">    <span class="attribute">project_id</span>: <span class="string">'YOUR_PROJECT_ID'</span>, <span class="comment">// 项目ID</span></div><div class="line">    <span class="attribute">api_host</span>: <span class="string">''</span>, <span class="comment">// sugoio-latest.min.js文件以及数据上报的地址</span></div><div class="line">    <span class="attribute">app_host</span>: <span class="string">''</span>, <span class="comment">// 可视化配置时服务端地址</span></div><div class="line">    <span class="attribute">decide_host</span>: <span class="string">''</span>, <span class="comment">// 加载已埋点配置地址</span></div><div class="line">    <span class="attribute">loaded</span>: function(lib) &#123; &#125;, <span class="comment">// **sugoio** **sdk** 加载完成回调函数=</span></div><div class="line">    <span class="attribute">DEBUG</span>: false <span class="comment">// 是否启用debug</span></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
-<p> 3、 埋点</p>
-<figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sugoio : 全局变量函数</div></pre></td></tr></table></figure>
-<h3 id="四、-常用属性"><a href="#四、-常用属性" class="headerlink" title="四、 常用属性"></a>四、 常用属性</h3><figure class="highlight 1c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">['page_name', '页面名称'],                     <span class="comment">//页面名称或屏幕名称</span></div><div class="line">['path_name', '页面路径'],                     <span class="comment">//页面路径</span></div><div class="line">['event_id', '事件ID'],                        <span class="comment">//事件ID</span></div><div class="line">['event_name', '事件名称'],                    <span class="comment">//事件名称</span></div><div class="line">['event_type', '事件类型'],                    <span class="comment">//事件类型click、focus、submit、change</span></div><div class="line">['event_label', '事件源文本'],                  <span class="comment">//事件源文本</span></div><div class="line">['sugo_lib', 'sdk类型'],                       <span class="comment">//sdk类型 web、ios、android</span></div><div class="line">['token', '应用ID'],                           <span class="comment">//应用ID</span></div></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>(<span class="keyword">typeof</span>(sugoio)!= <span class="string">'undefined'</span>)&#123;</div><div class="line">    <span class="built_in">console</span>.log($(<span class="keyword">this</span>).text());</div><div class="line">    sugoio.track(<span class="string">"考试类别"</span>, &#123;</div><div class="line">        <span class="string">'page_name'</span>: <span class="string">'考试类别'</span>,</div><div class="line">        <span class="string">'event_type'</span>: <span class="string">'click'</span>,</div><div class="line">        <span class="string">'event_name'</span>: $(<span class="keyword">this</span>).text()</div><div class="line">    &#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      代码埋点开发整理
-    
-    </summary>
-    
-      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
-    
-    
-      <category term="埋点" scheme="http://www.liuyuchuan.com/tags/%E5%9F%8B%E7%82%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我创建博客所经历的一波三折</title>
-    <link href="http://www.liuyuchuan.com/2017/06/29/create_blog_steps/"/>
-    <id>http://www.liuyuchuan.com/2017/06/29/create_blog_steps/</id>
-    <published>2017-06-29T07:49:12.302Z</published>
-    <updated>2017-08-15T01:16:29.628Z</updated>
-    
-    <content type="html"><![CDATA[<p>一、Git</p>
-<p>二、Node.js</p>
-<p>三、hexo</p>
-<p>四、Ruby</p>
-<a id="more"></a>
-<pre><code>图片托管：七牛图床
-
-谷歌浏览器插件
-</code></pre><p><a href="https://chrome.google.com/webstore/detail/qiniu-upload-files/emmfkgdgapbjphdolealbojmcmnphdcc" target="_blank" rel="external">https://chrome.google.com/webstore/detail/qiniu-upload-files/emmfkgdgapbjphdolealbojmcmnphdcc</a></p>
-<p>1、问题地址<br><a href="http://cnodejs.org/topic/5095de3cc922cde41e1e7ce7" target="_blank" rel="external">http://cnodejs.org/topic/5095de3cc922cde41e1e7ce7</a></p>
-<p><a href="https://stackoverflow.com/questions/5404830/node-js-ejs-including-a-partial" target="_blank" rel="external">https://stackoverflow.com/questions/5404830/node-js-ejs-including-a-partial</a></p>
-<p>2、图片大小问题<br><a href="http://blog.csdn.net/netdxy/article/details/51518494?locationNum=1" target="_blank" rel="external">http://blog.csdn.net/netdxy/article/details/51518494?locationNum=1</a></p>
-<p>看完API后设定一下就可以了，例如：<br>imageMogr/thumbnail/300x/quality/150  </p>
-<p>意思就是 缩放300，质量150</p>
-]]></content>
-    
-    <summary type="html">
-    
-      创建博客的经历
-    
-    </summary>
-    
-      <category term="essay" scheme="http://www.liuyuchuan.com/categories/essay/"/>
-    
-    
-      <category term="blog" scheme="http://www.liuyuchuan.com/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>公益事业部分</title>
-    <link href="http://www.liuyuchuan.com/2017/06/27/volunteer/"/>
-    <id>http://www.liuyuchuan.com/2017/06/27/volunteer/</id>
-    <published>2017-06-27T05:40:08.000Z</published>
-    <updated>2017-08-06T15:58:20.548Z</updated>
-    
-    <content type="html"><![CDATA[<p>公益：义工，志愿者，在这里记录流水，可以喂养流浪狗，流浪猫！~</p>
-<h2 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h2><p>this is the borad</p>
-<h2 id="About"><a href="#About" class="headerlink" title="About"></a>About</h2><p>hello</p>
-<a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;公益：义工，志愿者，在这里记录流水，可以喂养流浪狗，流浪猫！~&lt;/p&gt;
-&lt;h2 id=&quot;hello&quot;&gt;&lt;a href=&quot;#hello&quot; class=&quot;headerlink&quot; title=&quot;hello&quot;&gt;&lt;/a&gt;hello&lt;/h2&gt;&lt;p&gt;this is the borad&lt;/p&gt;
-&lt;h2 id=&quot;About&quot;&gt;&lt;a href=&quot;#About&quot; class=&quot;headerlink&quot; title=&quot;About&quot;&gt;&lt;/a&gt;About&lt;/h2&gt;&lt;p&gt;hello&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="公益随笔" scheme="http://www.liuyuchuan.com/categories/%E5%85%AC%E7%9B%8A%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="volunteer" scheme="http://www.liuyuchuan.com/tags/volunteer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://www.liuyuchuan.com/2017/06/27/hello-world/"/>
-    <id>http://www.liuyuchuan.com/2017/06/27/hello-world/</id>
-    <published>2017-06-27T04:19:58.039Z</published>
-    <updated>2017-07-05T08:02:03.762Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
+      <category term="w ord" scheme="http://www.liuyuchuan.com/tags/w-ord/"/>
     
   </entry>
   
